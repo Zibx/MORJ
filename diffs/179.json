@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index 1ef4f71..966803b 100644
+--- a/README.md
++++ b/README.md
+@@ -195,6 +195,7 @@
+ | Лошаков Никита                     | Tech Lead                               |
+ | Дмитрий Зворыкин                   | Аналитик, Glowbyte                      |
+ | Аринко Екатерина                   | QA Engineer, Санкт-Петербург            |
++| Мария Чакчурина                    | Python back-end dev, Kaspersky, Moscow  |
+ | Ряжских Алексей                    | .Net Developer, Санкт-Петербург         |
+ | Михаил Смаль                       | Lead developer                          |
+ | Михаил Самин                       | CEO, AudD, Москва                       |

@@ -1,0 +1,20 @@
+diff --git a/README.md b/README.md
+index 41cfe68..e212dd4 100644
+--- a/README.md
++++ b/README.md
+@@ -117,7 +117,6 @@
+ | Петрухин Павел                     | Backend developer, Москва               |
+ | Никита Капитонов                   | Product Owner, Teplomonitor, Москва     |
+ | Сергей Николаев                    | Fullstack Developer                     |
+-| Кирилл Книзе                       | Старший эксперт-программист, T-Systems  |
+ | Яковлева Юлия                      | Разработчица, Yandex                    |
+ | Александр Тучков                   | Независимый консультант                 |
+ | Банных Роман                       | Backend Developer                       |
+@@ -125,4 +124,5 @@
+ | Давид Френкель                     | Fullstack Developer                     |
+ | Шукшин Иван                        | Fullstack Developer, выпускник МФТИ     |
+ | Дмитрий Гроза                      | Data Analyst .                          |
+-| Романченко Андрей                  | Программист 1С, Москва                  |
+\ No newline at end of file
++| Романченко Андрей                  | Программист 1С, Москва     
++| Волков Кирилл                      | Software Engineer, г. Санкт-Петербург   |

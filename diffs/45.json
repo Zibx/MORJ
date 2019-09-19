@@ -1,0 +1,13 @@
+diff --git a/README.md b/README.md
+index edfb79d..3ebc98b 100644
+--- a/README.md
++++ b/README.md
+@@ -67,4 +67,5 @@
+ | Антон Лазовский                    | Software Engineer, ActiveBC             |
+ | Алексей Гриднев                    | Senior QA engineer, NVIDIA              |
+ | Руслан Магомедов                   | IT Engineer                             |
+-| Вячеслав Ембатуров                 | Software Developer                      |
+\ No newline at end of file
++| Вячеслав Ембатуров                 | Software Developer                      |
++| Сустретов Максим                   | Backend developer                       |
+\ No newline at end of file

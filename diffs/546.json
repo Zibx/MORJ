@@ -1,0 +1,10 @@
+diff --git a/README.md b/README.md
+index 1e4dab8..de93585 100644
+--- a/README.md
++++ b/README.md
+@@ -225,4 +225,4 @@
+ | Артем Тамоян                       | CTO, Vee Security                       |
+ | Романов Михаил                     | Frontend Developer, Comtravo            |
+ | Васенков Максим                    | Ведущий программист, Этерон, Смоленск   |
+-| Дмитрий Семьюшкин                  | Frontend Developer, Pleeco              |
++| Владимиров Алексей                 | Старший Разработчик ПО, Wrike           |

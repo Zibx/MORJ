@@ -1,0 +1,9 @@
+diff --git a/README.md b/README.md
+index 07dfe76..db2a909 100644
+--- a/README.md
++++ b/README.md
+@@ -199,3 +199,4 @@
+ | Михаил Смаль                       | Lead developer                          |
+ | Михаил Самин                       | CEO, AudD, Москва                       |
+ | Соломатин Роман                    | Программист, Пермь                      |
++| Стамбульцян Артур                  | Frontend, Санкт-Петербург               |

@@ -1,0 +1,9 @@
+diff --git a/README.md b/README.md
+index c822d11..482471d 100644
+--- a/README.md
++++ b/README.md
+@@ -200,3 +200,4 @@
+ | Михаил Самин                       | CEO, AudD, Москва                       |
+ | Соломатин Роман                    | Программист, Пермь                      |
+ | Климова Василика                   | Frontend Developer, Avaloq              |
++| Спорыш Семён                       | Backend Developer, г. Санкт-Петербург   |

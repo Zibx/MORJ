@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index 70c98c3..d49441b 100644
+--- a/README.md
++++ b/README.md
+@@ -152,6 +152,7 @@
+ | Айдар Ибатуллин                    | Frontend developer                      |
+ | Педан Сергей                       | Fullstack developer, Москва             |
+ | Романченко Андрей                  | Программист 1С, Москва                  |
++| Барышников Константин              | Fullstack developer, Москва             |
+ | Евгений Вайс                       | Senior Software Engineer, EPAM Systems  |
+ | Лошаков Никита                     | Tech Lead                               |
+ | Дмитрий Зворыкин                   | Аналитик, Glowbyte                      |

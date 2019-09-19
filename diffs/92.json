@@ -1,0 +1,11 @@
+diff --git a/README.md b/README.md
+index 55f8eaf..0f87a77 100644
+--- a/README.md
++++ b/README.md
+@@ -83,5 +83,6 @@
+ | Сустретов Максим                   | Backend developer                       |
+ | Домрачев Роман                     | Head of Development                     |
+ | Бельский Кирилл                    | Backend разработчик, Atlas Delivery     |
++| Травкин Пётр                       | Backend разработчик                     |
+ | Краснов Николай                    | Программист 1С, Москва                  |
+ | Багиров Эльшан                     | Backend developer                       |

@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index 966803b..5a490c2 100644
+--- a/README.md
++++ b/README.md
+@@ -126,6 +126,7 @@
+ | Петрухин Павел                     | Backend developer, Москва               |
+ | Никита Капитонов                   | Product Owner, Teplomonitor, Москва     |
+ | Сергей Николаев                    | Fullstack Developer                     |
++| Дмитрий Гроза                      | Data Analyst                            |
+ | Шитов Артём                        | QA, Медиалогия                          |
+ | Куватов Денис                      | Game developer, Москва                  |
+ | Бакиров Марат                      | Tech lead, ParusInvest, Москва          |

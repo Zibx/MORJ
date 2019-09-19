@@ -1,0 +1,13 @@
+diff --git a/README.md b/README.md
+index 10a7b6e..5f0aea8 100644
+--- a/README.md
++++ b/README.md
+@@ -64,4 +64,5 @@
+ | Макс Янков                         | CTO                                     |
+ | Чалмаев Андрей                     | админ                                   |
+ | Суслов Алексей                     | Инженер-программист, Eltex              |
+-| Антон Лазовский                    | Software Engineer, ActiveBC             |
+\ No newline at end of file
++| Антон Лазовский                    | Software Engineer, ActiveBC             |
++| Алексей Гриднев                    | Senior QA engineer, NVIDIA              |
+\ No newline at end of file

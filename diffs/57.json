@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index 5a176d4..fa6f734 100644
+--- a/README.md
++++ b/README.md
+@@ -66,6 +66,7 @@
+ | Николай Тимченко                   | Backend Developer                       |
+ | Клeсс Антoн                        | IT Asset Manager                        |
+ | Чекан Евгений                      | Lead Back-end Developer                 |
++| Лукьянчиков Максим                 | Frontend developer                      |
+ | Гуля Илья                          | Android Developer, Yandex               |
+ | Рыков Михаил                       | Principal Software Engineer, Dell EMC, г. Санкт-Петербург|
+ | Макс Янков                         | CTO                                     |

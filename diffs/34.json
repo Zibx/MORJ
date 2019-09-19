@@ -1,0 +1,13 @@
+diff --git a/README.md b/README.md
+index 3432377..55ed22b 100644
+--- a/README.md
++++ b/README.md
+@@ -54,6 +54,8 @@
+ | Сергей Стремидло                   | Web Developer                           |
+ | Шангин Александр                   | Lead Developer, г. Самара               |
+ | Андрей Шишкин                      | Lead System Engineer                    |
++| Андрей Щербаков                    | Backend Developer                       |
++| Сергей Рощепкин                    | Software Engineer                       |
+ | Антон Щербаков                     | Backend Developer                       |
+ | Михаил Кольцов                     | Backend Developer, ЦТБ                  |
+ | Дмитрий Тырылгин                   | Software Engineer, Dvigus               |

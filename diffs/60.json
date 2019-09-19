@@ -1,0 +1,13 @@
+diff --git a/README.md b/README.md
+index 11f9b98..55f8eaf 100644
+--- a/README.md
++++ b/README.md
+@@ -72,6 +72,8 @@
+ | Макс Янков                         | CTO                                     |
+ | Максим Васенков                    | Ведущий программист, Этерон, г. Смоленск |
+ | Чалмаев Андрей                     | админ                                   |
++| Суслов Алексей                     | Инженер-программист, Eltex              |
++| Александров Владимир               | Backend Developer, Waves                |
+ | Константин Лёвин                   | Verification Engineer                   |
+ | Суслов Алексей                     | Инженер-программист, Eltex              |
+ | Антон Лазовский                    | Software Engineer, ActiveBC             |

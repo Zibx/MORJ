@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index 966803b..7d5f1a0 100644
+--- a/README.md
++++ b/README.md
+@@ -190,6 +190,7 @@
+ | Руслан Мусаев                      | Project Manager, Yandex                 |
+ | Чудеснов Александр                 | Разработчик интерфейсов, Wrike          |
+ | Андрей Максимов                    | Software Engineer, Quantori             |
++| Евгений Карпов                     | Backend developer, Neotech Development  |
+ | Барышников Константин              | Fullstack developer, Москва             |
+ | Евгений Вайс                       | Senior Software Engineer, EPAM Systems  |
+ | Лошаков Никита                     | Tech Lead                               |

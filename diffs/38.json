@@ -1,0 +1,9 @@
+diff --git a/README.md b/README.md
+index 8c6c895..33d213d 100644
+--- a/README.md
++++ b/README.md
+@@ -62,3 +62,4 @@
+ | Дмитрий Тырылгин                   | Software Engineer, Dvigus               |
+ | Луконин Кирилл                     | Wireless Engineer                       |
+ | Федосеева Анна                     | Frontend developer                      |
++| Чекан Евгений                      | Lead Back-end Developer                 |

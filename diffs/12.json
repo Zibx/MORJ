@@ -1,0 +1,13 @@
+diff --git a/README.md b/README.md
+index 297424e..c58fcff 100644
+--- a/README.md
++++ b/README.md
+@@ -25,7 +25,7 @@
+ 12. Егор Жуков
+ 13. Сергей Фомин
+ 
+-Призываем коллег не оставаться в стороне и поддержать это письмо.
++Призываем коллег не оставаться в стороне и поддержать это письмо. Вы можете сделать это через pull request добавив своё имя в конец [этого файла](https://github.com/developers-against-repressions/case-212/edit/master/README.md).
+ 
+ ***
+ 

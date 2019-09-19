@@ -1,0 +1,10 @@
+diff --git a/README.md b/README.md
+index 16347a0..855fa37 100644
+--- a/README.md
++++ b/README.md
+@@ -108,4 +108,5 @@
+ | Тимофей Николаев                   | Аналитик, Яндекс                        |
+ | Константин Емельянов               | Developer, NetUP                        |
+ | Багиров Эльшан                     | Backend developer                       |
++| Никита Капитонов                   | Product Owner, Teplomonitor, Москва     |
+ | Сергей Николаев                    | Fullstack Developer                     |

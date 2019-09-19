@@ -1,0 +1,13 @@
+diff --git a/README.md b/README.md
+index b32ce0e..edfb79d 100644
+--- a/README.md
++++ b/README.md
+@@ -66,4 +66,5 @@
+ | Суслов Алексей                     | Инженер-программист, Eltex              |
+ | Антон Лазовский                    | Software Engineer, ActiveBC             |
+ | Алексей Гриднев                    | Senior QA engineer, NVIDIA              |
+-| Руслан Магомедов                   | IT Engineer                             |
+\ No newline at end of file
++| Руслан Магомедов                   | IT Engineer                             |
++| Вячеслав Ембатуров                 | Software Developer                      |
+\ No newline at end of file

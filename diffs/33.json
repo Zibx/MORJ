@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index 55ed22b..8c6c895 100644
+--- a/README.md
++++ b/README.md
+@@ -57,6 +57,7 @@
+ | Андрей Щербаков                    | Backend Developer                       |
+ | Сергей Рощепкин                    | Software Engineer                       |
+ | Антон Щербаков                     | Backend Developer                       |
++| Дмитрий Богомолов                  | Developer                               |
+ | Михаил Кольцов                     | Backend Developer, ЦТБ                  |
+ | Дмитрий Тырылгин                   | Software Engineer, Dvigus               |
+ | Луконин Кирилл                     | Wireless Engineer                       |

@@ -1,0 +1,7 @@
+diff --git a/signed/somePerfectlyRandomStringThatDefinitelyWillNotCauseAnyConflicts.txt b/signed/somePerfectlyRandomStringThatDefinitelyWillNotCauseAnyConflicts.txt
+new file mode 100644
+index 0000000..f794259
+--- /dev/null
++++ b/signed/somePerfectlyRandomStringThatDefinitelyWillNotCauseAnyConflicts.txt
+@@ -0,0 +1 @@
++| Гришутин Александр                 | Студент МФТИ, Преподаватель алгоритмов и concurrency в МФТИ и Tinkoff Generations |

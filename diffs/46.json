@@ -1,0 +1,13 @@
+diff --git a/README.md b/README.md
+index 3ebc98b..4f3249b 100644
+--- a/README.md
++++ b/README.md
+@@ -68,4 +68,5 @@
+ | Алексей Гриднев                    | Senior QA engineer, NVIDIA              |
+ | Руслан Магомедов                   | IT Engineer                             |
+ | Вячеслав Ембатуров                 | Software Developer                      |
+-| Сустретов Максим                   | Backend developer                       |
+\ No newline at end of file
++| Сустретов Максим                   | Backend developer                       |
++| Домрачев Роман                     | Head of Development                     |
+\ No newline at end of file

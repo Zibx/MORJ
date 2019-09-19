@@ -1,0 +1,10 @@
+diff --git a/README.md b/README.md
+index 34ff253..cde684e 100644
+--- a/README.md
++++ b/README.md
+@@ -38,4 +38,5 @@
+ | Любимов Илья                       | Chief People Officer, Serokell          |
+ | Гейнц Роман                        | Fullstack разработчик                   |
+ | Гарифулина Юлия                    | Software Developer, goTRG               |
++| Давыдов Максим                     | Senior Software Developer, Elama        |
+ 

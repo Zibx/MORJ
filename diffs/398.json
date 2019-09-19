@@ -1,0 +1,9 @@
+diff --git a/README.md b/README.md
+index 482471d..d93ea30 100644
+--- a/README.md
++++ b/README.md
+@@ -201,3 +201,4 @@
+ | Соломатин Роман                    | Программист, Пермь                      |
+ | Климова Василика                   | Frontend Developer, Avaloq              |
+ | Спорыш Семён                       | Backend Developer, г. Санкт-Петербург   |
++| Коршиков Павел                     | Java Developer, г. Санкт-Петербург      |

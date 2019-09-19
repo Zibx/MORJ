@@ -1,0 +1,28 @@
+diff --git a/README.md b/README.md
+index b3b5fb3..aa15103 100644
+--- a/README.md
++++ b/README.md
+@@ -90,6 +90,7 @@
+ | Бельский Кирилл                    | Backend разработчик, Atlas Delivery     |
+ | Травкин Пётр                       | Backend разработчик                     |
+ | Краснов Николай                    | Программист 1С, Москва                  |
++| Антон Алфимов                      | Web developer, Mediazona                |
+ | Мендяев Николай                    | Tech Lead, Tarantool + Mediazona        |
+ | Косулин Михаил                     | CTO                                     |
+ | Тимошевский Пётр                   | Fullstack developer                     |
+@@ -116,7 +117,6 @@
+ | Петрухин Павел                     | Backend developer, Москва               |
+ | Никита Капитонов                   | Product Owner, Teplomonitor, Москва     |
+ | Сергей Николаев                    | Fullstack Developer                     |
+-| Куватов Денис                      | Game developer, Москва                  |
+ | Бакиров Марат                      | Tech lead, ParusInvest, Москва          |
+ | Курносов Михаил                    | Software Developer                      |
+ | Кирилл Книзе                       | Старший эксперт-программист, T-Systems  |
+@@ -127,4 +127,5 @@
+ | Давид Френкель                     | Fullstack Developer                     |
+ | Шукшин Иван                        | Fullstack Developer, выпускник МФТИ     |
+ | Дмитрий Гроза                      | Data Analyst .                          |
+-| Романченко Андрей                  | Программист 1С, Москва                  |
+\ No newline at end of file
++| Романченко Андрей                  | Программист 1С, Москва                  |
++| Сикорский Алексей                  | Software Developer, Moscow              |

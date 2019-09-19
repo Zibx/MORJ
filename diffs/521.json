@@ -1,0 +1,16 @@
+diff --git a/.travis.yml b/.travis.yml
+new file mode 100644
+index 0000000..e47073c
+--- /dev/null
++++ b/.travis.yml
+@@ -0,0 +1,10 @@
++os:
++  - linux
++
++notifications:
++  email: false
++
++dist: bionic
++
++script:
++  - /bin/bash -c "[ -z \"`ls |grep -v -E \(pre-readme.md\|README.md\|signed\|update_readme.py\)`\" ]"

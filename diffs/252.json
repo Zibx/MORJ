@@ -1,0 +1,23 @@
+diff --git a/README.md b/README.md
+index 966803b..b1c8819 100644
+--- a/README.md
++++ b/README.md
+@@ -199,4 +199,5 @@
+ | Ряжских Алексей                    | .Net Developer, Санкт-Петербург         |
+ | Михаил Смаль                       | Lead developer                          |
+ | Михаил Самин                       | CEO, AudD, Москва                       |
+-| Соломатин Роман                    | Программист, Пермь                      |
+\ No newline at end of file
++| Соломатин Роман                    | Программист, Пермь                      |
++| Новицкий Кирилл                    | QA Engineer, Москва                     |
+diff --git a/signed/1.txt b/signed/1.txt
+index c7ef423..8799264 100644
+--- a/signed/1.txt
++++ b/signed/1.txt
+@@ -71,4 +71,4 @@
+ Тимофей Николаев                   | Аналитик, Яндекс
+ Константин Емельянов               | Developer, NetUP
+ Багиров Эльшан                     | Backend developer
+-Сергей Николаев                    | Fullstack Developer
+\ No newline at end of file
++Сергей Николаев                    | Fullstack Developer

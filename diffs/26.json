@@ -1,0 +1,9 @@
+diff --git a/README.md b/README.md
+index 6b0ce31..3a326f7 100644
+--- a/README.md
++++ b/README.md
+@@ -53,3 +53,4 @@
+ | Овсянников Дмитрий                 | Product Owner, RCB LLC                  |
+ | Сергей Стремидло                   | Web Developer                           |
+ | Шангин Александр                   | Lead Developer, г. Самара               |
++| Андрей Шишкин                      | Lead System Engineer                    |

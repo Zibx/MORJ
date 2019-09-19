@@ -1,0 +1,10 @@
+diff --git a/README.md b/README.md
+index ffe1cb0..ede872d 100644
+--- a/README.md
++++ b/README.md
+@@ -63,3 +63,4 @@
+ | Федосеева Анна                     | Frontend developer                      |
+ | Чекан Евгений                      | Lead Back-end Developer                 |
+ | Макс Янков                         | CTO                                     |
++| Чалмаев Андрей                     | админ                                   |
+\ No newline at end of file

@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index c0696cd..bc76130 100644
+--- a/README.md
++++ b/README.md
+@@ -152,5 +152,6 @@
+ | Айдар Ибатуллин                    | Frontend developer                      |
+ | Педан Сергей                       | Fullstack developer, Москва             |
+ | Романченко Андрей                  | Программист 1С, Москва                  |
++| Лошаков Никита                     | Tech Lead                               |
+ | Дмитрий Зворыкин                   | Аналитик, Glowbyte                      |
+ | Аринко Екатерина                   | QA Engineer, Санкт-Петербург            |
+\ No newline at end of file

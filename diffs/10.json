@@ -1,0 +1,10 @@
+diff --git a/README.md b/README.md
+index 0f44d63..ae784f5 100644
+--- a/README.md
++++ b/README.md
+@@ -39,4 +39,5 @@
+ | Гарифулина Юлия                    | Software Developer, goTRG               |
+ | Давыдов Максим                     | Senior Software Developer, Elama        |
+ | Кац Никита                         | Senior Backend Developer, amoCRM        |
++| Тюрин Рамин                        | Front-end Developer, dlg.im             |
+ 

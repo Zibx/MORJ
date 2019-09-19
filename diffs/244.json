@@ -1,0 +1,11 @@
+diff --git a/.travis.yml b/.travis.yml
+new file mode 100644
+index 0000000..740a985
+--- /dev/null
++++ b/.travis.yml
+@@ -0,0 +1,5 @@
++language: python
++python:
++  - "3.7"
++script:
++  - python3 update_readme.py

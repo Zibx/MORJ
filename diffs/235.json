@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index 1ef4f71..698aba4 100644
+--- a/README.md
++++ b/README.md
+@@ -198,4 +198,5 @@
+ | Ряжских Алексей                    | .Net Developer, Санкт-Петербург         |
+ | Михаил Смаль                       | Lead developer                          |
+ | Михаил Самин                       | CEO, AudD, Москва                       |
+-| Соломатин Роман                    | Программист, Пермь                      |
+\ No newline at end of file
++| Соломатин Роман                    | Программист, Пермь                      |
++| Гусак Никита                       | Backend developer, Tinkoff              |

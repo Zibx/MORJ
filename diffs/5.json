@@ -1,0 +1,19 @@
+diff --git a/README.md b/README.md
+index 0c6a47d..d2cf477 100644
+--- a/README.md
++++ b/README.md
+@@ -28,6 +28,11 @@
+ 
+ ***
+ 
+-# Подписавшиеся: 
+-* Лобовикова Александра, fullstack разработчица, Namaste Technologies 
+-* Любимов Илья, Chief People Officer, Serokell
++# Подписавшиеся
++
++| Фамилия и имя                      |  Должность, компания                    |
++|------------------------------------|-----------------------------------------|
++| Лобовикова Александра              | Fullstack разработчица, Namaste Technologies |
++| Любимов Илья                       | Chief People Officer, Serokell          |
++| Гейнц Роман                        | Fullstack разработчик                   |
++

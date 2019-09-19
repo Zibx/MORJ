@@ -1,0 +1,14 @@
+diff --git a/README.md b/Alcesta/case-212
+similarity index 99%
+rename from README.md
+rename to Alcesta/case-212
+index 966803b..84ec187 100644
+--- a/README.md
++++ b/Alcesta/case-212
+@@ -199,4 +199,4 @@
+ | Ряжских Алексей                    | .Net Developer, Санкт-Петербург         |
+ | Михаил Смаль                       | Lead developer                          |
+ | Михаил Самин                       | CEO, AudD, Москва                       |
+-| Соломатин Роман                    | Программист, Пермь                      |
+\ No newline at end of file
++| Соломатин Роман                    | Программист, Пермь                      |

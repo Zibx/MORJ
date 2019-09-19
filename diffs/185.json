@@ -1,0 +1,13 @@
+diff --git a/README.md b/README.md
+index a9425cb..7a6ac91 100644
+--- a/README.md
++++ b/README.md
+@@ -157,4 +157,5 @@
+ | Евгений Вайс                       | Senior Software Engineer, EPAM Systems  |
+ | Лошаков Никита                     | Tech Lead                               |
+ | Дмитрий Зворыкин                   | Аналитик, Glowbyte                      |
+-| Аринко Екатерина                   | QA Engineer, Санкт-Петербург            |
+\ No newline at end of file
++| Аринко Екатерина                   | QA Engineer, Санкт-Петербург            |
++| Поветкин Сергей                    | Backend Developer, Москва               |
+\ No newline at end of file

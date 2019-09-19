@@ -1,0 +1,13 @@
+diff --git a/signed/1.txt b/signed/1.txt
+index c7ef423..3e497e3 100644
+--- a/signed/1.txt
++++ b/signed/1.txt
+@@ -71,4 +71,5 @@
+ Тимофей Николаев                   | Аналитик, Яндекс
+ Константин Емельянов               | Developer, NetUP
+ Багиров Эльшан                     | Backend developer
+-Сергей Николаев                    | Fullstack Developer
+\ No newline at end of file
++Сергей Николаев                    | Fullstack Developer
++Гарифьянов Денис		   | iOS Developer, dlg.im
+\ No newline at end of file

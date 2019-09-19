@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index d54a0f4..d516cf5 100644
+--- a/README.md
++++ b/README.md
+@@ -55,5 +55,6 @@
+ | Шангин Александр                   | Lead Developer, г. Самара               |
+ | Андрей Шишкин                      | Lead System Engineer                    |
+ | Антон Щербаков                     | Backend Developer                       |
++| Михаил Кольцов                     | Backend Developer, ЦТБ                  |
+ | Дмитрий Тырылгин                   | Software Engineer, Dvigus               |
+ | Луконин Кирилл                     | Wireless Engineer                       |
+\ No newline at end of file

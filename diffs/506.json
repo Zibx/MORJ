@@ -1,0 +1,9 @@
+diff --git a/README.md b/README.md
+index 135c351..84c80bc 100644
+--- a/README.md
++++ b/README.md
+@@ -205,3 +205,4 @@
+ | Афоничев Сергей                    | Фрилансер                               |
+ | Рехина Оксана                      | Программист, Ростелеком                 |
+ | Казаков Николай                    | Frontend Developer, Xena Exchange       |
++| Артамонов Олег                     | Ruby Developer                          |

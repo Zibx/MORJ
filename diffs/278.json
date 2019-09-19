@@ -1,0 +1,12 @@
+diff --git a/signed/1.txt b/signed/1.txt
+index 9b715f0..a737161 100644
+--- a/signed/1.txt
++++ b/signed/1.txt
+@@ -72,4 +72,5 @@
+ Константин Емельянов               | Developer, NetUP
+ Багиров Эльшан                     | Backend developer
+ Сергей Николаев                    | Fullstack Developer
+-Шеркунов Сергей                    | Backend developer
+\ No newline at end of file
++Ермилов Антон                      | Software Developer, Soter Analytics
++Шеркунов Сергей                    | Backend developer

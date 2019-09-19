@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index 83508b4..93d33d0 100644
+--- a/README.md
++++ b/README.md
+@@ -140,6 +140,7 @@
+ | Василий Вавилов                    | Разработчик, Душанбе .                  |
+ | Дмитрий Скрыльников                | Frontend Developer, Vigo                |
+ | Александр Давронов                 | Software Engineer                       |
++| Vadik Sirekanyan                   | Senior Android Developer, Москва        |
+ | Станислав Стаценко                 | Программист, МФТИ, Москва               |
+ | Айдар Ибатуллин                    | Frontend developer                      |
+ | Педан Сергей                       | Fullstack developer, Москва             |

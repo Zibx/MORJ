@@ -1,0 +1,9 @@
+diff --git a/README.md b/README.md
+index 72a71f7..61b279d 100644
+--- a/README.md
++++ b/README.md
+@@ -51,3 +51,4 @@
+ | Дмитрий Костиков                   | Программист, г. Волгоград               |
+ | Дмитрий Лапшин                     | Software Engineer                       |
+ | Овсянников Дмитрий                 | Product Owner, RCB LLC                  |
++| Сергей Стремидло                   | Web Developer                           |

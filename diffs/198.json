@@ -1,0 +1,20 @@
+diff --git a/README.md b/README.md
+index bbcb064..75231a1 100644
+--- a/README.md
++++ b/README.md
+@@ -153,7 +153,6 @@
+ | Айдар Ибатуллин                    | Frontend developer                      |
+ | Педан Сергей                       | Fullstack developer, Москва             |
+ | Романченко Андрей                  | Программист 1С, Москва                  |
+-| Евгений Хайдуков                   | IT Manager, Краснодар
+ | Мишакин Михаил                     | Senior Software Developer, Direct Line  |
+ | Аблеев Сергей                      | Fullstack developer, г. Екатеринбург    |
+ | Евгений Прилепин                   | Software Engineer, Санкт-Петербург      |
+@@ -171,4 +170,5 @@
+ | Евгений Вайс                       | Senior Software Engineer, EPAM Systems  |
+ | Лошаков Никита                     | Tech Lead                               |
+ | Дмитрий Зворыкин                   | Аналитик, Glowbyte                      |
+-| Аринко Екатерина                   | QA Engineer, Санкт-Петербург            |
+\ No newline at end of file
++| Аринко Екатерина                   | QA Engineer, Санкт-Петербург            |
++| Маша Будрите                       | Consultant Developer, ThoughtWorks      |

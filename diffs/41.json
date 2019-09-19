@@ -1,0 +1,21 @@
+diff --git a/README.md b/README.md
+index 1da6147..10a7b6e 100644
+--- a/README.md
++++ b/README.md
+@@ -55,7 +55,6 @@
+ | Шангин Александр                   | Lead Developer, г. Самара               |
+ | Андрей Шишкин                      | Lead System Engineer                    |
+ | Антон Щербаков                     | Backend Developer                       |
+-| Дмитрий Богомолов                  | Developer                               |
+ | Михаил Кольцов                     | Backend Developer, ЦТБ                  |
+ | Дмитрий Тырылгин                   | Software Engineer, Dvigus               |
+ | Кривоносов Георгий                 | Fullstack Developer, SoftBand           |
+@@ -64,4 +63,5 @@
+ | Чекан Евгений                      | Lead Back-end Developer                 |
+ | Макс Янков                         | CTO                                     |
+ | Чалмаев Андрей                     | админ                                   |
+-| Суслов Алексей                     | Инженер-программист, Eltex              |
+\ No newline at end of file
++| Суслов Алексей                     | Инженер-программист, Eltex              |
++| Антон Лазовский                    | Software Engineer, ActiveBC             |
+\ No newline at end of file

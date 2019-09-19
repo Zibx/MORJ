@@ -1,0 +1,32 @@
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..4cac739
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,10 @@
++# Please put your file to `signed` directory, not to root.
++
++# Ignore everything
++*
++
++# But not these files
++!/pre-readme.md
++!/README.md
++!/update-readme.py
++!/signed/
+diff --git a/ZXjupVrFWgNf b/signed/ZXjupVrFWgNf
+similarity index 100%
+rename from ZXjupVrFWgNf
+rename to signed/ZXjupVrFWgNf
+diff --git a/gsdf78hgmhg9jhlk9ds8g b/signed/gsdf78hgmhg9jhlk9ds8g
+similarity index 100%
+rename from gsdf78hgmhg9jhlk9ds8g
+rename to signed/gsdf78hgmhg9jhlk9ds8g
+diff --git a/signedREA2217 b/signed/signedREA2217
+similarity index 100%
+rename from signedREA2217
+rename to signed/signedREA2217
+diff --git a/signsladkf32539485 b/signed/signsladkf32539485
+similarity index 100%
+rename from signsladkf32539485
+rename to signed/signsladkf32539485

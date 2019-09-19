@@ -1,0 +1,11 @@
+diff --git a/README.md b/README.md
+index 859c25a..0dbad3a 100644
+--- a/README.md
++++ b/README.md
+@@ -89,5 +89,6 @@
+ | Домрачев Роман                     | Head of Development                     |
+ | Бельский Кирилл                    | Backend разработчик, Atlas Delivery     |
+ | Краснов Николай                    | Программист 1С, Москва                  |
++| Константин Емельянов               | Developer, NetUP                        |
+ | Багиров Эльшан                     | Backend developer                       |
+ | Сергей Николаев                    | Fullstack Developer                     |

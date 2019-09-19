@@ -1,0 +1,9 @@
+diff --git a/README.md b/README.md
+index d4dfa9f..21482eb 100644
+--- a/README.md
++++ b/README.md
+@@ -202,3 +202,4 @@
+ | Скуратович Сергей                  | Инженер, Воронеж                        |
+ | Климова Василика                   | Frontend Developer, Avaloq              |
+ | Спорыш Семён                       | Backend Developer, г. Санкт-Петербург   |
++| Афоничев Сергей                    | Фрилансер                               |

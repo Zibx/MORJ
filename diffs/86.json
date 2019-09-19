@@ -1,0 +1,10 @@
+diff --git a/README.md b/README.md
+index 1409817..6deb671 100644
+--- a/README.md
++++ b/README.md
+@@ -103,3 +103,5 @@
+ | Константин Емельянов               | Developer, NetUP                        |
+ | Багиров Эльшан                     | Backend developer                       |
+ | Сергей Николаев                    | Fullstack Developer                     |
++| Романченко Андрей                  | Программист 1С, Москва                  |
++=======

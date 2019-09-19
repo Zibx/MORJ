@@ -1,0 +1,10 @@
+diff --git a/README.md b/README.md
+index 297424e..5cdfd51 100644
+--- a/README.md
++++ b/README.md
+@@ -40,4 +40,5 @@
+ | Давыдов Максим                     | Senior Software Developer, Elama        |
+ | Кац Никита                         | Senior Backend Developer, amoCRM        |
+ | Тюрин Рамин                        | Front-end Developer, dlg.im             |
++| Волков Алексей                     | Senior Test Automation Engeneer, EPAM   |
+ 

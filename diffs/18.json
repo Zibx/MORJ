@@ -1,0 +1,11 @@
+diff --git a/README.md b/README.md
+index 75f0228..138279e 100644
+--- a/README.md
++++ b/README.md
+@@ -44,5 +44,6 @@
+ | Самохвалов Павел                   | Developer                               |
+ | Елизавета Боржкова                 | Business Analyst                        |
+ | Соковых Пётр                       | фрилансер                               |
++| Артём Проничкин                    | старший консультант, Microsoft          |
+ | Морозов Сергей                     | 1С-Программист, г.Киров                 |
+ | Дмитрий Норкин                     | Junior Researcher, RQC                  |

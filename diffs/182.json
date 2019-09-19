@@ -1,0 +1,22 @@
+diff --git a/README.md b/README.md
+index 3a314dc..42b7ee2 100644
+--- a/README.md
++++ b/README.md
+@@ -129,8 +129,6 @@
+ | Давид Френкель                     | Fullstack Developer                     |
+ | Шукшин Иван                        | Fullstack Developer, выпускник МФТИ     |
+ | Дмитрий Гроза                      | Data Analyst .                          |
+-| Быков Владимир                     | Frontend developer                      |
+-| Левицкая Анастасия                 | Художник                                |
+ | Сёмов Руслан                       | Senior DevOps Engineer, dlg.im          |
+ | Артём Попов                        | Software Engineer                       |
+ | Бухвалова Юлия                     | Frontend developer, LiveJournal         |
+@@ -159,4 +157,6 @@
+ | Евгений Вайс                       | Senior Software Engineer, EPAM Systems  |
+ | Лошаков Никита                     | Tech Lead                               |
+ | Дмитрий Зворыкин                   | Аналитик, Glowbyte                      |
+-| Аринко Екатерина                   | QA Engineer, Санкт-Петербург            |
+\ No newline at end of file
++| Аринко Екатерина                   | QA Engineer, Санкт-Петербург            |
++| Кухтинов Александр                 | Аналитик, ex-Glowbyte                   |
++| Тамеева Аделина                    | Аналитик                                |

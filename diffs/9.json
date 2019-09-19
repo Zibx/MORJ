@@ -1,0 +1,10 @@
+diff --git a/README.md b/README.md
+index cde684e..a2e7c39 100644
+--- a/README.md
++++ b/README.md
+@@ -39,4 +39,5 @@
+ | Гейнц Роман                        | Fullstack разработчик                   |
+ | Гарифулина Юлия                    | Software Developer, goTRG               |
+ | Давыдов Максим                     | Senior Software Developer, Elama        |
++| Кац Никита                         | Senior Backend Developer, amoCRM        |
+ 

@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index 78fd90f..1c5272e 100644
+--- a/README.md
++++ b/README.md
+@@ -191,4 +191,5 @@
+ | Лошаков Никита                     | Tech Lead                               |
+ | Дмитрий Зворыкин                   | Аналитик, Glowbyte                      |
+ | Аринко Екатерина                   | QA Engineer, Санкт-Петербург            |
+-| Соломатин Роман                    | Программист, Пермь                      |
+\ No newline at end of file
++| Соломатин Роман                    | Программист, Пермь                      |
++| Огородник Семен                    | Senior Software Developer, Kotlin, JetBrains|

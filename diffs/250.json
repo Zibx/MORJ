@@ -1,0 +1,18 @@
+diff --git a/README.md b/README.md
+index 966803b..84ec187 100644
+--- a/README.md
++++ b/README.md
+@@ -199,4 +199,4 @@
+ | Ряжских Алексей                    | .Net Developer, Санкт-Петербург         |
+ | Михаил Смаль                       | Lead developer                          |
+ | Михаил Самин                       | CEO, AudD, Москва                       |
+-| Соломатин Роман                    | Программист, Пермь                      |
+\ No newline at end of file
++| Соломатин Роман                    | Программист, Пермь                      |
+diff --git a/signed/afonkin.txt b/signed/afonkin.txt
+new file mode 100644
+index 0000000..5f9bd5f
+--- /dev/null
++++ b/signed/afonkin.txt
+@@ -0,0 +1 @@
++Афонькин Вадим | Senior Software Engineer, Москва

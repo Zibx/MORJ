@@ -1,0 +1,20 @@
+diff --git a/README.md b/README.md
+index ef9bc8e..58e4410 100644
+--- a/README.md
++++ b/README.md
+@@ -129,12 +129,8 @@
+ | Давид Френкель                     | Fullstack Developer                     |
+ | Шукшин Иван                        | Fullstack Developer, выпускник МФТИ     |
+ | Дмитрий Гроза                      | Data Analyst .                          |
+-| Иванов Виталий                     | CTO, Москва                             |
+-| Темнов Александр                   | Менеджер Проектов, Москва               | 
+-| Василий Вавилов                    | Разработчик, Душанбе .                  |
+-| Дмитрий Скрыльников                | Frontend Developer, Vigo                |
+-| Александр Давронов                 | Software Engineer                       |
+ | Станислав Стаценко                 | Программист, МФТИ, Москва               |
+ | Айдар Ибатуллин                    | Frontend developer                      |
+ | Педан Сергей                       | Fullstack developer, Москва             |
+-| Романченко Андрей                  | Программист 1С, Москва                  |
+\ No newline at end of file
++| Романченко Андрей                  | Программист 1С, Москва                  |
++| Дмитрий Назаров                    | Senior Developer, DataArt, Санкт-Петербург | 

@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index 863d7b9..78fd90f 100644
+--- a/README.md
++++ b/README.md
+@@ -162,6 +162,7 @@
+ | Станислав Стаценко                 | Программист, МФТИ, Москва               |
+ | Айдар Ибатуллин                    | Frontend developer                      |
+ | Педан Сергей                       | Fullstack developer, Москва             |
++| Кузякин Павел                      | Frontend Developer, Москва              |
+ | Юдин Кирилл                        | Senior C++ developer, Москва            |
+ | Шевченко Игорь                     | Тимлид, Antida software, Челябинск      |
+ | Романченко Андрей                  | Программист 1С, Москва                  |
