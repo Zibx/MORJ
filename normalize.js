@@ -110,15 +110,18 @@ const pad = (count, symbol) => count > 0 ? new Array(count+1).join(symbol||' '):
     }
     console.log('People counter: '+resultArr.length);
 
+    const humanCounter = (resultArr.length+'').length;
+    const NUMERATE = true;
+
     fs.writeFileSync('out.md',
 
         resultArr.map(
             (human, n)=>
-                '| '+
+                '| '+ (NUMERATE?(n>0?n+pad(humanCounter-((n+'').length)):pad(humanCounter)) +' |':'')+
                     human.name + pad(max.name - human.name.length)+ ' | '+
                     human.job + pad(max.job - human.job.length)+
 
-                ' |' + (n===0?'\n|:'+pad(max.name,'-')+'-|:'+pad(max.job,'-')+'-|' :'') ).join('\n'));
+                ' |' + (n===0?'\n|:'+(NUMERATE?pad(humanCounter,'-')+'-|:':'-')+pad(max.name,'-')+'|:'+pad(max.job,'-')+'-|' :'') ).join('\n'));
 
     console.log('Output in out.md');
 })();
