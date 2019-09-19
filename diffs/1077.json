@@ -1,0 +1,16 @@
+diff --git a/README.md b/README.md
+index 400b091e..2fad4254 100644
+--- a/README.md
++++ b/README.md
+@@ -685,3 +685,4 @@
+ | Pletnev Nikolay                | DevOps Itransition                                 |
+ | Пушкарев Андрей                | Fullstack Development                              |
+ | Исмаил Алекперов               | фрилансер, Екатеринбург                            |
++| Бабушкин Андрей                | Software Validation Engineer, Интел, Нижний Новгород |
+diff --git a/signed/0JDQvdC00YDQtdC5INCR0LDQsdGD0YjQutC40L0K b/signed/0JDQvdC00YDQtdC5INCR0LDQsdGD0YjQutC40L0K
+new file mode 100644
+index 00000000..413c6fb9
+--- /dev/null
++++ b/signed/0JDQvdC00YDQtdC5INCR0LDQsdGD0YjQutC40L0K
+@@ -0,0 +1 @@
++Бабушкин Андрей, Инженер по тестированию, Интел

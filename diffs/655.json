@@ -1,0 +1,11 @@
+diff --git a/README.md b/README.md
+index 101e2d2..2053694 100644
+--- a/README.md
++++ b/README.md
+@@ -259,4 +259,5 @@
+ | Романов Михаил                     | Frontend Developer, Comtravo            |
+ | Васенков Максим                    | Ведущий программист, Этерон, Смоленск   |
+ | Дмитрий Семьюшкин                  | Frontend Developer, Pleeco              |
+-| Борис Стельмах                     | Web Developer                             |
++| Борис Стельмах                     | Web Developer                           |
++| Полухин Сергей                     | Backend Developer, Санкт-Петербург      |

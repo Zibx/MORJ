@@ -1,0 +1,12 @@
+diff --git a/README.md b/README.md
+index 101e2d2c..a1261ec3 100644
+--- a/README.md
++++ b/README.md
+@@ -219,6 +219,7 @@
+ | Михаил Смаль                       | Lead developer                          |
+ | Михаил Самин                       | CEO, AudD, Москва                       |
+ | Соломатин Роман                    | Программист, Пермь                      |
++| Пётр Резиков                       | Software Engineer, Пенза                |
+ | Малахов Владимир                   | iOS developer, Санкт-Петербург          |
+ | Яницкий Александр                  | Lead developer, Калининград             |
+ | Чермянин Александр                 | .Net Developer, Нижний Новгород         |

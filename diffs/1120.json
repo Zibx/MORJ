@@ -1,0 +1,19 @@
+diff --git a/signed/old_list.txt b/signed/old_list.txt
+index c03cd4b1..54c959b4 100644
+--- a/signed/old_list.txt
++++ b/signed/old_list.txt
+@@ -188,7 +188,6 @@
+ | Антон Филиппов                     | Инженер-программист, НТП ТКА            |
+ | Скуратович Сергей                  | Инженер, Воронеж                        |
+ | Климова Василика                   | Frontend Developer, Avaloq              |
+-| Спорыш Семён                       | Backend Developer, г. Санкт-Петербург   |
+ | Афоничев Сергей                    | Фрилансер                               |
+ | Рехина Оксана                      | Программист, Ростелеком                 |
+ | Казаков Николай                    | Frontend Developer, Xena Exchange       |
+@@ -215,4 +214,4 @@
+ | Романов Михаил                     | Frontend Developer, Comtravo            |
+ | Васенков Максим                    | Ведущий программист, Этерон, Смоленск   |
+ | Дмитрий Семьюшкин                  | Frontend Developer, Pleeco              |
+-| Борис Стельмах                     | Web Developer                             |
+\ No newline at end of file
++| Борис Стельмах                     | Web Developer                             |

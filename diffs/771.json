@@ -1,0 +1,9 @@
+diff --git a/README.md b/README.md
+index 101e2d2c..aa6d8323 100644
+--- a/README.md
++++ b/README.md
+@@ -260,3 +260,4 @@
+ | Васенков Максим                    | Ведущий программист, Этерон, Смоленск   |
+ | Дмитрий Семьюшкин                  | Frontend Developer, Pleeco              |
+ | Борис Стельмах                     | Web Developer                             |
++| Шилкин Денис                       | Senior Software Engineer, Gett RnD      |

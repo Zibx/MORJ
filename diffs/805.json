@@ -1,0 +1,3498 @@
+diff --git a/.travis.yml b/.travis.yml
+new file mode 100644
+index 00000000..ae8e91b3
+--- /dev/null
++++ b/.travis.yml
+@@ -0,0 +1,3 @@
++language: python
++script:
++  - python update_readme.py
+diff --git a/README.md b/README.md
+index 5fdaeb8d..101e2d2c 100644
+--- a/README.md
++++ b/README.md
+@@ -1,33 +1,262 @@
+-# Открытое письмо специалистов в IT-индустрии в защиту фигурантов «московского дела»
++﻿# Открытое письмо специалистов IT-индустрии в защиту фигурантов «московского дела»
+ 
+-27 июля 2019 люди вышли мирно, без оружия, чтобы выразить свое несогласие с недопуском независимых кандидатов до выборов в Мосгордуму. Это событие стало поводом для того, чтобы инициировать новый виток политических репрессий и завести дело о «массовых беспорядках», фигурантами которого стали 13 человек.
++[27 июля 2019](https://ovdinfo.org/news/2019/07/27/miting-u-merii-moskvy-27-iyulya-2019-goda-i-ego-posledstviya-onlayn) люди вышли мирно, без оружия, чтобы выразить свое несогласие с [недопуском независимых кандидатов](https://www.bbc.com/russian/features-49127945) до выборов в Мосгордуму. Это событие стало поводом для того, чтобы инициировать новый виток политических репрессий и завести дело о «массовых беспорядках», фигурантами которого стали 13 человек.
+ 
+-Журналисты, очевидцы и участники акции отмечают, что акция прошла исключительно мирно: не были ни порчи имущества, ни насилия со стороны демонстрантов. 
+-Но это не мешает следователям предъявлять обвинения, а судьям, отклоняя все ходатайства защиты, — выносить обвинительные приговоры — в рекордно сжатые сроки. На момент написания этого письма реальные сроки уже получили Константин Котов (4 года колонии), Иван Подкопаев (3 года колонии), Павел Устинов (3,5 года колонии).
++Журналисты, очевидцы и участники акции отмечают, что акция прошла исключительно мирно: не было ни порчи имущества, ни насилия со стороны демонстрантов. Но это не мешает следователям предъявлять обвинения, а судьям, отклоняя все ходатайства защиты, выносить обвинительные приговоры — в рекордно сжатые сроки. На момент написания этого письма реальные сроки уже получили [Константин Котов (4 года колонии)](https://www.interfax.ru/russia/675323), [Иван Подкопаев (3 года колонии)](https://www.interfax.ru/moscow/674950), [Павел Устинов (3,5 года колонии)](https://www.interfax.ru/russia/676593).
+ 
+ 17 и 18 сентября 2019 года возмущенные абсурдностью дела священники и учителя выпускают письма, в которых высказывают свое мнение: дело необходимо прекратить, а невиновных — освободить. Мы, IT-специалисты, видим запрос на то, чтобы все профессиональные сообщества высказали свою позицию по этому делу, и тоже не можем промолчать.
+ 
+-Одним из фигурантов «московского дела» стал наш коллега — Айдар Губайдулин. Айдар закончил МФТИ и работает в компании «Сбербанк-Технологии». В это же время осудили другого нашего коллегу, программиста Константина Котова: он получил 4 года колонии за участие (только участие!) в четырёх акциях, ведь, по мнению обвинения, он преследовал «цель создания реальной угрозы конституционно охраняемым правам и свободам человека и гражданина».
+-
+-Это в очередной раз демонстрирует то разнообразие людей, которых затронули репрессии: в 2019 году в России фигурантом политического дела может стать кто угодно и за что угодно. **Единственное наше требование состоит в том, чтобы остановить политическое преследование мирного населения, прекратить сфабрикованные дела и освободить всех фигурантов дела о «массовых беспорядках»**: 
+-Коваленко Евгений 
+-Котов Константин 
+-Миняйло Алексей 
+-Подкопаев Иван 
+-Раджабов Самариддин 
+-Беглец Данил 
+-Губайдулин Айдар 
+-Жуков Кирилл 
+-Устинов Павел 
+-Чирцов Никита 
+-Малышевский Эдуард 
+-Егор Жуков
+-Сергей Фомин
++Одним из фигурантов «московского дела» стал наш коллега — Айдар Губайдулин. Айдар закончил МФТИ и работает в компании «Сбербанк-Технологии». В это же время осудили другого нашего коллегу, программиста Константина Котова: он получил 4 года колонии за **участие** в четырёх акциях, ведь, по мнению обвинения, он преследовал «цель создания реальной угрозы конституционно охраняемым правам и свободам человека и гражданина».
++
++Это в очередной раз демонстрирует то разнообразие людей, которых затронули репрессии: в 2019 году в России фигурантом политического дела может стать кто угодно и за что угодно. Более подробно об участниках дела можно узнать на посвященном ему [сайте](https://delo212.ru/arestanty).
++
++**Единственное наше требование состоит в том, чтобы остановить политическое преследование мирного населения, прекратить сфабрикованные дела и освободить всех фигурантов дела о «массовых беспорядках»**:
++
++1. Коваленко Евгений 
++2. Котов Константин 
++3. Миняйло Алексей 
++4. Подкопаев Иван 
++5. Раджабов Самариддин 
++6. Беглец Данил 
++7. Губайдулин Айдар 
++8. Жуков Кирилл 
++9. Устинов Павел 
++10. Чирцов Никита 
++11. Малышевский Эдуард 
++12. Егор Жуков
++13. Сергей Фомин
+ 
+ Призываем коллег не оставаться в стороне и поддержать это письмо.
+ 
++# Как подписаться
++
++Вы можете это сделать, создав файл со случайным именем (желательно сложным) в папку `signed`. В этом файле напишите строки
++следующего формата (каждая строка - отдельный человек):
++```
++Фамилия Имя | Должность, компания
++```
++
+ ***
+ 
+-# Подписавшиеся: 
+-* Лобовикова Александра, fullstack разработчица, Namaste Technologies 
+-* Любимов Илья, Chief People Officer, Serokell
++## Подписавшиеся
++
++| Фамилия и имя                      |  Должность, компания                    |
++|:-----------------------------------|:----------------------------------------|
++| Лобовикова Александра              | Fullstack разработчица, Namaste Technologies |
++| Любимов Илья                       | Chief People Officer, Serokell          |
++| Гейнц Роман                        | Fullstack разработчик                   |
++| Гарифулина Юлия                    | Software Developer, goTRG               |
++| Давыдов Максим                     | Senior Software Developer, Elama        |
++| Кац Никита                         | Senior Backend Developer, amoCRM        |
++| Тюрин Рамин                        | Front-end Developer, dlg.im             |
++| Волков Алексей                     | Senior Test Automation Engeneer, EPAM   |
++| Самохвалов Павел                   | Developer                               |
++| Елизавета Боржкова                 | Business Analyst                        |
++| Соковых Пётр                       | фрилансер                               |
++| Артём Проничкин                    | старший консультант, Microsoft          |
++| Морозов Сергей                     | 1С-Программист, г.Киров                 |
++| Антонович Виктор                   | Программист, г. Волгоград               |
++| Дмитрий Норкин                     | Junior Researcher, RQC                  |
++| Дмитрий Костиков                   | Программист, г. Волгоград               |
++| Дмитрий Лапшин                     | Software Engineer                       |
++| Овсянников Дмитрий                 | Product Owner, RCB LLC                  |
++| Сергей Стремидло                   | Web Developer                           |
++| Шангин Александр                   | Lead Developer, г. Самара               |
++| Андрей Шишкин                      | Lead System Engineer                    |
++| Антон Щербаков                     | Backend Developer                       |
++| Дмитрий Богомолов                  | Developer                               |
++| Кольцов Михаил                     | Backend Developer, ЦТБ                  |
++| Дмитрий Тырылгин                   | Software Engineer, Dvigus               |
++| Хатин Константин                   | Backend developer                       |
++| Кривоносов Георгий                 | Fullstack Developer, SoftBand           |
++| Луконин Кирилл                     | Wireless Engineer                       |
++| Федосеева Анна                     | Frontend developer                      |
++| Николай Тимченко                   | Backend Developer                       |
++| Клeсс Антoн                        | IT Asset Manager                        |
++| Чекан Евгений                      | Lead Back-end Developer                 |
++| Кравцова Валерия                   | Fullstack developer, NetUP LLC          |
++| Лукьянчиков Максим                 | Frontend developer                      |
++| Гуля Илья                          | Android Developer, Yandex               |
++| Рыков Михаил                       | Principal Software Engineer, Dell EMC, г. Санкт-Петербург|
++| Макс Янков                         | CTO                                     |
++| Чалмаев Андрей                     | админ                                   |
++| Лопатин Виктор                     | Software Developer, Ayoxxa              |
++| Суслов Алексей                     | Инженер-программист, Eltex              |
++| Антон Лазовский                    | Software Engineer, ActiveBC             |
++| Борис Чирва                        | Инженер-программист, г. Екатеринбург    |
++| Александров Владимир               | Backend Developer, Waves                |
++| Константин Лёвин                   | Verification Engineer                   |
++| Алексей Гриднев                    | Senior QA engineer, NVIDIA              |
++| Руслан Магомедов                   | IT Engineer                             |
++| Александр Анохин                   | Lead Developer, г. Москва               |
++| Вячеслав Ембатуров                 | Software Developer                      |
++| Павлов Василий Алексеевич          | Software Engineer                       |
++| Сустретов Максим                   | Backend developer                       |
++| Шуршев Андрей                      | Backend developer                       |
++| Домрачев Роман                     | Head of Development                     |
++| Бельский Кирилл                    | Backend разработчик, Atlas Delivery     |
++| Травкин Пётр                       | Backend разработчик                     |
++| Краснов Николай                    | Программист 1С, Москва                  |
++| Мендяев Николай                    | Tech Lead, Tarantool + Mediazona        |
++| Косулин Михаил                     | CTO                                     |
++| Тимошевский Пётр                   | Fullstack developer                     |
++| Скляров Никита                     | Software Engineer                       |
++| Павлов Никита                      | Senior Software Engineer, NetCracker    |
++| Баранов Кирилл                     | Web-developer                           |
++| Валерий Рябошапко                  | Backend Developer, Luka, Inc.           |
++| Кубота Иван                        | Chief Technology Officer                |
++| Антонов Денис                      | Middle Python Developer, CS.Money       |
++| Алексей Маслаков                   | Frontend developer                      |
++| Дмитрий Гудков                     | Backend Developer, Москва               |
++| Артур Станкевич                    | Программист, Самара                     |
++| Даниэль Гинсбург                   | Network Architect                       |
++| Орешников Иван                     | Research Engineer, Max Planck Institute |
++| Алексей Алишевских                 | Software Engineer, Vound Software       | 
++| Тимофей Николаев                   | Аналитик, Яндекс                        |
++| Константин Емельянов               | Developer, NetUP                        |
++| Багиров Эльшан                     | Backend developer                       |
++| Игорь Водка                        | Fullstack Developer                     |
++| Дубровский Николай                 | С++ Developer                           |
++| Мамашин Николай                    | IT Engineer                             |
++| Кочергин Владимир                  | Backend developer                       |
++| Сметанин Антон                     | Game developer                          |
++| Петрухин Павел                     | Backend developer, Москва               |
++| Никита Капитонов                   | Product Owner, Teplomonitor, Москва     |
++| Сергей Николаев                    | Fullstack Developer                     |
++| Шитов Артём                        | QA, Медиалогия                          |
++| Куватов Денис                      | Game developer, Москва                  |
++| Бакиров Марат                      | Tech lead, ParusInvest, Москва          |
++| Курносов Михаил                    | Software Developer                      |
++| Кирилл Книзе                       | Старший эксперт-программист, T-Systems  |
++| Яковлева Юлия                      | Разработчица, Yandex                    |
++| Александр Тучков                   | Независимый консультант                 |
++| Банных Роман                       | Backend Developer                       |
++| Андрей Янгабышев                   | Software Developer, г. Москва           |
++| Давид Френкель                     | Fullstack Developer                     |
++| Шукшин Иван                        | Fullstack Developer, выпускник МФТИ     |
++| Дмитрий Гроза                      | Data Analyst                            |
++| Быков Владимир                     | Frontend developer                      |
++| Левицкая Анастасия                 | Художник                                |
++| Сёмов Руслан                       | Senior DevOps Engineer, dlg.im          |
++| Артём Попов                        | Software Engineer                       |
++| Бухвалова Юлия                     | Frontend developer, LiveJournal         |
++| Ялунин Александр                   | Backend Developer                       |
++| Алина Ковтун                       | FrontEnd Developer, Nativeroll, СПб     |
++| Зайцев Дмитрий                     | Android developer                       |
++| Альберт Фазуллин                   | Software Engineer, Казань               |
++| Курлов Дмитрий                     | Фрилансер                               |
++| Середа Евгений                     | Senior system analyst, г. Орёл          |
++| Докучаев Иван                      | Linux Ops/Support, "Мегабайт"   |
++| Гольд Никита                       | Backend Developer, Москва               |
++| Серебрянский Константин            | Fullstack Developer, Osome + Mediazona, Москва|
++| Макаров Александр                  | Старший разработчик, Москва             |
++| Иванов Виталий                     | CTO, Москва                             |
++| Темнов Александр                   | Менеджер Проектов, Москва               | 
++| Василий Вавилов                    | Разработчик, Душанбе .                  |
++| Дмитрий Скрыльников                | Frontend Developer, Vigo                |
++| Александр Давронов                 | Software Engineer                       |
++| Vadik Sirekanyan                   | Senior Android Developer, Москва        |
++| Станислав Стаценко                 | Программист, МФТИ, Москва               |
++| Айдар Ибатуллин                    | Frontend developer                      |
++| Педан Сергей                       | Fullstack developer, Москва             |
++| Холинов Илья                       | Backend Developer, Москва               |
++| Николай Дубинин                    | Системный администратор Linux, Москва   |
++| Кузякин Павел                      | Frontend Developer, Москва              |
++| Юдин Кирилл                        | Senior C++ developer, Москва            |
++| Шевченко Игорь                     | Тимлид, Antida software, Челябинск      |
++| Романченко Андрей                  | Программист 1С, Москва                  |
++| Затеев Александр                   | DevOps engineer, Москва                 |
++| Тихомиров Иван                     | Программист 1С, Череповец               |
++| Берг Максим                        | Developer                               |        
++| Исмаил Алекперов                   | фрилансер, Екатеринбург                 |
++| Ермолаев Илья                      | Fullstack Developer, Москва             |
++| Алексей Пыльцын                    | Веб-разработчик, Ростов-на-Дону         |
++| Козловский Андрей                  | Software Engineer, Санкт-Петербург      |
++| Евгений Хайдуков                   | IT Manager, Краснодар
++| Мишакин Михаил                     | Senior Software Developer, Direct Line  |
++| Аблеев Сергей                      | Fullstack developer, г. Екатеринбург    |
++| Евгений Прилепин                   | Software Engineer, Санкт-Петербург      |
++| Панкова Мария                      | Программист, Москва                  |
++| Гаркавый Андрей                    | Аналитик, Tinkoff, выпускник МФТИ, Москва|
++| Дмитрий Назаров                    | Senior Developer, DataArt, Санкт-Петербург | 
++| Волков Кирилл                      | Software Engineer, г. Санкт-Петербург   |
++| Сикорский Алексей                  | Software Developer, Moscow              |
++| Батычко Ярослав                    | Backend Developer, Стрим                |
++| Леонтьев Игорь                     | QA, Санкт-Петербург                     |
++| Руслан Мусаев                      | Project Manager, Yandex                 |
++| Чудеснов Александр                 | Разработчик интерфейсов, Wrike          |
++| Андрей Максимов                    | Software Engineer, Quantori             |
++| Барышников Константин              | Fullstack developer, Москва             |
++| Евгений Вайс                       | Senior Software Engineer, EPAM Systems  |
++| Лошаков Никита                     | Tech Lead                               |
++| Дмитрий Зворыкин                   | Аналитик, Glowbyte                      |
++| Аринко Екатерина                   | QA Engineer, Санкт-Петербург            |
++| Грачев Роман                       | Web Developer,Глазов                    |
++| Харин Александр                    | Инженер-электроник, Ревда               |
++| Станислав Ронжин                   | Аспирант, Москва                        |
++| Огородник Семен                    | Senior Software Developer, Kotlin, JetBrains|
++| Хамидуллин Руслан                  | Зам.тех.дир., тимлид; WavePoint, С-Пб   |
++| Aleksandr Nazarov                  | Software Engineer, Facebook, New York   |
++| Усов Баларам                       | Разработчик и математик, Москва         |
++| Колкер Михаил                      | Lead backend developer, Zyfra           |
++| Лозко Роман                        | Security Researcher, Москва             |
++| Кокарева Дария                     | Software Engineer, Санкт-Петербург      |
++| Прищепов Владислав                 | Product Manager, Yandex AppMetrica      |
++| Мельников Михаил                   | Программист, Волгоград                  |
++| Латынина Виктория                  | Программист, Санкт-Петербург            |
++| Ряжских Дарья                      | Senior Android Developer, Malwarebytes  |
++| Судаков Илья                       | Tech Lead, INVITE Software, Москва      |
++| Полховцев Владимир                 | Android Developer, dlg.im               |
++| Ростислав Василихин                | Software Engineer, Нижний Новгород      |
++| Смирнов Алексей                    | Инженер-программист, Екатеринбург       |
++| Александра Кубатиева               | NLP Developer, Санкт-Петербург          |
++| Коврова Аста                       | Fullstack developer, Санкт-Петербург    |
++| Кушнарева Екатерина                | HR, Abagy Robotic Systems               |
++| Валентин Гимранов                  | WEB-developer, Обнинск                  |
++| Ничипоренко Денис                  | Backend Developer                       |
++| Мария Чакчурина                    | Python back-end dev, Kaspersky, Moscow  |
++| Ряжских Алексей                    | .Net Developer, Санкт-Петербург         |
++| Михаил Смаль                       | Lead developer                          |
++| Михаил Самин                       | CEO, AudD, Москва                       |
++| Соломатин Роман                    | Программист, Пермь                      |
++| Малахов Владимир                   | iOS developer, Санкт-Петербург          |
++| Яницкий Александр                  | Lead developer, Калининград             |
++| Чермянин Александр                 | .Net Developer, Нижний Новгород         |
++| Цакунов Антон                      | Руководитель проектов, Москва           |
++| Илья Степанов                      | Программист, г. Москва                  |
++| Галиев Ильдар                      | Старший программист, Спортмастер, Москва|
++| Гусак Никита                       | Backend developer, Tinkoff              |
++| Матвей Матвеев                     | Product Manager, Москва, Skyeng         |
++| Меркулов Алексей                   | Программист, JetBrains                  |
++| Мешков Александр                   | Data Scientist, Moscow                  |
++| Антон Филиппов                     | Инженер-программист, НТП ТКА            |
++| Скуратович Сергей                  | Инженер, Воронеж                        |
++| Климова Василика                   | Frontend Developer, Avaloq              |
++| Спорыш Семён                       | Backend Developer, г. Санкт-Петербург   |
++| Афоничев Сергей                    | Фрилансер                               |
++| Рехина Оксана                      | Программист, Ростелеком                 |
++| Казаков Николай                    | Frontend Developer, Xena Exchange       |
++| Сергей Рощепкин                    | Software Engineer                       |
++| Антон Алфимов                      | Web developer, Mediazona                |
++| Марина Степанова                   | Технический менеджер, Яндекс            |
++| Самовилов Дмитрий                  | Developer                               |
++| Радзиевский Александр              | продакт менеджер, Pond5                 |
++| Пушкарев Павел                     | Разработчик                             |
++| Леонид Николаев                    | Senior Software Engineer,Пушкино        |
++| Кухтинов Александр                 | Аналитик, ex-Glowbyte                   |
++| Тамеева Аделина                    | Аналитик                                |
++| Савченко Валерий                   | Frontend Developer                      |
++| Безызвестных Денис                 | Fullstack developer, Новосибирск        |
++| Поветкин Сергей                    | Backend Developer, Москва               |
++| Докучаев Дмитрий                   | Frontend developer, Санкт-Петербург     |
++| Бабушкин Эдуард                    | HR-аналитик                             |
++| Бабенцов Илья                      | Support Engineer, Москва                |
++| Филипп Казаков                     | Руководитель, Ph&Ph                     |
++| Рябинин Сергей                     | Программист, Санкт-Петербург            |
++| Леонид Хмельницкий                 | DigitalAsset.Live                       |
++| Маша Будрите                       | Consultant Developer, Thoughtworks, Лондон |
++| Артем Тамоян                       | CTO, Vee Security                       |
++| Романов Михаил                     | Frontend Developer, Comtravo            |
++| Васенков Максим                    | Ведущий программист, Этерон, Смоленск   |
++| Дмитрий Семьюшкин                  | Frontend Developer, Pleeco              |
++| Борис Стельмах                     | Web Developer                             |
+diff --git a/YxqVEAXJsAErI6jG3JrDVQiufYQE7tZF b/YxqVEAXJsAErI6jG3JrDVQiufYQE7tZF
+new file mode 100644
+index 00000000..91783e3b
+--- /dev/null
++++ b/YxqVEAXJsAErI6jG3JrDVQiufYQE7tZF
+@@ -0,0 +1 @@
++Сараев Иннокентий | Frontend-developer, freelance
+diff --git a/pre-readme.md b/pre-readme.md
+new file mode 100644
+index 00000000..3bfbd689
+--- /dev/null
++++ b/pre-readme.md
+@@ -0,0 +1,45 @@
++# Открытое письмо специалистов IT-индустрии в защиту фигурантов «московского дела»
++
++[27 июля 2019](https://ovdinfo.org/news/2019/07/27/miting-u-merii-moskvy-27-iyulya-2019-goda-i-ego-posledstviya-onlayn) люди вышли мирно, без оружия, чтобы выразить свое несогласие с [недопуском независимых кандидатов](https://www.bbc.com/russian/features-49127945) до выборов в Мосгордуму. Это событие стало поводом для того, чтобы инициировать новый виток политических репрессий и завести дело о «массовых беспорядках», фигурантами которого стали 13 человек.
++
++Журналисты, очевидцы и участники акции отмечают, что акция прошла исключительно мирно: не было ни порчи имущества, ни насилия со стороны демонстрантов. Но это не мешает следователям предъявлять обвинения, а судьям, отклоняя все ходатайства защиты, выносить обвинительные приговоры — в рекордно сжатые сроки. На момент написания этого письма реальные сроки уже получили [Константин Котов (4 года колонии)](https://www.interfax.ru/russia/675323), [Иван Подкопаев (3 года колонии)](https://www.interfax.ru/moscow/674950), [Павел Устинов (3,5 года колонии)](https://www.interfax.ru/russia/676593).
++
++17 и 18 сентября 2019 года возмущенные абсурдностью дела священники и учителя выпускают письма, в которых высказывают свое мнение: дело необходимо прекратить, а невиновных — освободить. Мы, IT-специалисты, видим запрос на то, чтобы все профессиональные сообщества высказали свою позицию по этому делу, и тоже не можем промолчать.
++
++Одним из фигурантов «московского дела» стал наш коллега — Айдар Губайдулин. Айдар закончил МФТИ и работает в компании «Сбербанк-Технологии». В это же время осудили другого нашего коллегу, программиста Константина Котова: он получил 4 года колонии за **участие** в четырёх акциях, ведь, по мнению обвинения, он преследовал «цель создания реальной угрозы конституционно охраняемым правам и свободам человека и гражданина».
++
++Это в очередной раз демонстрирует то разнообразие людей, которых затронули репрессии: в 2019 году в России фигурантом политического дела может стать кто угодно и за что угодно. Более подробно об участниках дела можно узнать на посвященном ему [сайте](https://delo212.ru/arestanty).
++
++**Единственное наше требование состоит в том, чтобы остановить политическое преследование мирного населения, прекратить сфабрикованные дела и освободить всех фигурантов дела о «массовых беспорядках»**:
++
++1. Коваленко Евгений 
++2. Котов Константин 
++3. Миняйло Алексей 
++4. Подкопаев Иван 
++5. Раджабов Самариддин 
++6. Беглец Данил 
++7. Губайдулин Айдар 
++8. Жуков Кирилл 
++9. Устинов Павел 
++10. Чирцов Никита 
++11. Малышевский Эдуард 
++12. Егор Жуков
++13. Сергей Фомин
++
++Призываем коллег не оставаться в стороне и поддержать это письмо.
++
++# Как подписаться
++
++Вы можете это сделать, создав файл со случайным именем (желательно сложным) в папку `signed`. В этом файле напишите строки
++следующего формата (каждая строка - отдельный человек):
++```
++Фамилия Имя | Должность, компания
++```
++
++***
++
++# Подписавшиеся
++
++| Фамилия и имя                      |  Должность, компания                    |
++|------------------------------------|-----------------------------------------|
++<!-- Signed -->
+diff --git a/signed/ 2a25b1b0d75b6c4f775a8e62f5f791e0 b/signed/ 2a25b1b0d75b6c4f775a8e62f5f791e0
+new file mode 100644
+index 00000000..8cd87d14
+--- /dev/null
++++ b/signed/ 2a25b1b0d75b6c4f775a8e62f5f791e0	
+@@ -0,0 +1 @@
++Онипченко Михаил | Fullstack разработчик, Ростов-на-Дону
+\ No newline at end of file
+diff --git a/signed/-2204353116993125018 b/signed/-2204353116993125018
+new file mode 100644
+index 00000000..5af43192
+--- /dev/null
++++ b/signed/-2204353116993125018
+@@ -0,0 +1 @@
++Симоненко Полина | Python, Fullstack, ещё учусь
+diff --git a/signed/0 b/signed/0
+new file mode 100644
+index 00000000..4bf8fdf6
+--- /dev/null
++++ b/signed/0
+@@ -0,0 +1 @@
++Павел Волжин | Engineer
+diff --git a/signed/015a324b-09b4-434e-a375-202773aca07c b/signed/015a324b-09b4-434e-a375-202773aca07c
+new file mode 100644
+index 00000000..c94fb881
+--- /dev/null
++++ b/signed/015a324b-09b4-434e-a375-202773aca07c
+@@ -0,0 +1 @@
++Подшивалов Илья | Программист, Москва
+diff --git a/signed/019b4fd8-5f51-4e1b-93d3-affe03fe9af4 b/signed/019b4fd8-5f51-4e1b-93d3-affe03fe9af4
+new file mode 100644
+index 00000000..a3ef9163
+--- /dev/null
++++ b/signed/019b4fd8-5f51-4e1b-93d3-affe03fe9af4
+@@ -0,0 +1 @@
++| Назаров Сергей                     | BSS Developer, Ingram Micro Cloud       |
+diff --git a/signed/05c8715c79d2624f06d15dfcfa9b0dc163c97432 b/signed/05c8715c79d2624f06d15dfcfa9b0dc163c97432
+new file mode 100644
+index 00000000..47db555b
+--- /dev/null
++++ b/signed/05c8715c79d2624f06d15dfcfa9b0dc163c97432
+@@ -0,0 +1 @@
++Мамин Адель | программист, Exafore
+diff --git a/signed/062CBD0DF2C9BCC2F3693AB3785DF0D1.txt b/signed/062CBD0DF2C9BCC2F3693AB3785DF0D1.txt
+new file mode 100644
+index 00000000..1282985d
+--- /dev/null
++++ b/signed/062CBD0DF2C9BCC2F3693AB3785DF0D1.txt
+@@ -0,0 +1,3 @@
++Левадный Тимур | Разрабочик, Провектус
++Анна Левадная | Разработчик, Alice
++Илья Мельников | Senior Product Support Engineer, ООО "ДжиДиСи Сервисез"
+\ No newline at end of file
+diff --git a/signed/077EFB4E8EB7AC05FF4EC0B904B7BF68CBF38D81D0D386A8292EE775DA6FE470 b/signed/077EFB4E8EB7AC05FF4EC0B904B7BF68CBF38D81D0D386A8292EE775DA6FE470
+new file mode 100644
+index 00000000..b2a3bcc1
+--- /dev/null
++++ b/signed/077EFB4E8EB7AC05FF4EC0B904B7BF68CBF38D81D0D386A8292EE775DA6FE470
+@@ -0,0 +1 @@
++Шнайдер Александр | Backend Developer, Потенциал
+diff --git a/signed/091f7504d1a0fa978c458b7ff788d80a b/signed/091f7504d1a0fa978c458b7ff788d80a
+new file mode 100644
+index 00000000..348bfb9b
+--- /dev/null
++++ b/signed/091f7504d1a0fa978c458b7ff788d80a
+@@ -0,0 +1 @@
++Федорус Василий | Программист, Москва
+diff --git a/signed/0D571691-5FE5-45BA-B747-C78115D0753A b/signed/0D571691-5FE5-45BA-B747-C78115D0753A
+new file mode 100644
+index 00000000..820819eb
+--- /dev/null
++++ b/signed/0D571691-5FE5-45BA-B747-C78115D0753A
+@@ -0,0 +1 @@
++Vaniev Mishel | Software Developer, iiko
+diff --git a/signed/0KPRgdCw0L3QutC40L0g0JzQsNC60YHQuNC8IHwg0KDQsNC30YDQsNCx0L7RgtGH0LjQuiwgRmFzdGRldg b/signed/0KPRgdCw0L3QutC40L0g0JzQsNC60YHQuNC8IHwg0KDQsNC30YDQsNCx0L7RgtGH0LjQuiwgRmFzdGRldg
+new file mode 100644
+index 00000000..481ef919
+--- /dev/null
++++ b/signed/0KPRgdCw0L3QutC40L0g0JzQsNC60YHQuNC8IHwg0KDQsNC30YDQsNCx0L7RgtGH0LjQuiwgRmFzdGRldg
+@@ -0,0 +1 @@
++Усанкин Максим | Разработчик, Fastdev
+diff --git a/signed/0cae97e5459f0fce525fe00c6dc6f985 b/signed/0cae97e5459f0fce525fe00c6dc6f985
+new file mode 100644
+index 00000000..2e70712c
+--- /dev/null
++++ b/signed/0cae97e5459f0fce525fe00c6dc6f985
+@@ -0,0 +1 @@
++Теребенин Евгений | android developer
+diff --git a/signed/0e66fd8e80334af8978103ce022ccb75.txt b/signed/0e66fd8e80334af8978103ce022ccb75.txt
+new file mode 100644
+index 00000000..bbf917e0
+--- /dev/null
++++ b/signed/0e66fd8e80334af8978103ce022ccb75.txt
+@@ -0,0 +1 @@
++Андрей Каналин | Инженер, г. Екатеринбург
+diff --git a/signed/1.txt b/signed/1.txt
+new file mode 100644
+index 00000000..9b715f09
+--- /dev/null
++++ b/signed/1.txt
+@@ -0,0 +1,75 @@
++Лобовикова Александра              | Fullstack разработчица, Namaste Technologies
++Любимов Илья                       | Chief People Officer, Serokell
++Гейнц Роман                        | Fullstack разработчик
++Гарифулина Юлия                    | Software Developer, goTRG
++Давыдов Максим                     | Senior Software Developer, Elama
++Кац Никита                         | Senior Backend Developer, amoCRM
++Тюрин Рамин                        | Front-end Developer, dlg.im
++Волков Алексей                     | Senior Test Automation Engeneer, EPAM
++Самохвалов Павел                   | Developer
++Елизавета Боржкова                 | Business Analyst
++Соковых Пётр                       | фрилансер
++Артём Проничкин                    | старший консультант, Microsoft
++Морозов Сергей                     | 1С-Программист, г.Киров
++Антонович Виктор                   | Программист, г. Волгоград
++Дмитрий Норкин                     | Junior Researcher, RQC
++Дмитрий Костиков                   | Программист, г. Волгоград
++Дмитрий Лапшин                     | Software Engineer
++Овсянников Дмитрий                 | Product Owner, RCB LLC
++Сергей Стремидло                   | Web Developer
++Шангин Александр                   | Lead Developer, г. Самара
++Андрей Шишкин                      | Lead System Engineer
++Антон Щербаков                     | Backend Developer
++Дмитрий Богомолов                  | Developer
++Михаил Кольцов                     | Backend Developer, ЦТБ
++Дмитрий Тырылгин                   | Software Engineer, Dvigus
++Хатин Константин                   | Backend developer
++Кривоносов Георгий                 | Fullstack Developer, SoftBand
++Луконин Кирилл                     | Wireless Engineer
++Федосеева Анна                     | Frontend developer
++Сметанин Антон                     | Game developer
++Николай Тимченко                   | Backend Developer
++Клeсс Антoн                        | IT Asset Manager
++Чекан Евгений                      | Lead Back-end Developer
++Кравцова Валерия                   | Fullstack developer, NetUP LLC
++Лукьянчиков Максим                 | Frontend developer
++Гуля Илья                          | Android Developer, Yandex
++Рыков Михаил                       | Principal Software Engineer, Dell EMC, г. Санкт-Петербург
++Макс Янков                         | CTO
++Максим Васенков                    | Ведущий программист, Этерон, г. Смоленск
++Чалмаев Андрей                     | админ
++Лопатин Виктор                     | Software Developer, Ayoxxa
++Суслов Алексей                     | Инженер-программист, Eltex
++Антон Лазовский                    | Software Engineer, ActiveBC
++Борис Чирва                        | Инженер-программист, г. Екатеринбург
++Александров Владимир               | Backend Developer, Waves
++Константин Лёвин                   | Verification Engineer
++Суслов Алексей                     | Инженер-программист, Eltex
++Антон Лазовский                    | Software Engineer, ActiveBC
++Алексей Гриднев                    | Senior QA engineer, NVIDIA
++Руслан Магомедов                   | IT Engineer
++Александр Анохин                   | Lead Developer, г. Москва
++Вячеслав Ембатуров                 | Software Developer
++Павлов Василий Алексеевич          | Software Engineer
++Сустретов Максим                   | Backend developer
++Шуршев Андрей                      | Backend developer
++Домрачев Роман                     | Head of Development
++Бельский Кирилл                    | Backend разработчик, Atlas Delivery
++Краснов Николай                    | Программист 1С, Москва
++Скляров Никита                     | Software Engineer
++Павлов Никита                      | Senior Software Engineer, NetCracker
++Баранов Кирилл                     | Web-developer
++Валерий Рябошапко                  | Backend Developer, Luka, Inc.
++Кубота Иван                        | Chief Technology Officer
++Антонов Денис                      | Middle Python Developer, CS.Money
++Алексей Маслаков                   | Frontend developer
++Дмитрий Гудков                     | Backend Developer, Москва
++Артур Станкевич                    | Программист, Самара
++Даниэль Гинсбург                   | Network Architect
++Орешников Иван                     | Research Engineer, Max Planck Institute
++Алексей Алишевских                 | Software Engineer, Vound Software
++Тимофей Николаев                   | Аналитик, Яндекс
++Константин Емельянов               | Developer, NetUP
++Багиров Эльшан                     | Backend developer
++Сергей Николаев                    | Fullstack Developer
++Шеркунов Сергей                    | Backend developer
+\ No newline at end of file
+diff --git a/signed/10fab637-6b8d-4627-b012-8def806b4a39-sevings.txt b/signed/10fab637-6b8d-4627-b012-8def806b4a39-sevings.txt
+new file mode 100644
+index 00000000..202df784
+--- /dev/null
++++ b/signed/10fab637-6b8d-4627-b012-8def806b4a39-sevings.txt
+@@ -0,0 +1 @@
++Ходаков Василий | Программист, Москва
+\ No newline at end of file
+diff --git a/signed/11010100 b/signed/11010100
+new file mode 100644
+index 00000000..d51ac627
+--- /dev/null
++++ b/signed/11010100
+@@ -0,0 +1 @@
++Павлов Игорь | Fullstack developer
+diff --git a/signed/1130D62D-B643-4E7C-8106-D76572643C1D b/signed/1130D62D-B643-4E7C-8106-D76572643C1D
+new file mode 100644
+index 00000000..efc52b3c
+--- /dev/null
++++ b/signed/1130D62D-B643-4E7C-8106-D76572643C1D
+@@ -0,0 +1 @@
++Василий Кузнецов | Ведущий разработчик, TravelLine
+diff --git a/signed/1234554321 b/signed/1234554321
+new file mode 100644
+index 00000000..22d3fad5
+--- /dev/null
++++ b/signed/1234554321
+@@ -0,0 +1 @@
++Александр Кремлёв | инженер, МГУ имени М.В.Ломоносова
+diff --git a/signed/129834ujhiad9813xnihujas83 b/signed/129834ujhiad9813xnihujas83
+new file mode 100644
+index 00000000..04c52c94
+--- /dev/null
++++ b/signed/129834ujhiad9813xnihujas83
+@@ -0,0 +1 @@
++Жеребцов Алексей | Программист, фриланс
+diff --git a/signed/136e30fdd925d0f056ed12dc1ac3380c43e8ede9.txt b/signed/136e30fdd925d0f056ed12dc1ac3380c43e8ede9.txt
+new file mode 100644
+index 00000000..8e025c0a
+--- /dev/null
++++ b/signed/136e30fdd925d0f056ed12dc1ac3380c43e8ede9.txt
+@@ -0,0 +1 @@
++Гончаренко Дмитрий | Developer, Moscow, Yandex
+diff --git a/signed/14d5ebc3-b2ab-49b3-8463-2caaaea4c8d0 b/signed/14d5ebc3-b2ab-49b3-8463-2caaaea4c8d0
+new file mode 100644
+index 00000000..7a0d2b3a
+--- /dev/null
++++ b/signed/14d5ebc3-b2ab-49b3-8463-2caaaea4c8d0
+@@ -0,0 +1 @@
++Павел Заболотный | Ведущий разработчик, МТС ИТ
+diff --git a/signed/1550247232993591621 b/signed/1550247232993591621
+new file mode 100644
+index 00000000..22e689d2
+--- /dev/null
++++ b/signed/1550247232993591621
+@@ -0,0 +1 @@
++Иглина Александра | SWE, Google
+diff --git a/signed/1568843380.txt b/signed/1568843380.txt
+new file mode 100644
+index 00000000..449779ea
+--- /dev/null
++++ b/signed/1568843380.txt
+@@ -0,0 +1 @@
++Максим Филиппов | фрилансер
+diff --git a/signed/167e81276e65941e1dac2d744f6aeb26 b/signed/167e81276e65941e1dac2d744f6aeb26
+new file mode 100644
+index 00000000..aa57056f
+--- /dev/null
++++ b/signed/167e81276e65941e1dac2d744f6aeb26
+@@ -0,0 +1 @@
++Фиданян Карен | PhD student, Fritz Haber Institute of the Max Planck Society (суперкомпьютерные вычисления в квантовой химии)
+diff --git a/signed/173493c603015ddbf72fa7f829cde86d.txt b/signed/173493c603015ddbf72fa7f829cde86d.txt
+new file mode 100644
+index 00000000..7f595eb6
+--- /dev/null
++++ b/signed/173493c603015ddbf72fa7f829cde86d.txt
+@@ -0,0 +1 @@
++Вячеслав Молостовцев | Senior dev, Kaspersky
+diff --git a/signed/175982641.txt b/signed/175982641.txt
+new file mode 100644
+index 00000000..9a20f345
+--- /dev/null
++++ b/signed/175982641.txt
+@@ -0,0 +1 @@
++Хисамов Вернат | Software Engineer
+diff --git a/signed/1787c674-6cf4-4042-9d2e-6620fe700ca4 b/signed/1787c674-6cf4-4042-9d2e-6620fe700ca4
+new file mode 100644
+index 00000000..2274c037
+--- /dev/null
++++ b/signed/1787c674-6cf4-4042-9d2e-6620fe700ca4
+@@ -0,0 +1 @@
++Плевков Дмитрий | Backend-developer, AIM
+\ No newline at end of file
+diff --git a/signed/1856b5b96.txt b/signed/1856b5b96.txt
+new file mode 100644
+index 00000000..2e7449a4
+--- /dev/null
++++ b/signed/1856b5b96.txt
+@@ -0,0 +1 @@
++Алексеев Владимир | админ, СПБ
+diff --git a/signed/18c906d4-c031-4b98-8bff-d590b22cf30e.md b/signed/18c906d4-c031-4b98-8bff-d590b22cf30e.md
+new file mode 100644
+index 00000000..36e29469
+--- /dev/null
++++ b/signed/18c906d4-c031-4b98-8bff-d590b22cf30e.md
+@@ -0,0 +1 @@
++Юрий Толмачев | UI Developer, Краков (Польша)
+diff --git a/signed/19092019 b/signed/19092019
+new file mode 100644
+index 00000000..0cd8d69a
+--- /dev/null
++++ b/signed/19092019
+@@ -0,0 +1 @@
++Озеров Андрей | IT-Специалист
+diff --git a/signed/1947b23e-f3a5-4b5d-9b2f-fc3cbee5f892 b/signed/1947b23e-f3a5-4b5d-9b2f-fc3cbee5f892
+new file mode 100644
+index 00000000..fbad1b7e
+--- /dev/null
++++ b/signed/1947b23e-f3a5-4b5d-9b2f-fc3cbee5f892
+@@ -0,0 +1 @@
++Тимошин Виктор | Fullstack разработчик, г. Санкт-Петербург
+diff --git a/signed/1969d812-c443-40fb-b577-3c8b66433c76.txt b/signed/1969d812-c443-40fb-b577-3c8b66433c76.txt
+new file mode 100644
+index 00000000..d8162554
+--- /dev/null
++++ b/signed/1969d812-c443-40fb-b577-3c8b66433c76.txt
+@@ -0,0 +1 @@
++Егоров Антон | 	Frontend developer
+diff --git a/signed/1B3BFBDAF8CE4C4D03EA54CCB2C7907DC94DA8F5 b/signed/1B3BFBDAF8CE4C4D03EA54CCB2C7907DC94DA8F5
+new file mode 100644
+index 00000000..60d2310d
+--- /dev/null
++++ b/signed/1B3BFBDAF8CE4C4D03EA54CCB2C7907DC94DA8F5
+@@ -0,0 +1 @@
++Александр Родионов | Data Scientist
+diff --git a/signed/1a54bdc8-b590-47e0-bf9d-bc71dfea4e51.txt b/signed/1a54bdc8-b590-47e0-bf9d-bc71dfea4e51.txt
+new file mode 100644
+index 00000000..fb04792b
+--- /dev/null
++++ b/signed/1a54bdc8-b590-47e0-bf9d-bc71dfea4e51.txt
+@@ -0,0 +1,2 @@
++Качкаев Александр | старший разработчик, Лондон
++Никулин Денис | архитектор VoIP, Utility Warehouse, Лондон
+diff --git a/signed/1a54bdc8-b590-47e0-bf9d-bc71dfea4e52-dsfsdfs.txt b/signed/1a54bdc8-b590-47e0-bf9d-bc71dfea4e52-dsfsdfs.txt
+new file mode 100644
+index 00000000..7edbdf82
+--- /dev/null
++++ b/signed/1a54bdc8-b590-47e0-bf9d-bc71dfea4e52-dsfsdfs.txt
+@@ -0,0 +1 @@
++Павлов Егор | Frontend developer, BestDoctor
+diff --git a/signed/1b5379cd2c56c17276eb1a0c2b622b13 b/signed/1b5379cd2c56c17276eb1a0c2b622b13
+new file mode 100644
+index 00000000..4e45edb8
+--- /dev/null
++++ b/signed/1b5379cd2c56c17276eb1a0c2b622b13
+@@ -0,0 +1 @@
++Данилов Алексей | Специалист службы технической поддержки, АйТи Хаус
+diff --git a/signed/1d040f82-0bd0-455d-97a7-551c9d1dc5e9.txt b/signed/1d040f82-0bd0-455d-97a7-551c9d1dc5e9.txt
+new file mode 100644
+index 00000000..90e716d7
+--- /dev/null
++++ b/signed/1d040f82-0bd0-455d-97a7-551c9d1dc5e9.txt
+@@ -0,0 +1 @@
++Захаров Владислав | Frontend developer, Большой Музей
+diff --git a/signed/1hellotherec8-b590-47e0-bf9d-bc71dfea4e53 b/signed/1hellotherec8-b590-47e0-bf9d-bc71dfea4e53
+new file mode 100644
+index 00000000..7b936191
+--- /dev/null
++++ b/signed/1hellotherec8-b590-47e0-bf9d-bc71dfea4e53
+@@ -0,0 +1 @@
++Тазиахметов Инсаф | Front-end Developer
+diff --git a/signed/2.txt b/signed/2.txt
+new file mode 100644
+index 00000000..28482e27
+--- /dev/null
++++ b/signed/2.txt
+@@ -0,0 +1 @@
++Игорь Пнев  | Fullstack разработчик
+diff --git a/signed/20190919-ssh89-sighn.txt b/signed/20190919-ssh89-sighn.txt
+new file mode 100644
+index 00000000..985aee98
+--- /dev/null
++++ b/signed/20190919-ssh89-sighn.txt
+@@ -0,0 +1 @@
++Шишимров Сергей | Ведущий инженер, ГК "СКАД тех"
+diff --git a/signed/20190919100400kzn901kr b/signed/20190919100400kzn901kr
+new file mode 100644
+index 00000000..1f953f1f
+--- /dev/null
++++ b/signed/20190919100400kzn901kr
+@@ -0,0 +1 @@
++Хайруллин Рустем | Разработчик ПО г. Казань, Директ Кредит
+diff --git a/signed/20a4e7d140a6c99944184ee9411e3f9d b/signed/20a4e7d140a6c99944184ee9411e3f9d
+new file mode 100644
+index 00000000..9c7e3926
+--- /dev/null
++++ b/signed/20a4e7d140a6c99944184ee9411e3f9d
+@@ -0,0 +1 @@
++Трибой Анастасия | Frontend разработчица, г.Москва
+diff --git a/signed/20d7a97f-35ef-4bd8-9c2f-6da15a26ef41 b/signed/20d7a97f-35ef-4bd8-9c2f-6da15a26ef41
+new file mode 100644
+index 00000000..a369e8bf
+--- /dev/null
++++ b/signed/20d7a97f-35ef-4bd8-9c2f-6da15a26ef41
+@@ -0,0 +1 @@
++Андрей Сергей | Lead Rust Developer, Котлас
+diff --git a/signed/222311145Shevd.txt b/signed/222311145Shevd.txt
+new file mode 100644
+index 00000000..bab3475a
+--- /dev/null
++++ b/signed/222311145Shevd.txt
+@@ -0,0 +1 @@
++Крычун Роман | Front-end developer, NDV
+diff --git a/signed/25zzcczfakaflafaffkmvv1466771asf b/signed/25zzcczfakaflafaffkmvv1466771asf
+new file mode 100644
+index 00000000..b45ac59a
+--- /dev/null
++++ b/signed/25zzcczfakaflafaffkmvv1466771asf
+@@ -0,0 +1 @@
++Петр Потапов | Fullstack Developer, Osome, Москва
+diff --git a/signed/271197e87053cd410f3411b1ebfaff192172893.txt b/signed/271197e87053cd410f3411b1ebfaff192172893.txt
+new file mode 100644
+index 00000000..7da46669
+--- /dev/null
++++ b/signed/271197e87053cd410f3411b1ebfaff192172893.txt
+@@ -0,0 +1 @@
++Ананьев Алексей|предприниматель, программист, владелец ИТ-проекта "Третий сектор: бухгалтерия для НКО"
+diff --git a/signed/2718281828 b/signed/2718281828
+new file mode 100644
+index 00000000..65b2cc41
+--- /dev/null
++++ b/signed/2718281828
+@@ -0,0 +1,2 @@
++Полян Евгений | Product Manager, Positive Technologies, Москва
++Полян Екатерина | Системный аналитик, Москва
+diff --git a/signed/28404725994fb1d2b2d3cbe76baf736f b/signed/28404725994fb1d2b2d3cbe76baf736f
+new file mode 100644
+index 00000000..ef359ce0
+--- /dev/null
++++ b/signed/28404725994fb1d2b2d3cbe76baf736f
+@@ -0,0 +1 @@
++Соколов Денис | Программист, Энтерра Софт
+diff --git a/signed/2CDE1E56-F6A1-46F1-A41D-62BC6A1A0761 b/signed/2CDE1E56-F6A1-46F1-A41D-62BC6A1A0761
+new file mode 100644
+index 00000000..21c47531
+--- /dev/null
++++ b/signed/2CDE1E56-F6A1-46F1-A41D-62BC6A1A0761
+@@ -0,0 +1 @@
++Моргоев Михаил | Backend Developer, OZON Tech
+diff --git a/signed/2D93E55CBB2A667DF1A82CE9D7FF05E997A223AD5DE0E0F6E0DCA1F83FB091CB b/signed/2D93E55CBB2A667DF1A82CE9D7FF05E997A223AD5DE0E0F6E0DCA1F83FB091CB
+new file mode 100644
+index 00000000..c46326a0
+--- /dev/null
++++ b/signed/2D93E55CBB2A667DF1A82CE9D7FF05E997A223AD5DE0E0F6E0DCA1F83FB091CB
+@@ -0,0 +1 @@
++Екатерина Николаенко | Frontend developer
+diff --git a/signed/2FBB0B13E59F3D07BE6D7AD40E91EE8D75F965590FFE4D3FF41B1F7820A4B6CB.txt b/signed/2FBB0B13E59F3D07BE6D7AD40E91EE8D75F965590FFE4D3FF41B1F7820A4B6CB.txt
+new file mode 100644
+index 00000000..9076ffd8
+--- /dev/null
++++ b/signed/2FBB0B13E59F3D07BE6D7AD40E91EE8D75F965590FFE4D3FF41B1F7820A4B6CB.txt
+@@ -0,0 +1 @@
++Камышев Игорь | Frontend Tech Lead, Самокат
+diff --git a/signed/2ZGVFSHSd7IkK4VeoNIm b/signed/2ZGVFSHSd7IkK4VeoNIm
+new file mode 100644
+index 00000000..52796edb
+--- /dev/null
++++ b/signed/2ZGVFSHSd7IkK4VeoNIm
+@@ -0,0 +1 @@
++Артур Григорьев | Data Science Engineer, Samsung
+diff --git a/signed/2a6001f4-5939-411f-b0b9-e52260f4b55e b/signed/2a6001f4-5939-411f-b0b9-e52260f4b55e
+new file mode 100644
+index 00000000..3f4bf100
+--- /dev/null
++++ b/signed/2a6001f4-5939-411f-b0b9-e52260f4b55e
+@@ -0,0 +1 @@
++Стрыгин Андрей | Node.js Developer, г. Москва
+diff --git a/signed/2a6c51ea-1886-4329-9e1f-645ec3679528 b/signed/2a6c51ea-1886-4329-9e1f-645ec3679528
+new file mode 100644
+index 00000000..3a1012d8
+--- /dev/null
++++ b/signed/2a6c51ea-1886-4329-9e1f-645ec3679528
+@@ -0,0 +1 @@
++Бредис Сергей | Backend Developer, Такском
+diff --git a/signed/2b7d46aca70245559019909848ba703c b/signed/2b7d46aca70245559019909848ba703c
+new file mode 100644
+index 00000000..935701dd
+--- /dev/null
++++ b/signed/2b7d46aca70245559019909848ba703c
+@@ -0,0 +1 @@
++Лукин Андрей | Chief Executive Officer, ITSD.ONE
+diff --git a/signed/2c5e9e0d3a60baf516c2229762dd1c437cb4063619006b78dd19c0de8c650cf8 b/signed/2c5e9e0d3a60baf516c2229762dd1c437cb4063619006b78dd19c0de8c650cf8
+new file mode 100644
+index 00000000..02a7ff5a
+--- /dev/null
++++ b/signed/2c5e9e0d3a60baf516c2229762dd1c437cb4063619006b78dd19c0de8c650cf8
+@@ -0,0 +1 @@
++Александр Лунёв | Фронтенд-разработчик
+diff --git a/signed/2dedc0fa976d0e8bfa690be09d4a4ed1bca2dd36 b/signed/2dedc0fa976d0e8bfa690be09d4a4ed1bca2dd36
+new file mode 100644
+index 00000000..b6600e56
+--- /dev/null
++++ b/signed/2dedc0fa976d0e8bfa690be09d4a4ed1bca2dd36
+@@ -0,0 +1 @@
++Ермилов Антон                      | Software Developer, Soter Analytics
+diff --git a/signed/2f129882-6e78-411a-9bca-41886c9eb7ad.txt b/signed/2f129882-6e78-411a-9bca-41886c9eb7ad.txt
+new file mode 100644
+index 00000000..57506674
+--- /dev/null
++++ b/signed/2f129882-6e78-411a-9bca-41886c9eb7ad.txt
+@@ -0,0 +1 @@
++Прямиков Павел | Uberwave
+\ No newline at end of file
+diff --git a/signed/2f30081f6f3ee08d77c6bc2e46553814 b/signed/2f30081f6f3ee08d77c6bc2e46553814
+new file mode 100644
+index 00000000..199fe7ce
+--- /dev/null
++++ b/signed/2f30081f6f3ee08d77c6bc2e46553814
+@@ -0,0 +1 @@
++Марк Фрост | Lead backend developer
+diff --git a/signed/2tWhIetMNIa3ZnbZ.txt b/signed/2tWhIetMNIa3ZnbZ.txt
+new file mode 100644
+index 00000000..4453f581
+--- /dev/null
++++ b/signed/2tWhIetMNIa3ZnbZ.txt
+@@ -0,0 +1 @@
++Миронов Александр | Ведущий Android разработчик, Bekitzur 
+diff --git a/signed/312b0db64453b2b25e9145725acf257d b/signed/312b0db64453b2b25e9145725acf257d
+new file mode 100644
+index 00000000..3d0a0a3b
+--- /dev/null
++++ b/signed/312b0db64453b2b25e9145725acf257d
+@@ -0,0 +1 @@
++Владислав Алексеев | Software engineer
+diff --git a/signed/3298457324098.txt b/signed/3298457324098.txt
+new file mode 100644
+index 00000000..2b83bc3a
+--- /dev/null
++++ b/signed/3298457324098.txt
+@@ -0,0 +1,2 @@
++Андрей Бондаренко |  DevOPS
++
+diff --git a/signed/32dc2dfa-1595-4b64-b8fd-7d748fdcff7d.md b/signed/32dc2dfa-1595-4b64-b8fd-7d748fdcff7d.md
+new file mode 100644
+index 00000000..1adfb32b
+--- /dev/null
++++ b/signed/32dc2dfa-1595-4b64-b8fd-7d748fdcff7d.md
+@@ -0,0 +1 @@
++Алексей Чикин | Frontend developer, г. Саранск
+diff --git a/signed/340f207f-556d-4b82-9bf4-0a1ffc6146f1.txt b/signed/340f207f-556d-4b82-9bf4-0a1ffc6146f1.txt
+new file mode 100644
+index 00000000..9f3bc629
+--- /dev/null
++++ b/signed/340f207f-556d-4b82-9bf4-0a1ffc6146f1.txt
+@@ -0,0 +1 @@
++Афанасьев Роман | Инженер-программист, г. Москва
+\ No newline at end of file
+diff --git a/signed/345342342345645768fgdcxvvxcvxcvxcv b/signed/345342342345645768fgdcxvvxcvxcvxcv
+new file mode 100644
+index 00000000..0aed6fea
+--- /dev/null
++++ b/signed/345342342345645768fgdcxvvxcvxcvxcv
+@@ -0,0 +1 @@
++Бойко Вячеслав | Ведущий разработчик, МТС
+diff --git a/signed/34df45gffg4524234df b/signed/34df45gffg4524234df
+new file mode 100644
+index 00000000..48122370
+--- /dev/null
++++ b/signed/34df45gffg4524234df
+@@ -0,0 +1 @@
++Горгун Алексей | Программист 1С, Смоленск
+diff --git a/signed/3556066e442dcc337557a863sign b/signed/3556066e442dcc337557a863sign
+new file mode 100644
+index 00000000..b6ab4bb6
+--- /dev/null
++++ b/signed/3556066e442dcc337557a863sign
+@@ -0,0 +1 @@
++Насыров Руслан | Front-end developer, Yandex
+diff --git a/signed/35951713832137381520 b/signed/35951713832137381520
+new file mode 100644
+index 00000000..2cd6dcee
+--- /dev/null
++++ b/signed/35951713832137381520
+@@ -0,0 +1 @@
++Кондратов Андрей | Старший инженер-программист
+diff --git a/signed/38054576-eaad-40b6-ba13-c532e5a56211 b/signed/38054576-eaad-40b6-ba13-c532e5a56211
+new file mode 100644
+index 00000000..976e652a
+--- /dev/null
++++ b/signed/38054576-eaad-40b6-ba13-c532e5a56211
+@@ -0,0 +1 @@
++Осипов Дмитрий | Java разработчик, Москва
+diff --git a/signed/39089999af57e3bc61de8f7861f33c912729eaeb50fc2dbb9a370262ea969901.txt b/signed/39089999af57e3bc61de8f7861f33c912729eaeb50fc2dbb9a370262ea969901.txt
+new file mode 100644
+index 00000000..38bc2c7e
+--- /dev/null
++++ b/signed/39089999af57e3bc61de8f7861f33c912729eaeb50fc2dbb9a370262ea969901.txt
+@@ -0,0 +1 @@
++ Тишков Павел | DevOps, Moscow
+diff --git a/signed/3AAA0741-CF67-470A-97F6-28A1B10CE291 b/signed/3AAA0741-CF67-470A-97F6-28A1B10CE291
+new file mode 100644
+index 00000000..8f7bdb6f
+--- /dev/null
++++ b/signed/3AAA0741-CF67-470A-97F6-28A1B10CE291
+@@ -0,0 +1 @@
++Владимир Корнев | dev lead, Москва
+\ No newline at end of file
+diff --git a/signed/3M47eUPYb1mAP5g2mQ3hQ1QEv b/signed/3M47eUPYb1mAP5g2mQ3hQ1QEv
+new file mode 100644
+index 00000000..d14c6e5b
+--- /dev/null
++++ b/signed/3M47eUPYb1mAP5g2mQ3hQ1QEv
+@@ -0,0 +1 @@
++Важенин Александр | Fullstack Developer
+diff --git a/signed/3a7db883aee0fba273f271e567655cc7 b/signed/3a7db883aee0fba273f271e567655cc7
+new file mode 100644
+index 00000000..ee0341d3
+--- /dev/null
++++ b/signed/3a7db883aee0fba273f271e567655cc7
+@@ -0,0 +1 @@
++Просвирнин Владислав | Frontend Developer
+diff --git a/signed/3bf25c72-58a8-44be-8acb-70bbbf3a5c7d b/signed/3bf25c72-58a8-44be-8acb-70bbbf3a5c7d
+new file mode 100644
+index 00000000..a1d4164a
+--- /dev/null
++++ b/signed/3bf25c72-58a8-44be-8acb-70bbbf3a5c7d
+@@ -0,0 +1 @@
++Швец Сергей | CTO, Manageband
+diff --git a/signed/3d9a1d56-6218-4fa0-9382-f698f9cbb71b b/signed/3d9a1d56-6218-4fa0-9382-f698f9cbb71b
+new file mode 100644
+index 00000000..23971a4d
+--- /dev/null
++++ b/signed/3d9a1d56-6218-4fa0-9382-f698f9cbb71b
+@@ -0,0 +1 @@
++Шевченко Андрей | Senior Engineer
+diff --git a/signed/3df9405e-d2aa-4e03-8957-bdd6a515139b.txt b/signed/3df9405e-d2aa-4e03-8957-bdd6a515139b.txt
+new file mode 100644
+index 00000000..7d309bef
+--- /dev/null
++++ b/signed/3df9405e-d2aa-4e03-8957-bdd6a515139b.txt
+@@ -0,0 +1 @@
++Бусыгин Алексей | CTO
+\ No newline at end of file
+diff --git a/signed/4234234234.txt b/signed/4234234234.txt
+new file mode 100644
+index 00000000..e4738d7c
+--- /dev/null
++++ b/signed/4234234234.txt
+@@ -0,0 +1 @@
++Дмитрий Кравченко | программист, Яндекс
+diff --git a/signed/43555137c1b5c15c70dd0ae80d44aa7f.txt b/signed/43555137c1b5c15c70dd0ae80d44aa7f.txt
+new file mode 100644
+index 00000000..3af4ea1a
+--- /dev/null
++++ b/signed/43555137c1b5c15c70dd0ae80d44aa7f.txt
+@@ -0,0 +1 @@
++Степаненко Сергей | Junior Haskell Developer, Juspay
+diff --git a/signed/435843tupre[gjf894375034.signed b/signed/435843tupre[gjf894375034.signed
+new file mode 100644
+index 00000000..6b67b6dc
+--- /dev/null
++++ b/signed/435843tupre[gjf894375034.signed
+@@ -0,0 +1 @@
++Русаков Григорий | --
+\ No newline at end of file
+diff --git a/signed/43b7679f753f1e96255524a7ca8d52a3 b/signed/43b7679f753f1e96255524a7ca8d52a3
+new file mode 100644
+index 00000000..986120e5
+--- /dev/null
++++ b/signed/43b7679f753f1e96255524a7ca8d52a3
+@@ -0,0 +1 @@
++Константин Круглов | Lead DevOps, Bidease
+diff --git a/signed/45526eca-f459-4898-898c-1a01547f656e b/signed/45526eca-f459-4898-898c-1a01547f656e
+new file mode 100644
+index 00000000..8f14fffc
+--- /dev/null
++++ b/signed/45526eca-f459-4898-898c-1a01547f656e
+@@ -0,0 +1 @@
++Галкина Екатерина | Team Lead, НПП ИТЭЛМА
+diff --git a/signed/468864226806fjigrdcbksqethv b/signed/468864226806fjigrdcbksqethv
+new file mode 100644
+index 00000000..cf77bdf2
+--- /dev/null
++++ b/signed/468864226806fjigrdcbksqethv
+@@ -0,0 +1 @@
++Санарова Ирина | Frontend Developer, Art3D Graphics
+diff --git a/signed/48c568cf6bd5b10a214b1504333df8138e5eee1c.txt b/signed/48c568cf6bd5b10a214b1504333df8138e5eee1c.txt
+new file mode 100644
+index 00000000..205c80a8
+--- /dev/null
++++ b/signed/48c568cf6bd5b10a214b1504333df8138e5eee1c.txt
+@@ -0,0 +1 @@
++Никитченко Сергей | Технический директор, Москва
+diff --git a/signed/495310c57e63e88544826d195b3fcb1e b/signed/495310c57e63e88544826d195b3fcb1e
+new file mode 100644
+index 00000000..759b5bfc
+--- /dev/null
++++ b/signed/495310c57e63e88544826d195b3fcb1e
+@@ -0,0 +1 @@
++Поляк Марк | Data Scientist, Санкт-Петербург
+diff --git a/signed/4954741108 b/signed/4954741108
+new file mode 100644
+index 00000000..00498790
+--- /dev/null
++++ b/signed/4954741108
+@@ -0,0 +1 @@
++Кузнецов Роман | Frontend Developer г. Санкт-Петербург
+diff --git a/signed/49d4eaf4-daa0-11e9-8a34-2a2ae2dbcce4 b/signed/49d4eaf4-daa0-11e9-8a34-2a2ae2dbcce4
+new file mode 100644
+index 00000000..db7f8667
+--- /dev/null
++++ b/signed/49d4eaf4-daa0-11e9-8a34-2a2ae2dbcce4
+@@ -0,0 +1 @@
++Резвин Антон | Web developer, Кемерово
+diff --git a/signed/4acea0a3-bef9-4ab9-999c-4d1a56e880f5 b/signed/4acea0a3-bef9-4ab9-999c-4d1a56e880f5
+new file mode 100644
+index 00000000..dcd0aa9a
+--- /dev/null
++++ b/signed/4acea0a3-bef9-4ab9-999c-4d1a56e880f5
+@@ -0,0 +1 @@
++Гусев Илья | Software Engineer, выпускник МФТИ
+diff --git a/signed/4bafb1dd-172d-444c-97e1-b07065dc1976 b/signed/4bafb1dd-172d-444c-97e1-b07065dc1976
+new file mode 100644
+index 00000000..21b43ba6
+--- /dev/null
++++ b/signed/4bafb1dd-172d-444c-97e1-b07065dc1976
+@@ -0,0 +1 @@
++Алексеев Игорь | Backend developer, Moscow
+\ No newline at end of file
+diff --git a/signed/4c6c7f89-a565-4efb-be8a-bf62f7b36088 b/signed/4c6c7f89-a565-4efb-be8a-bf62f7b36088
+new file mode 100644
+index 00000000..72760ed3
+--- /dev/null
++++ b/signed/4c6c7f89-a565-4efb-be8a-bf62f7b36088
+@@ -0,0 +1 @@
++Романов Андрей | Веб-разработчик, Joom
+diff --git a/signed/4cfdc2e157eefe6facb983b1d557b3a1 b/signed/4cfdc2e157eefe6facb983b1d557b3a1
+new file mode 100644
+index 00000000..2193159b
+--- /dev/null
++++ b/signed/4cfdc2e157eefe6facb983b1d557b3a1
+@@ -0,0 +1 @@
++Калмыков Азат | Студент-программист, ВШЭ
+diff --git a/signed/4efab3309a1e28ccb2a31dfaf79ed6fc278985e7 b/signed/4efab3309a1e28ccb2a31dfaf79ed6fc278985e7
+new file mode 100644
+index 00000000..264840e1
+--- /dev/null
++++ b/signed/4efab3309a1e28ccb2a31dfaf79ed6fc278985e7
+@@ -0,0 +1 @@
++Павкин Илья | Программист, ASNTL
+diff --git a/signed/4ff9fc6e4e5d5f590c4f2134a8cc96d1 b/signed/4ff9fc6e4e5d5f590c4f2134a8cc96d1
+new file mode 100644
+index 00000000..3049ead4
+--- /dev/null
++++ b/signed/4ff9fc6e4e5d5f590c4f2134a8cc96d1
+@@ -0,0 +1 @@
++Пак Евгений | JS Fullstack Developer, Санкт-Петербург
+diff --git a/signed/4nELkKshMEP2dW5nm.txt b/signed/4nELkKshMEP2dW5nm.txt
+new file mode 100644
+index 00000000..76e84066
+--- /dev/null
++++ b/signed/4nELkKshMEP2dW5nm.txt
+@@ -0,0 +1 @@
++Сергеев Данил | Fullstack Developer, Yekaterinburg
+diff --git a/signed/511a7af3427c9d72d730ee4a828d582a b/signed/511a7af3427c9d72d730ee4a828d582a
+new file mode 100644
+index 00000000..0a21201a
+--- /dev/null
++++ b/signed/511a7af3427c9d72d730ee4a828d582a
+@@ -0,0 +1 @@
++| Подтелкин Владислав                | Программист, Санкт-Петербург            |
+diff --git a/signed/5479205y9785hfhbdap5hfbdquir b/signed/5479205y9785hfhbdap5hfbdquir
+new file mode 100644
+index 00000000..ad07b630
+--- /dev/null
++++ b/signed/5479205y9785hfhbdap5hfbdquir
+@@ -0,0 +1 @@
++Павлова Ольга | Совладелец, «Собака Павлова»
+diff --git a/signed/569f2dec-dab1-11e9-8a34-2a2ae2dbcce4 b/signed/569f2dec-dab1-11e9-8a34-2a2ae2dbcce4
+new file mode 100644
+index 00000000..07768a37
+--- /dev/null
++++ b/signed/569f2dec-dab1-11e9-8a34-2a2ae2dbcce4
+@@ -0,0 +1 @@
++Александр Петкогло | Senior Frontend Developer, freelancer
+diff --git a/signed/570ACA6EF92FA0035A382F4FDD611C6E.txt b/signed/570ACA6EF92FA0035A382F4FDD611C6E.txt
+new file mode 100644
+index 00000000..f85a0de0
+--- /dev/null
++++ b/signed/570ACA6EF92FA0035A382F4FDD611C6E.txt
+@@ -0,0 +1 @@
++Каминский Михаил | Frontend developer, Тверь
+\ No newline at end of file
+diff --git a/signed/579663b9d8422f6e7635d79a72d3eb06 b/signed/579663b9d8422f6e7635d79a72d3eb06
+new file mode 100644
+index 00000000..83ecae38
+--- /dev/null
++++ b/signed/579663b9d8422f6e7635d79a72d3eb06
+@@ -0,0 +1 @@
++Роман Соколов | инженер-программист, выпускник МФТИ
+diff --git a/signed/58C564B497C675996B149B81798A898B4516E8C5FC734D5F7C55F526B41CCFE2 b/signed/58C564B497C675996B149B81798A898B4516E8C5FC734D5F7C55F526B41CCFE2
+new file mode 100644
+index 00000000..55db3714
+--- /dev/null
++++ b/signed/58C564B497C675996B149B81798A898B4516E8C5FC734D5F7C55F526B41CCFE2
+@@ -0,0 +1 @@
++Максимов Руслан | iOS разработчик, Москва
+diff --git a/signed/58a98119-039d-42c3-97c9-80f68599bf44 b/signed/58a98119-039d-42c3-97c9-80f68599bf44
+new file mode 100644
+index 00000000..4b3f622f
+--- /dev/null
++++ b/signed/58a98119-039d-42c3-97c9-80f68599bf44
+@@ -0,0 +1 @@
++Анатолий Ягов | Software Developer г. Санкт-Петербург
+\ No newline at end of file
+diff --git a/signed/5c9d165c1e7853a1c219bf7192973ea6.signature b/signed/5c9d165c1e7853a1c219bf7192973ea6.signature
+new file mode 100644
+index 00000000..7e364a4b
+--- /dev/null
++++ b/signed/5c9d165c1e7853a1c219bf7192973ea6.signature
+@@ -0,0 +1 @@
++Житомирский Марк | Senior Systems Analyst, Exactpro.com
+diff --git a/signed/5d805770a6916b7e085eb917 b/signed/5d805770a6916b7e085eb917
+new file mode 100644
+index 00000000..f8d2aaf5
+--- /dev/null
++++ b/signed/5d805770a6916b7e085eb917
+@@ -0,0 +1 @@
++Михаил Овчинников | Software Engineer
+diff --git a/signed/5d828bb58cf38cccfc8dae3b b/signed/5d828bb58cf38cccfc8dae3b
+new file mode 100644
+index 00000000..fd6d4901
+--- /dev/null
++++ b/signed/5d828bb58cf38cccfc8dae3b
+@@ -0,0 +1 @@
++Королёв Евгений | Программист, Санкт-Петербург
+diff --git a/signed/5da15d6b-a743-40f8-beb8-5419c5f5b1a8 b/signed/5da15d6b-a743-40f8-beb8-5419c5f5b1a8
+new file mode 100644
+index 00000000..ac11fdb2
+--- /dev/null
++++ b/signed/5da15d6b-a743-40f8-beb8-5419c5f5b1a8
+@@ -0,0 +1 @@
++Нещадин Иван | Senior Backend Developer, Moscow
+\ No newline at end of file
+diff --git a/signed/5t1KE2Ur1eum7VU22MbfKGy73rr20cIE b/signed/5t1KE2Ur1eum7VU22MbfKGy73rr20cIE
+new file mode 100644
+index 00000000..db44a2d3
+--- /dev/null
++++ b/signed/5t1KE2Ur1eum7VU22MbfKGy73rr20cIE
+@@ -0,0 +1 @@
++Сальников Евгений | Инженер-программист, X-Cart
+diff --git a/signed/61c2a641614e7582e7fe3eaa898c59beb8b3f9aa b/signed/61c2a641614e7582e7fe3eaa898c59beb8b3f9aa
+new file mode 100644
+index 00000000..9d753aba
+--- /dev/null
++++ b/signed/61c2a641614e7582e7fe3eaa898c59beb8b3f9aa
+@@ -0,0 +1 @@
++Иван Резниченко | Network Architect
+diff --git a/signed/6229343669e6762484e3406205fc0853 b/signed/6229343669e6762484e3406205fc0853
+new file mode 100644
+index 00000000..69dadc94
+--- /dev/null
++++ b/signed/6229343669e6762484e3406205fc0853
+@@ -0,0 +1 @@
++Суслов Данила | Backend developer, Vigo
+diff --git a/signed/6390c975-5ff9-4b17-9f89-5583c882e88a.txt b/signed/6390c975-5ff9-4b17-9f89-5583c882e88a.txt
+new file mode 100644
+index 00000000..54eca3c6
+--- /dev/null
++++ b/signed/6390c975-5ff9-4b17-9f89-5583c882e88a.txt
+@@ -0,0 +1 @@
++Егорова Лилия | Разработчик, Компания DIRECTUM
+diff --git a/signed/65a2764a.txt b/signed/65a2764a.txt
+new file mode 100644
+index 00000000..0636ad05
+--- /dev/null
++++ b/signed/65a2764a.txt
+@@ -0,0 +1 @@
++Виталий Давиденко | Machine Learning Engineer
+diff --git a/signed/66288498277834 b/signed/66288498277834
+new file mode 100644
+index 00000000..34e4ed65
+--- /dev/null
++++ b/signed/66288498277834
+@@ -0,0 +1 @@
++Астафьев Никита | Frontend-developer
+diff --git a/signed/6639aa40837425a5420fb68781bd9ae3b74220a4 b/signed/6639aa40837425a5420fb68781bd9ae3b74220a4
+new file mode 100644
+index 00000000..3f84760c
+--- /dev/null
++++ b/signed/6639aa40837425a5420fb68781bd9ae3b74220a4
+@@ -0,0 +1 @@
++Шумков Михаил | Backend Developer, г. Екатеринбург
+diff --git a/signed/666ea5e0-a44c-4fe0-ab3c-aa24f114b9ff b/signed/666ea5e0-a44c-4fe0-ab3c-aa24f114b9ff
+new file mode 100644
+index 00000000..5fe22bf5
+--- /dev/null
++++ b/signed/666ea5e0-a44c-4fe0-ab3c-aa24f114b9ff
+@@ -0,0 +1 @@
++Никита Ванясин | Software Engineer / Self-Employed
+diff --git a/signed/68729523-e999-469e-a8dd-e0d0a4107f25 b/signed/68729523-e999-469e-a8dd-e0d0a4107f25
+new file mode 100644
+index 00000000..d239bf89
+--- /dev/null
++++ b/signed/68729523-e999-469e-a8dd-e0d0a4107f25
+@@ -0,0 +1 @@
++Деев Андрей | .NET разработчик, Москва
+diff --git a/signed/6adf1d426574ea0e04585ec7a0ed58024d66d324 b/signed/6adf1d426574ea0e04585ec7a0ed58024d66d324
+new file mode 100644
+index 00000000..0db638de
+--- /dev/null
++++ b/signed/6adf1d426574ea0e04585ec7a0ed58024d66d324
+@@ -0,0 +1 @@
++Халтурин Владимир | Frontend, Brooma
+diff --git a/signed/6c36dc29-06f4-409a-8be7-32618b287092 b/signed/6c36dc29-06f4-409a-8be7-32618b287092
+new file mode 100644
+index 00000000..c57cf509
+--- /dev/null
++++ b/signed/6c36dc29-06f4-409a-8be7-32618b287092
+@@ -0,0 +1 @@
++Амелин Константин | scala, python developer
+diff --git a/signed/6d1f53e4-6d69-4a65-ba6f-cdb2aea9b5ee.txt b/signed/6d1f53e4-6d69-4a65-ba6f-cdb2aea9b5ee.txt
+new file mode 100644
+index 00000000..f4dd3d21
+--- /dev/null
++++ b/signed/6d1f53e4-6d69-4a65-ba6f-cdb2aea9b5ee.txt
+@@ -0,0 +1 @@
++Воскресенская Светлана | Senior Backend developer, Diasoft
+diff --git a/signed/6d3ad29879a90b4dd1b4f76e82166ca3 b/signed/6d3ad29879a90b4dd1b4f76e82166ca3
+new file mode 100644
+index 00000000..a397a1a1
+--- /dev/null
++++ b/signed/6d3ad29879a90b4dd1b4f76e82166ca3
+@@ -0,0 +1 @@
++Александр Лис | Программист, Москва
+diff --git a/signed/6ea0a5e45fg6.txt b/signed/6ea0a5e45fg6.txt
+new file mode 100644
+index 00000000..024d6a6e
+--- /dev/null
++++ b/signed/6ea0a5e45fg6.txt
+@@ -0,0 +1 @@
++Ткач Александр | Backend Developer, Москва
+diff --git a/signed/6eb7789e0ec7f3ffa1e3bccd7ae35ac7 b/signed/6eb7789e0ec7f3ffa1e3bccd7ae35ac7
+new file mode 100644
+index 00000000..c449194e
+--- /dev/null
++++ b/signed/6eb7789e0ec7f3ffa1e3bccd7ae35ac7
+@@ -0,0 +1 @@
++Александр Петров | Тимлид, Новосибирск
+diff --git a/signed/6f754b2e-52be-45eb-980e-ad1b395fcd4f b/signed/6f754b2e-52be-45eb-980e-ad1b395fcd4f
+new file mode 100644
+index 00000000..d0c9a752
+--- /dev/null
++++ b/signed/6f754b2e-52be-45eb-980e-ad1b395fcd4f
+@@ -0,0 +1 @@
++Кобрин Александр | Software Engineer, Dashbouquet
+diff --git a/signed/7125cc2b78e57e54bee0959457210fcc.txt b/signed/7125cc2b78e57e54bee0959457210fcc.txt
+new file mode 100644
+index 00000000..ef7ac633
+--- /dev/null
++++ b/signed/7125cc2b78e57e54bee0959457210fcc.txt
+@@ -0,0 +1 @@
++Бухал Никита | Android developer, VK
+diff --git a/signed/7132493.txt b/signed/7132493.txt
+new file mode 100644
+index 00000000..ab848502
+--- /dev/null
++++ b/signed/7132493.txt
+@@ -0,0 +1 @@
++Алекс Бренейзе | CEO, Auditerra
+diff --git a/signed/7168d2ab41064cef8c2b0759bdffee73 b/signed/7168d2ab41064cef8c2b0759bdffee73
+new file mode 100644
+index 00000000..f87ac01c
+--- /dev/null
++++ b/signed/7168d2ab41064cef8c2b0759bdffee73
+@@ -0,0 +1 @@
++Данилов Дмитрий | Инженер по тестированию, ivi
+diff --git a/signed/7214B3C8D5FF8F26E12593D52E20FEEE71FC7D81.txt b/signed/7214B3C8D5FF8F26E12593D52E20FEEE71FC7D81.txt
+new file mode 100644
+index 00000000..2d27e3a8
+--- /dev/null
++++ b/signed/7214B3C8D5FF8F26E12593D52E20FEEE71FC7D81.txt
+@@ -0,0 +1 @@
++Богатов Дмитрий | Debian Developer
+diff --git a/signed/73309a69-ea95-4800-adc2-c1889d495042 b/signed/73309a69-ea95-4800-adc2-c1889d495042
+new file mode 100644
+index 00000000..61f5fd2f
+--- /dev/null
++++ b/signed/73309a69-ea95-4800-adc2-c1889d495042
+@@ -0,0 +1 @@
++Протасов Иван | Backend Developer, Teleport
+\ No newline at end of file
+diff --git a/signed/7675747737271718.txt b/signed/7675747737271718.txt
+new file mode 100644
+index 00000000..51b05f71
+--- /dev/null
++++ b/signed/7675747737271718.txt
+@@ -0,0 +1 @@
++Калугин Сергей | Тимлид, Москва
+diff --git a/signed/794823643a3550d161b83fd91b3d82ed b/signed/794823643a3550d161b83fd91b3d82ed
+new file mode 100644
+index 00000000..16178aca
+--- /dev/null
++++ b/signed/794823643a3550d161b83fd91b3d82ed
+@@ -0,0 +1 @@
++Мальгин Алексей | Senior Backend Developer, Новосибирск
+diff --git a/signed/7E34FD8A81326CA839F650A866C2A779C6EFFC57EDB2E54AFFD318C82327B5AD b/signed/7E34FD8A81326CA839F650A866C2A779C6EFFC57EDB2E54AFFD318C82327B5AD
+new file mode 100644
+index 00000000..d699084b
+--- /dev/null
++++ b/signed/7E34FD8A81326CA839F650A866C2A779C6EFFC57EDB2E54AFFD318C82327B5AD
+@@ -0,0 +1 @@
++Григорьев Эдуард | Web developer, media5
+diff --git a/signed/7d2743154f62c402a165d82cd70e0cce b/signed/7d2743154f62c402a165d82cd70e0cce
+new file mode 100644
+index 00000000..9346e97d
+--- /dev/null
++++ b/signed/7d2743154f62c402a165d82cd70e0cce
+@@ -0,0 +1 @@
++Смирнов Денис | Ведущий разработчик, Arenadata
+diff --git a/signed/7eadc4b660df84205c35cfaad41d1cf9c83738656dc0377e7b3aa036f7894580 b/signed/7eadc4b660df84205c35cfaad41d1cf9c83738656dc0377e7b3aa036f7894580
+new file mode 100644
+index 00000000..d49fc057
+--- /dev/null
++++ b/signed/7eadc4b660df84205c35cfaad41d1cf9c83738656dc0377e7b3aa036f7894580
+@@ -0,0 +1 @@
++Шошин Никита | Web Developer
+diff --git a/signed/8.txt b/signed/8.txt
+new file mode 100644
+index 00000000..32d2bdfe
+--- /dev/null
++++ b/signed/8.txt
+@@ -0,0 +1 @@
++Гуртовой Андрей | Главный инженер по разработке ПО, Сбербанк
+diff --git a/signed/80db1d2d-0bbb-40f7-81de-c53151854a74 b/signed/80db1d2d-0bbb-40f7-81de-c53151854a74
+new file mode 100644
+index 00000000..af9784c5
+--- /dev/null
++++ b/signed/80db1d2d-0bbb-40f7-81de-c53151854a74
+@@ -0,0 +1 @@
++Морозов Иван | Инженер-разработчик, S7 Techlab
+diff --git a/signed/82160107fea638d3f13e04d773dbf237 b/signed/82160107fea638d3f13e04d773dbf237
+new file mode 100644
+index 00000000..f454a842
+--- /dev/null
++++ b/signed/82160107fea638d3f13e04d773dbf237
+@@ -0,0 +1 @@
++Кудин Дмитрий | Embedded Software Developer, Москва
+diff --git a/signed/822B43E7D379C62A6F56C1DD3C899B6C b/signed/822B43E7D379C62A6F56C1DD3C899B6C
+new file mode 100644
+index 00000000..d0ad8eb2
+--- /dev/null
++++ b/signed/822B43E7D379C62A6F56C1DD3C899B6C
+@@ -0,0 +1 @@
++Шиляев Вячеслав | Backend Java Developer, г. Пермь 
+diff --git a/signed/8328a16f-d067-4f47-a5aa-2fc121281d7d.txt b/signed/8328a16f-d067-4f47-a5aa-2fc121281d7d.txt
+new file mode 100644
+index 00000000..0c105c21
+--- /dev/null
++++ b/signed/8328a16f-d067-4f47-a5aa-2fc121281d7d.txt
+@@ -0,0 +1 @@
++Садков Дмитрий | product owner, Aflex, Москва
+diff --git a/signed/83e634e38e69318403bdf815ec6c932d.txt b/signed/83e634e38e69318403bdf815ec6c932d.txt
+new file mode 100644
+index 00000000..f913e406
+--- /dev/null
++++ b/signed/83e634e38e69318403bdf815ec6c932d.txt
+@@ -0,0 +1 @@
++Дмитрий Буряков | Разработчик
+diff --git a/signed/848341125hjgdkewWERN b/signed/848341125hjgdkewWERN
+new file mode 100644
+index 00000000..76dcd682
+--- /dev/null
++++ b/signed/848341125hjgdkewWERN
+@@ -0,0 +1 @@
++Михаил Мухоян | Business Analyst, Королёв
+diff --git a/signed/84ec2970ed35c49bd16be048eb79488d b/signed/84ec2970ed35c49bd16be048eb79488d
+new file mode 100644
+index 00000000..e30c8205
+--- /dev/null
++++ b/signed/84ec2970ed35c49bd16be048eb79488d
+@@ -0,0 +1 @@
++Захаров Сергей | Web Developer
+diff --git a/signed/871d5dc4-701c-4455-adcc-2af140280c3b b/signed/871d5dc4-701c-4455-adcc-2af140280c3b
+new file mode 100644
+index 00000000..c429c780
+--- /dev/null
++++ b/signed/871d5dc4-701c-4455-adcc-2af140280c3b
+@@ -0,0 +1,3 @@
++Станислав Ярмонов | Системный архитектор, Москва
++Юлия Ярмонова | Front-end программист, Москва
++
+diff --git a/signed/872bf3db2811ad740dad14401ffbcb38 b/signed/872bf3db2811ad740dad14401ffbcb38
+new file mode 100644
+index 00000000..ac66fff6
+--- /dev/null
++++ b/signed/872bf3db2811ad740dad14401ffbcb38
+@@ -0,0 +1 @@
++Roman Ten | Senior Developer, Biztech Enterprise Solutions
+diff --git a/signed/874b43f6bb212bcbebdf1db9ef732c176524b55bba3e20ce91d057c48f931c975b635637fe69fdf7b9fd67d66bb19d418b80494349ec7101aa93b2dfbd44fc36 b/signed/874b43f6bb212bcbebdf1db9ef732c176524b55bba3e20ce91d057c48f931c975b635637fe69fdf7b9fd67d66bb19d418b80494349ec7101aa93b2dfbd44fc36
+new file mode 100644
+index 00000000..28c6da9d
+--- /dev/null
++++ b/signed/874b43f6bb212bcbebdf1db9ef732c176524b55bba3e20ce91d057c48f931c975b635637fe69fdf7b9fd67d66bb19d418b80494349ec7101aa93b2dfbd44fc36
+@@ -0,0 +1 @@
++Максим Ситников | Performance tester
+diff --git a/signed/87d65b3c-aa19-4c86-b953-c1ba59fffb09 b/signed/87d65b3c-aa19-4c86-b953-c1ba59fffb09
+new file mode 100644
+index 00000000..f507740c
+--- /dev/null
++++ b/signed/87d65b3c-aa19-4c86-b953-c1ba59fffb09
+@@ -0,0 +1 @@
++Никита Князев | Software Engineer
+diff --git a/signed/8ZrbNiLJjgP9XVAs2DkTBWCaFmdG0qKy.txt b/signed/8ZrbNiLJjgP9XVAs2DkTBWCaFmdG0qKy.txt
+new file mode 100644
+index 00000000..7effa588
+--- /dev/null
++++ b/signed/8ZrbNiLJjgP9XVAs2DkTBWCaFmdG0qKy.txt
+@@ -0,0 +1 @@
++Могилевский Вячеслав | Site Reliability Engineer, Tripactions
+diff --git a/signed/8c9e9f30f839ca49aa9e478b0b2f3738 b/signed/8c9e9f30f839ca49aa9e478b0b2f3738
+new file mode 100644
+index 00000000..3e6fe8e8
+--- /dev/null
++++ b/signed/8c9e9f30f839ca49aa9e478b0b2f3738
+@@ -0,0 +1 @@
++Васнецова Людмила | Frontend Developer
+diff --git a/signed/8dc3d052daa211e98a342a2ae2dbcce4 b/signed/8dc3d052daa211e98a342a2ae2dbcce4
+new file mode 100644
+index 00000000..788509db
+--- /dev/null
++++ b/signed/8dc3d052daa211e98a342a2ae2dbcce4
+@@ -0,0 +1 @@
++Чижанов Илья | Инженер-программист, ФГУП "НАМИ"
+diff --git a/signed/8dd43b67-3d9d-4e96-97cb-2ad11cba3157 b/signed/8dd43b67-3d9d-4e96-97cb-2ad11cba3157
+new file mode 100644
+index 00000000..17ccea1d
+--- /dev/null
++++ b/signed/8dd43b67-3d9d-4e96-97cb-2ad11cba3157
+@@ -0,0 +1 @@
++Воронов Эдуард | .Net Developer, Aspose.Words
+diff --git a/signed/8ea749c8-2114-4c18-a023-2b455b08f62d b/signed/8ea749c8-2114-4c18-a023-2b455b08f62d
+new file mode 100644
+index 00000000..4d527dfa
+--- /dev/null
++++ b/signed/8ea749c8-2114-4c18-a023-2b455b08f62d
+@@ -0,0 +1 @@
++Макс Балуев | CTO
+\ No newline at end of file
+diff --git a/signed/8hlpp8ypv22ncmq83qkx.txt b/signed/8hlpp8ypv22ncmq83qkx.txt
+new file mode 100644
+index 00000000..f9b2b8e6
+--- /dev/null
++++ b/signed/8hlpp8ypv22ncmq83qkx.txt
+@@ -0,0 +1 @@
++Хлебников Егор | Full-Stack Developer, Йошкар-Ола
+diff --git a/signed/905ed666-b0c4-4b69-a0e2-d063eccc945a.txt b/signed/905ed666-b0c4-4b69-a0e2-d063eccc945a.txt
+new file mode 100644
+index 00000000..1f28fcda
+--- /dev/null
++++ b/signed/905ed666-b0c4-4b69-a0e2-d063eccc945a.txt
+@@ -0,0 +1 @@
++Кузнецов Алексей | Разработчик
+diff --git a/signed/90954bf2ce1353dc9167c6ee5440428b b/signed/90954bf2ce1353dc9167c6ee5440428b
+new file mode 100644
+index 00000000..622143db
+--- /dev/null
++++ b/signed/90954bf2ce1353dc9167c6ee5440428b
+@@ -0,0 +1 @@
++Сергей Кудинов | Студент, фрилансер
+diff --git a/signed/915540a06d8da1878216ba0f7a5d1553 b/signed/915540a06d8da1878216ba0f7a5d1553
+new file mode 100644
+index 00000000..9ee57ee0
+--- /dev/null
++++ b/signed/915540a06d8da1878216ba0f7a5d1553
+@@ -0,0 +1 @@
++Дубровский Даниил | Game Developer, EXBO
+diff --git a/signed/93492147b3d948f0ae809ba7bd83d2f6 b/signed/93492147b3d948f0ae809ba7bd83d2f6
+new file mode 100644
+index 00000000..aab0d7d7
+--- /dev/null
++++ b/signed/93492147b3d948f0ae809ba7bd83d2f6
+@@ -0,0 +1 @@
++Нечипоренко Олег | Team Lead, dlg.im, Москва
+diff --git a/signed/93716470ecbc6e1b9ee08fce50a8bfc92359de6c73202331a708f09e b/signed/93716470ecbc6e1b9ee08fce50a8bfc92359de6c73202331a708f09e
+new file mode 100644
+index 00000000..7c3e3b36
+--- /dev/null
++++ b/signed/93716470ecbc6e1b9ee08fce50a8bfc92359de6c73202331a708f09e
+@@ -0,0 +1 @@
++Купченко Александр | nodejs, ruby, crystal developer
+diff --git a/signed/940dddc3-ee5d-4238-a65a-c57d53c2fd5c b/signed/940dddc3-ee5d-4238-a65a-c57d53c2fd5c
+new file mode 100644
+index 00000000..7e33b4dc
+--- /dev/null
++++ b/signed/940dddc3-ee5d-4238-a65a-c57d53c2fd5c
+@@ -0,0 +1 @@
++Александр Зыков | Backend Team Lead, Etventure
+diff --git a/signed/96868948-f0ed-41b2-b39b-9f3b4469812e.txt b/signed/96868948-f0ed-41b2-b39b-9f3b4469812e.txt
+new file mode 100644
+index 00000000..ad3f4654
+--- /dev/null
++++ b/signed/96868948-f0ed-41b2-b39b-9f3b4469812e.txt
+@@ -0,0 +1 @@
++Сероус Антон | Front-end Lead, Togo Group, Auckland
+diff --git a/signed/968a5a4fb68ec9bd7bb0d32c21e98a36ca47819dcc5eb4dc838d2a761ac34b474ff6b3cb126119b5c5885fa04a3b40153c0c22bf34decd034f0a9cfe311e8680 b/signed/968a5a4fb68ec9bd7bb0d32c21e98a36ca47819dcc5eb4dc838d2a761ac34b474ff6b3cb126119b5c5885fa04a3b40153c0c22bf34decd034f0a9cfe311e8680
+new file mode 100644
+index 00000000..ec37d22c
+--- /dev/null
++++ b/signed/968a5a4fb68ec9bd7bb0d32c21e98a36ca47819dcc5eb4dc838d2a761ac34b474ff6b3cb126119b5c5885fa04a3b40153c0c22bf34decd034f0a9cfe311e8680
+@@ -0,0 +1 @@
++Кирилл Демуров | Разработчик, IoTa Controls
+diff --git a/signed/970eb0ae5481a70f287f4f0e94ecb764 b/signed/970eb0ae5481a70f287f4f0e94ecb764
+new file mode 100644
+index 00000000..595d8e9e
+--- /dev/null
++++ b/signed/970eb0ae5481a70f287f4f0e94ecb764
+@@ -0,0 +1 @@
++Кузнецов Михаил | System Administrator / DevOps, Freelancer
+diff --git a/signed/992d8b7a4c64670eff923e6aa4f328eae2bd3bac b/signed/992d8b7a4c64670eff923e6aa4f328eae2bd3bac
+new file mode 100644
+index 00000000..6416d0cf
+--- /dev/null
++++ b/signed/992d8b7a4c64670eff923e6aa4f328eae2bd3bac
+@@ -0,0 +1 @@
++Николай Мишин | DevOps Engineer, Grid Dynamics
+diff --git a/signed/9DA04761-5041-423C-B123-F9F7C8A91B7D b/signed/9DA04761-5041-423C-B123-F9F7C8A91B7D
+new file mode 100644
+index 00000000..6820a2f4
+--- /dev/null
++++ b/signed/9DA04761-5041-423C-B123-F9F7C8A91B7D
+@@ -0,0 +1 @@
++Андрей Фомичев | Software Developer, Альфа-Банк
+diff --git a/signed/9F974F68E3F1314666CDD146573E1451 b/signed/9F974F68E3F1314666CDD146573E1451
+new file mode 100644
+index 00000000..58c52587
+--- /dev/null
++++ b/signed/9F974F68E3F1314666CDD146573E1451
+@@ -0,0 +1 @@
++Владимир Белецкий | Разработчик видеоигр
+\ No newline at end of file
+diff --git a/signed/9QI8AyPxRewsVE24fheTKIlE b/signed/9QI8AyPxRewsVE24fheTKIlE
+new file mode 100644
+index 00000000..ce821485
+--- /dev/null
++++ b/signed/9QI8AyPxRewsVE24fheTKIlE
+@@ -0,0 +1 @@
++Волкович Максим | Аналитик-разработчик, Yandex
+diff --git a/signed/9a5a7fed187c954d95bc478d429f318e439b35cf1feba13ecd2f2dfaa5924713 b/signed/9a5a7fed187c954d95bc478d429f318e439b35cf1feba13ecd2f2dfaa5924713
+new file mode 100644
+index 00000000..7bac4ba6
+--- /dev/null
++++ b/signed/9a5a7fed187c954d95bc478d429f318e439b35cf1feba13ecd2f2dfaa5924713
+@@ -0,0 +1 @@
++Кулин Филипп | Генеральный директор, хостинг DIPHOST
+diff --git a/signed/9b073393-1e8e-4903-b788-027b6570d676.txt b/signed/9b073393-1e8e-4903-b788-027b6570d676.txt
+new file mode 100644
+index 00000000..a9401c7c
+--- /dev/null
++++ b/signed/9b073393-1e8e-4903-b788-027b6570d676.txt
+@@ -0,0 +1 @@
++﻿Евгений Карпов | Backend developer, Neotech Development
+\ No newline at end of file
+diff --git a/signed/9bfe873b35e3f96f3dfb69873d1c5529 b/signed/9bfe873b35e3f96f3dfb69873d1c5529
+new file mode 100644
+index 00000000..a0c2742a
+--- /dev/null
++++ b/signed/9bfe873b35e3f96f3dfb69873d1c5529
+@@ -0,0 +1 @@
++Соловьев Михаил | Программист, Иркутск
+diff --git a/signed/9d705ed305a09f5f284bac8499d55d82 b/signed/9d705ed305a09f5f284bac8499d55d82
+new file mode 100644
+index 00000000..177c16e9
+--- /dev/null
++++ b/signed/9d705ed305a09f5f284bac8499d55d82
+@@ -0,0 +1 @@
++Станислав Дашковский | Инженер
+diff --git a/signed/9fb61763-ff47-408d-9e90-4f94bf2c98ef b/signed/9fb61763-ff47-408d-9e90-4f94bf2c98ef
+new file mode 100644
+index 00000000..45a46ac8
+--- /dev/null
++++ b/signed/9fb61763-ff47-408d-9e90-4f94bf2c98ef
+@@ -0,0 +1 @@
++Самсонов Никита | Software Developer, Team Lead, Москва
+diff --git a/signed/@systemofcells b/signed/@systemofcells
+new file mode 100644
+index 00000000..971edd46
+--- /dev/null
++++ b/signed/@systemofcells
+@@ -0,0 +1 @@
++Василий Зорин | Senior Software Developer, Москва
+diff --git a/signed/A8C5DC359BD944BFAB8353D66F58D335 b/signed/A8C5DC359BD944BFAB8353D66F58D335
+new file mode 100644
+index 00000000..2a6b02d2
+--- /dev/null
++++ b/signed/A8C5DC359BD944BFAB8353D66F58D335
+@@ -0,0 +1 @@
++Горячев Виталий | Backend Developer, Москва
+diff --git a/signed/ASDDKFJGHSDKJGHSKLDJFGHDJHFPAMCPALD b/signed/ASDDKFJGHSDKJGHSKLDJFGHDJHFPAMCPALD
+new file mode 100644
+index 00000000..44487178
+--- /dev/null
++++ b/signed/ASDDKFJGHSDKJGHSKLDJFGHDJHFPAMCPALD
+@@ -0,0 +1 @@
++Мансур Музаффаров | Software Engineer EPAM
+diff --git a/signed/AnyXiIs8V8MQ2tf2CKDC b/signed/AnyXiIs8V8MQ2tf2CKDC
+new file mode 100644
+index 00000000..91b55874
+--- /dev/null
++++ b/signed/AnyXiIs8V8MQ2tf2CKDC
+@@ -0,0 +1 @@
++Литвиненко Владислав | Самара, fullstack
+diff --git a/signed/BHxzAYtrAZKIzeXQSesbbszxjhBTjSkaRZVhUuGV b/signed/BHxzAYtrAZKIzeXQSesbbszxjhBTjSkaRZVhUuGV
+new file mode 100644
+index 00000000..210c986b
+--- /dev/null
++++ b/signed/BHxzAYtrAZKIzeXQSesbbszxjhBTjSkaRZVhUuGV
+@@ -0,0 +1 @@
++Дмитрий Кошелев | Fullstack WEB разработчик
+diff --git a/signed/BelyaevVO b/signed/BelyaevVO
+new file mode 100644
+index 00000000..50379da0
+--- /dev/null
++++ b/signed/BelyaevVO
+@@ -0,0 +1 @@
++Беляев Владислав  | Full stack developer, Пермь
+diff --git a/signed/Bqx3nA4LAqm4vKzMGSeaq4X24brXYBrn.txt b/signed/Bqx3nA4LAqm4vKzMGSeaq4X24brXYBrn.txt
+new file mode 100644
+index 00000000..363611cc
+--- /dev/null
++++ b/signed/Bqx3nA4LAqm4vKzMGSeaq4X24brXYBrn.txt
+@@ -0,0 +1 @@
++Жидков Сергей | hoko
+diff --git a/signed/Brm6qHemKhbrthTkjR9RAHxzTut46qzQrFZW5PnL7GK3hHLJMpLVvkUU4hSwGBnQ7rsBw5sMbbYSEqGLXMfA5.txt b/signed/Brm6qHemKhbrthTkjR9RAHxzTut46qzQrFZW5PnL7GK3hHLJMpLVvkUU4hSwGBnQ7rsBw5sMbbYSEqGLXMfA5.txt
+new file mode 100644
+index 00000000..07bcb0da
+--- /dev/null
++++ b/signed/Brm6qHemKhbrthTkjR9RAHxzTut46qzQrFZW5PnL7GK3hHLJMpLVvkUU4hSwGBnQ7rsBw5sMbbYSEqGLXMfA5.txt
+@@ -0,0 +1 @@
++Власов Илья | Fullstack Developer
+\ No newline at end of file
+diff --git a/signed/C0FFEE.txt b/signed/C0FFEE.txt
+new file mode 100644
+index 00000000..da474fb6
+--- /dev/null
++++ b/signed/C0FFEE.txt
+@@ -0,0 +1 @@
++Гончаров Владимир | Начальник IT отдела, Региональный Финансово-Экономический Институт
+diff --git a/signed/C53D94760637471385020F2BDE695F62.txt b/signed/C53D94760637471385020F2BDE695F62.txt
+new file mode 100644
+index 00000000..c592a242
+--- /dev/null
++++ b/signed/C53D94760637471385020F2BDE695F62.txt
+@@ -0,0 +1 @@
++Цетхалин Артём Валерьевич | Software Developer, Aspose
+\ No newline at end of file
+diff --git a/signed/D773CF95-D354-4337-9F60-2B5E0792B213 b/signed/D773CF95-D354-4337-9F60-2B5E0792B213
+new file mode 100644
+index 00000000..86772115
+--- /dev/null
++++ b/signed/D773CF95-D354-4337-9F60-2B5E0792B213
+@@ -0,0 +1 @@
++Патлах Сергей | C# developer
+diff --git a/signed/DBC817AC7A8198629FD3FA9EF27A538E.md b/signed/DBC817AC7A8198629FD3FA9EF27A538E.md
+new file mode 100644
+index 00000000..b1471b14
+--- /dev/null
++++ b/signed/DBC817AC7A8198629FD3FA9EF27A538E.md
+@@ -0,0 +1 @@
++Гуденков Дмитрий | Frontend developer
+diff --git a/signed/DF1A772EF7BCC750012C4B6F3D199BEC b/signed/DF1A772EF7BCC750012C4B6F3D199BEC
+new file mode 100644
+index 00000000..0b565196
+--- /dev/null
++++ b/signed/DF1A772EF7BCC750012C4B6F3D199BEC
+@@ -0,0 +1 @@
++Гладких Максим | Frontend developer, Белгород
+diff --git a/signed/E8B8A721-5237-45C7-B1B5-4648DB6514F3 b/signed/E8B8A721-5237-45C7-B1B5-4648DB6514F3
+new file mode 100644
+index 00000000..31f14fe6
+--- /dev/null
++++ b/signed/E8B8A721-5237-45C7-B1B5-4648DB6514F3
+@@ -0,0 +1 @@
++Ландо Андрей | Backend developer, Москва
+diff --git a/signed/EPQKMd7yD4ThT2kE.txt b/signed/EPQKMd7yD4ThT2kE.txt
+new file mode 100644
+index 00000000..6b7ebeca
+--- /dev/null
++++ b/signed/EPQKMd7yD4ThT2kE.txt
+@@ -0,0 +1 @@
++Линькова Анна | Frontend Developer, Москва
+\ No newline at end of file
+diff --git a/signed/Ffkjfrgjjohfdhj.md b/signed/Ffkjfrgjjohfdhj.md
+new file mode 100644
+index 00000000..04247daf
+--- /dev/null
++++ b/signed/Ffkjfrgjjohfdhj.md
+@@ -0,0 +1 @@
++Николай Громов | ООО Наука
+diff --git a/signed/FnCfK9hGjmqIjdMSQh5oyeNJ968oANp3mfP+S0Dpmo8= b/signed/FnCfK9hGjmqIjdMSQh5oyeNJ968oANp3mfP+S0Dpmo8=
+new file mode 100644
+index 00000000..90b671b6
+--- /dev/null
++++ b/signed/FnCfK9hGjmqIjdMSQh5oyeNJ968oANp3mfP+S0Dpmo8=
+@@ -0,0 +1 @@
++Походня Иван | Java developer 
+diff --git a/signed/Freedom11010100 b/signed/Freedom11010100
+new file mode 100644
+index 00000000..11244b86
+--- /dev/null
++++ b/signed/Freedom11010100
+@@ -0,0 +1 @@
++Виталий Потапов | Head of QA
+diff --git a/signed/HVL-212-fuck-off.txt b/signed/HVL-212-fuck-off.txt
+new file mode 100644
+index 00000000..a1d44ac9
+--- /dev/null
++++ b/signed/HVL-212-fuck-off.txt
+@@ -0,0 +1 @@
++Владимир Хомутов | ФУПМ-92/94
+diff --git a/signed/Hkd78siolrm9ejenflwE b/signed/Hkd78siolrm9ejenflwE
+new file mode 100644
+index 00000000..36ef093d
+--- /dev/null
++++ b/signed/Hkd78siolrm9ejenflwE
+@@ -0,0 +1 @@
++Калюжный Владислав | Фрилансер
+diff --git a/signed/IZLNNLWuRmLLB59klsjA 72b6bf0a77298dd05351391d96dba75a b/signed/IZLNNLWuRmLLB59klsjA 72b6bf0a77298dd05351391d96dba75a
+new file mode 100644
+index 00000000..7423cdcc
+--- /dev/null
++++ b/signed/IZLNNLWuRmLLB59klsjA 72b6bf0a77298dd05351391d96dba75a	
+@@ -0,0 +1 @@
++Хохряков Денис | DevOps Engineer, Tallinn
+diff --git a/signed/IlyaDenisov_Ekb.txt b/signed/IlyaDenisov_Ekb.txt
+new file mode 100644
+index 00000000..5b2d49f2
+--- /dev/null
++++ b/signed/IlyaDenisov_Ekb.txt
+@@ -0,0 +1 @@
++Илья Денисов | C++ developer, шведская компания Fastdev AB
+\ No newline at end of file
+diff --git a/signed/K6LFDnF5n3ILJAAUYEZ7yOvpDgT45RHT b/signed/K6LFDnF5n3ILJAAUYEZ7yOvpDgT45RHT
+new file mode 100644
+index 00000000..47b4ba3c
+--- /dev/null
++++ b/signed/K6LFDnF5n3ILJAAUYEZ7yOvpDgT45RHT
+@@ -0,0 +1 @@
++Евгений Фрост | Backend developer Санкт-Петербург
+diff --git a/signed/KRrGN9JfMcGsRAAypYKz b/signed/KRrGN9JfMcGsRAAypYKz
+new file mode 100644
+index 00000000..387e2565
+--- /dev/null
++++ b/signed/KRrGN9JfMcGsRAAypYKz
+@@ -0,0 +1 @@
++Альбина Галиуллина | PhD student, Technical University Eindhoven
+diff --git a/signed/L7292zkfgsbdar058OFF b/signed/L7292zkfgsbdar058OFF
+new file mode 100644
+index 00000000..812c3eed
+--- /dev/null
++++ b/signed/L7292zkfgsbdar058OFF
+@@ -0,0 +1 @@
++Виталий Павлов | Программист, Clover
+diff --git a/signed/MaKZCDGimQgAAAAdzc2gtcnNhAAABA b/signed/MaKZCDGimQgAAAAdzc2gtcnNhAAABA
+new file mode 100644
+index 00000000..d46b7e22
+--- /dev/null
++++ b/signed/MaKZCDGimQgAAAAdzc2gtcnNhAAABA
+@@ -0,0 +1 @@
++Крейдлин Леонид | Программист, Pertenorgroup, Paris
+diff --git a/signed/Nitro-5Tartness-Twiddle b/signed/Nitro-5Tartness-Twiddle
+new file mode 100644
+index 00000000..c12a9d92
+--- /dev/null
++++ b/signed/Nitro-5Tartness-Twiddle
+@@ -0,0 +1 @@
++Фокина Татьяна | Web developer, Санкт-Петербург
+diff --git a/signed/PlatonB_against_repressions b/signed/PlatonB_against_repressions
+new file mode 100644
+index 00000000..81dd3f40
+--- /dev/null
++++ b/signed/PlatonB_against_repressions
+@@ -0,0 +1 @@
++Быкадоров Платон | младший научный сотрудник, ИОГен
+diff --git a/signed/Q0zqO7Ij62MtA0AO+cKiGjzz2fCx6+2U b/signed/Q0zqO7Ij62MtA0AO+cKiGjzz2fCx6+2U
+new file mode 100644
+index 00000000..1cd56df1
+--- /dev/null
++++ b/signed/Q0zqO7Ij62MtA0AO+cKiGjzz2fCx6+2U
+@@ -0,0 +1 @@
++Осиюк Андрей | frontend developer, freelance
+diff --git a/signed/Russia_will_be_free b/signed/Russia_will_be_free
+new file mode 100644
+index 00000000..3be66c88
+--- /dev/null
++++ b/signed/Russia_will_be_free
+@@ -0,0 +1 @@
++Дрозд Михаил | JS fullstack developer, Milk&Cartoons
+diff --git a/signed/S2soShW52hWoiQLboa5GN-fgHEudkjpE6JLffghnPIRhdRYbnMDXbm0982Xb.txt b/signed/S2soShW52hWoiQLboa5GN-fgHEudkjpE6JLffghnPIRhdRYbnMDXbm0982Xb.txt
+new file mode 100644
+index 00000000..1438939a
+--- /dev/null
++++ b/signed/S2soShW52hWoiQLboa5GN-fgHEudkjpE6JLffghnPIRhdRYbnMDXbm0982Xb.txt
+@@ -0,0 +1,2 @@
++Островский Дмитрий | Devops engineer, Пермь
++Якушев Лев | Project manager, Пермь
+diff --git a/signed/SSLkiBhxLwuN2D7RS7 b/signed/SSLkiBhxLwuN2D7RS7
+new file mode 100644
+index 00000000..d9a74045
+--- /dev/null
++++ b/signed/SSLkiBhxLwuN2D7RS7
+@@ -0,0 +1 @@
++Сергей Лебедев | программист, Zotzon.ru
+diff --git a/signed/ShowNoMercy b/signed/ShowNoMercy
+new file mode 100644
+index 00000000..35f73079
+--- /dev/null
++++ b/signed/ShowNoMercy
+@@ -0,0 +1 @@
++Даниил Нестеренко | Team Leader, ManageBand
+diff --git a/signed/Test1245 b/signed/Test1245
+new file mode 100644
+index 00000000..c83b3ff6
+--- /dev/null
++++ b/signed/Test1245
+@@ -0,0 +1 @@
++Гаврилов Игорь | программист
+diff --git a/signed/VmxhZGltaXIgUHV0aW4gaXMgYSBmYWlyeSB0YWxlIGNoYXJhY3Rlcg== b/signed/VmxhZGltaXIgUHV0aW4gaXMgYSBmYWlyeSB0YWxlIGNoYXJhY3Rlcg==
+new file mode 100644
+index 00000000..96c1f7a4
+--- /dev/null
++++ b/signed/VmxhZGltaXIgUHV0aW4gaXMgYSBmYWlyeSB0YWxlIGNoYXJhY3Rlcg==
+@@ -0,0 +1 @@
++Петр Дмитриенко | Developer, Kaspersky
+diff --git a/signed/WesqqACCaJQxEHiCTDLr b/signed/WesqqACCaJQxEHiCTDLr
+new file mode 100644
+index 00000000..09966c48
+--- /dev/null
++++ b/signed/WesqqACCaJQxEHiCTDLr
+@@ -0,0 +1 @@
++Москвичёв Сергей | Software Engineer, Уфа
+diff --git a/signed/Y7TCWnDeKCfONhwkrk7q2wICLHH7FFGF b/signed/Y7TCWnDeKCfONhwkrk7q2wICLHH7FFGF
+new file mode 100644
+index 00000000..fe2f4879
+--- /dev/null
++++ b/signed/Y7TCWnDeKCfONhwkrk7q2wICLHH7FFGF
+@@ -0,0 +1 @@
++Ройтман Сергей | Младший инженер-разработчик, Москва
+\ No newline at end of file
+diff --git a/signed/YakovSirotkin.txt b/signed/YakovSirotkin.txt
+new file mode 100644
+index 00000000..7b02dca4
+--- /dev/null
++++ b/signed/YakovSirotkin.txt
+@@ -0,0 +1 @@
++Сироткин Яков | программист
+diff --git a/signed/Yrymyrmgndfhfhmdgsfdnfhtujthstndgmfhmdgmyfmfynsffefetirootptoyrktwrrwrqegqrbsfbht,yr b/signed/Yrymyrmgndfhfhmdgsfdnfhtujthstndgmfhmdgmyfmfynsffefetirootptoyrktwrrwrqegqrbsfbht,yr
+new file mode 100644
+index 00000000..a2204bbb
+--- /dev/null
++++ b/signed/Yrymyrmgndfhfhmdgsfdnfhtujthstndgmfhmdgmyfmfynsffefetirootptoyrktwrrwrqegqrbsfbht,yr
+@@ -0,0 +1 @@
++Владислав Тарасевич | Software Developer
+diff --git a/signed/YuryBarlukov b/signed/YuryBarlukov
+new file mode 100644
+index 00000000..b3ccb6b8
+--- /dev/null
++++ b/signed/YuryBarlukov
+@@ -0,0 +1 @@
++Барлуков Юрий | Fullstack Developer
+diff --git a/signed/ZMe7TEgbiVsyUaKRQI0Rq0Nad.txt b/signed/ZMe7TEgbiVsyUaKRQI0Rq0Nad.txt
+new file mode 100644
+index 00000000..9626daf5
+--- /dev/null
++++ b/signed/ZMe7TEgbiVsyUaKRQI0Rq0Nad.txt
+@@ -0,0 +1 @@
++Мезин Артём  | Fullstack developer
+diff --git a/signed/ZXjupVrFWgNf b/signed/ZXjupVrFWgNf
+new file mode 100644
+index 00000000..cad136f7
+--- /dev/null
++++ b/signed/ZXjupVrFWgNf
+@@ -0,0 +1 @@
++Амирханова Дарья | Test Analyst, Accenture Latvia
+diff --git a/signed/ZcSuoZSKCBcD.txt b/signed/ZcSuoZSKCBcD.txt
+new file mode 100644
+index 00000000..081df997
+--- /dev/null
++++ b/signed/ZcSuoZSKCBcD.txt
+@@ -0,0 +1 @@
++Алексеев Андрей | Аналитик Tinkoff, Выпускник МФТИ
+\ No newline at end of file
+diff --git a/signed/a0fa05a2-384e-435e-83c7-61d45b68456a.txt b/signed/a0fa05a2-384e-435e-83c7-61d45b68456a.txt
+new file mode 100644
+index 00000000..c251fec6
+--- /dev/null
++++ b/signed/a0fa05a2-384e-435e-83c7-61d45b68456a.txt
+@@ -0,0 +1 @@
++Михаил Кононенко | Разработчик интерфейсов, Яндекс
+diff --git a/signed/a1dOhEmqYHQV99loOJJrOyNIVFeTrrKzhaRyg0Vv b/signed/a1dOhEmqYHQV99loOJJrOyNIVFeTrrKzhaRyg0Vv
+new file mode 100644
+index 00000000..153f7540
+--- /dev/null
++++ b/signed/a1dOhEmqYHQV99loOJJrOyNIVFeTrrKzhaRyg0Vv
+@@ -0,0 +1 @@
++Писаренко Максим | DevOps, Netrika
+diff --git a/signed/a391451a73d5ee996f856150c6db7b1e b/signed/a391451a73d5ee996f856150c6db7b1e
+new file mode 100644
+index 00000000..9ba2aa03
+--- /dev/null
++++ b/signed/a391451a73d5ee996f856150c6db7b1e
+@@ -0,0 +1 @@
++Монич Вячеслав | Специалист широкого профиля, Jolla
+diff --git a/signed/a58c4ef2-da9e-11e9-8a34-2a2ae2dbcce4 b/signed/a58c4ef2-da9e-11e9-8a34-2a2ae2dbcce4
+new file mode 100644
+index 00000000..ee0c3b5f
+--- /dev/null
++++ b/signed/a58c4ef2-da9e-11e9-8a34-2a2ae2dbcce4
+@@ -0,0 +1 @@
++Тронин Денис | Senior Software Developer, Cyprus
+diff --git a/signed/aa6a47ce8aab4a0aa3329492e0a960da b/signed/aa6a47ce8aab4a0aa3329492e0a960da
+new file mode 100644
+index 00000000..b57dc9a1
+--- /dev/null
++++ b/signed/aa6a47ce8aab4a0aa3329492e0a960da
+@@ -0,0 +1 @@
++Пестерев Дмитрий | Менеджер разработки
+diff --git a/signed/ab1a333c-1d9d-45eb-a3d4-8a817396b497 b/signed/ab1a333c-1d9d-45eb-a3d4-8a817396b497
+new file mode 100644
+index 00000000..3332894d
+--- /dev/null
++++ b/signed/ab1a333c-1d9d-45eb-a3d4-8a817396b497
+@@ -0,0 +1 @@
++Валентинов Александр | Developer
+diff --git a/signed/abcqwertyabcqwerty2019.txt b/signed/abcqwertyabcqwerty2019.txt
+new file mode 100644
+index 00000000..02b4618b
+--- /dev/null
++++ b/signed/abcqwertyabcqwerty2019.txt
+@@ -0,0 +1 @@
++Кряжев Андрей | Программист, ZClick
+\ No newline at end of file
+diff --git a/signed/acfa57521e426facc04c9899ff3ef080.txt b/signed/acfa57521e426facc04c9899ff3ef080.txt
+new file mode 100644
+index 00000000..c4c24d05
+--- /dev/null
++++ b/signed/acfa57521e426facc04c9899ff3ef080.txt
+@@ -0,0 +1 @@
++Гимранов Валентин | WEB-developer, Обнинск
+diff --git a/signed/addjoannasignature.txt b/signed/addjoannasignature.txt
+new file mode 100644
+index 00000000..b00c0759
+--- /dev/null
++++ b/signed/addjoannasignature.txt
+@@ -0,0 +1 @@
++Иоанна Шевчук | Developer
+diff --git a/signed/aevrika_ru.txt b/signed/aevrika_ru.txt
+new file mode 100644
+index 00000000..19fca623
+--- /dev/null
++++ b/signed/aevrika_ru.txt
+@@ -0,0 +1 @@
++Соловьёв Антон | Технический директор, digital агентство Эврика
+diff --git a/signed/afh45ue4v63bnwbbuyi5.txt b/signed/afh45ue4v63bnwbbuyi5.txt
+new file mode 100644
+index 00000000..392c439e
+--- /dev/null
++++ b/signed/afh45ue4v63bnwbbuyi5.txt
+@@ -0,0 +1 @@
++Ишутин Евгений | Инженер программист, Контур Инновации
+\ No newline at end of file
+diff --git a/signed/afonkin.txt b/signed/afonkin.txt
+new file mode 100644
+index 00000000..5f9bd5fd
+--- /dev/null
++++ b/signed/afonkin.txt
+@@ -0,0 +1 @@
++Афонькин Вадим | Senior Software Engineer, Москва
+diff --git a/signed/alexej-gitoff-fwjk3jotgkletorandomtakvyshlor04hklner-utf-8.txt b/signed/alexej-gitoff-fwjk3jotgkletorandomtakvyshlor04hklner-utf-8.txt
+new file mode 100644
+index 00000000..55e24d3c
+--- /dev/null
++++ b/signed/alexej-gitoff-fwjk3jotgkletorandomtakvyshlor04hklner-utf-8.txt
+@@ -0,0 +1 @@
++Алeксей Гитoв | Программист и сисадмин, Москва г
+\ No newline at end of file
+diff --git a/signed/alexey_vladimirov_1717171717171717171 b/signed/alexey_vladimirov_1717171717171717171
+new file mode 100644
+index 00000000..c8deafcc
+--- /dev/null
++++ b/signed/alexey_vladimirov_1717171717171717171
+@@ -0,0 +1 @@
++Алексей Владимиров | Senior Web Developer, Wrike
+diff --git a/signed/alexvagin b/signed/alexvagin
+new file mode 100644
+index 00000000..79d32a5c
+--- /dev/null
++++ b/signed/alexvagin
+@@ -0,0 +1 @@
++Вагин Александр | Web developer
+diff --git a/signed/alltogethernow!.txt b/signed/alltogethernow!.txt
+new file mode 100644
+index 00000000..39e8c7b1
+--- /dev/null
++++ b/signed/alltogethernow!.txt
+@@ -0,0 +1 @@
++Pletnev Nikolay | DevOps Itransition
+diff --git a/signed/aloginov b/signed/aloginov
+new file mode 100644
+index 00000000..24fb9e70
+--- /dev/null
++++ b/signed/aloginov
+@@ -0,0 +1 @@
++Андрей Логинов | Разработчик, Санкт-Петербург
+diff --git a/signed/andersenlab-com-spb-alexander-nikitin b/signed/andersenlab-com-spb-alexander-nikitin
+new file mode 100644
+index 00000000..ed0e75e8
+--- /dev/null
++++ b/signed/andersenlab-com-spb-alexander-nikitin
+@@ -0,0 +1 @@
++Никитин Александр | Full Stack JS Developer, Andersen, Санкт-Петербург
+diff --git a/signed/andkulikov b/signed/andkulikov
+new file mode 100644
+index 00000000..75bbd574
+--- /dev/null
++++ b/signed/andkulikov
+@@ -0,0 +1 @@
++Куликов Андрей | Программист, Google
+diff --git a/signed/asdfsdfcsdfsafager33453.txt b/signed/asdfsdfcsdfsafager33453.txt
+new file mode 100644
+index 00000000..eae2e632
+--- /dev/null
++++ b/signed/asdfsdfcsdfsafager33453.txt
+@@ -0,0 +1 @@
++Дмитрий Спорыхин | москва, главный инженер разработки, сбербанк
+diff --git a/signed/b4IsSvJA31DkDgG b/signed/b4IsSvJA31DkDgG
+new file mode 100644
+index 00000000..938d5114
+--- /dev/null
++++ b/signed/b4IsSvJA31DkDgG
+@@ -0,0 +1 @@
++Алексей Любарец | Fullstack Developer
+\ No newline at end of file
+diff --git a/signed/b5bbd4c17b593cbb188c2eec9ffc31dd b/signed/b5bbd4c17b593cbb188c2eec9ffc31dd
+new file mode 100644
+index 00000000..dc9bd654
+--- /dev/null
++++ b/signed/b5bbd4c17b593cbb188c2eec9ffc31dd
+@@ -0,0 +1 @@
++Сапоненко Денис | Системный архитектор, Систематика-Консалтинг
+diff --git a/signed/b6800d699be05f2d4ab7e49abe9051ff.txt b/signed/b6800d699be05f2d4ab7e49abe9051ff.txt
+new file mode 100644
+index 00000000..bd1c89c7
+--- /dev/null
++++ b/signed/b6800d699be05f2d4ab7e49abe9051ff.txt
+@@ -0,0 +1 @@
++Максимов-Наливайко Филипп | Android-разработчик, Калининград
+diff --git a/signed/b9c000fb131f9d3028a7324b03e9f363 b/signed/b9c000fb131f9d3028a7324b03e9f363
+new file mode 100644
+index 00000000..7d3ded69
+--- /dev/null
++++ b/signed/b9c000fb131f9d3028a7324b03e9f363
+@@ -0,0 +1 @@
++Константин Овчаренко | Developer, Planior
+diff --git a/signed/b9e335d6cce2745c5408b55ee21b397b488f37d4 b/signed/b9e335d6cce2745c5408b55ee21b397b488f37d4
+new file mode 100644
+index 00000000..8da541f4
+--- /dev/null
++++ b/signed/b9e335d6cce2745c5408b55ee21b397b488f37d4
+@@ -0,0 +1 @@
++Артём Большаков | Программист, Санкт-Петербург
+diff --git a/signed/ba41eb5387b4059488afa8b702e0523d b/signed/ba41eb5387b4059488afa8b702e0523d
+new file mode 100644
+index 00000000..3ed9fb26
+--- /dev/null
++++ b/signed/ba41eb5387b4059488afa8b702e0523d
+@@ -0,0 +1 @@
++Мешков Роман | Frontend developer, Монитор Софт
+diff --git a/signed/bae88982-88f6-4d80-b07e-1cd0cd48d784 b/signed/bae88982-88f6-4d80-b07e-1cd0cd48d784
+new file mode 100644
+index 00000000..c73be3bd
+--- /dev/null
++++ b/signed/bae88982-88f6-4d80-b07e-1cd0cd48d784
+@@ -0,0 +1 @@
++Кулёмин Михаил | SRE
+diff --git a/signed/bb3d4f38-f2b9-4f49-82d6-f452339f1f1b b/signed/bb3d4f38-f2b9-4f49-82d6-f452339f1f1b
+new file mode 100644
+index 00000000..3ddd17c4
+--- /dev/null
++++ b/signed/bb3d4f38-f2b9-4f49-82d6-f452339f1f1b
+@@ -0,0 +1 @@
++Анчугов Степан | Fullstack-разработчик, Motorsport
+diff --git a/signed/bbb52645-20fb-412e-86e8-dd44e17241e3 b/signed/bbb52645-20fb-412e-86e8-dd44e17241e3
+new file mode 100644
+index 00000000..19dbbcd3
+--- /dev/null
++++ b/signed/bbb52645-20fb-412e-86e8-dd44e17241e3
+@@ -0,0 +1 @@
++Юрий Новиков | Руководитель отдела разработки, Gateline.ru
+diff --git a/signed/bc9b36e7-0650-4699-b506-cfede90ae145.txt b/signed/bc9b36e7-0650-4699-b506-cfede90ae145.txt
+new file mode 100644
+index 00000000..91885ea3
+--- /dev/null
++++ b/signed/bc9b36e7-0650-4699-b506-cfede90ae145.txt
+@@ -0,0 +1 @@
++Непша Андрей | Программист, Mail.ru Group
+diff --git a/signed/bd8c338e-4c8a-4ca7-917b-5b0124660770 b/signed/bd8c338e-4c8a-4ca7-917b-5b0124660770
+new file mode 100644
+index 00000000..769c4804
+--- /dev/null
++++ b/signed/bd8c338e-4c8a-4ca7-917b-5b0124660770
+@@ -0,0 +1 @@
++Савчук Денис | Senior Software Developer
+diff --git a/signed/bf3cdbff-24d8-4d40-991d-28352644c365 b/signed/bf3cdbff-24d8-4d40-991d-28352644c365
+new file mode 100644
+index 00000000..e77c978d
+--- /dev/null
++++ b/signed/bf3cdbff-24d8-4d40-991d-28352644c365
+@@ -0,0 +1 @@
++Иван Бурмистров | Software Engineer, Facebook
+diff --git a/signed/bf711670-daa5-11e9-9125-acbc32af3b93 b/signed/bf711670-daa5-11e9-9125-acbc32af3b93
+new file mode 100644
+index 00000000..b9ca38a4
+--- /dev/null
++++ b/signed/bf711670-daa5-11e9-9125-acbc32af3b93
+@@ -0,0 +1 @@
++Сергей Калистратов | IPTV Engineer
+diff --git a/signed/bfa250b1a688bdcb1a1cd1c2d18ed90d.txt b/signed/bfa250b1a688bdcb1a1cd1c2d18ed90d.txt
+new file mode 100644
+index 00000000..3b471774
+--- /dev/null
++++ b/signed/bfa250b1a688bdcb1a1cd1c2d18ed90d.txt
+@@ -0,0 +1 @@
++Сергеев Александр | Software Engineer, Google
+diff --git a/signed/bratchikov-6498680c-5fb6-4667-9dc2-51d26bfb955b.txt b/signed/bratchikov-6498680c-5fb6-4667-9dc2-51d26bfb955b.txt
+new file mode 100644
+index 00000000..50cc6f50
+--- /dev/null
++++ b/signed/bratchikov-6498680c-5fb6-4667-9dc2-51d26bfb955b.txt
+@@ -0,0 +1 @@
++Братчиков Александр | Fullstack Developer, Educator, Yandex
+\ No newline at end of file
+diff --git a/signed/c06c2c0e-da5a-11e9-93f4-186590d65db9 b/signed/c06c2c0e-da5a-11e9-93f4-186590d65db9
+new file mode 100644
+index 00000000..3cdc27da
+--- /dev/null
++++ b/signed/c06c2c0e-da5a-11e9-93f4-186590d65db9
+@@ -0,0 +1 @@
++Михайленко Владимир | Senior Developer
+diff --git a/signed/c1e9dbdf-18ca-46ad-838e-7c78ced667e5.md b/signed/c1e9dbdf-18ca-46ad-838e-7c78ced667e5.md
+new file mode 100644
+index 00000000..45457094
+--- /dev/null
++++ b/signed/c1e9dbdf-18ca-46ad-838e-7c78ced667e5.md
+@@ -0,0 +1 @@
++Леменков Пётр | Программист, Fedora Project
+diff --git a/signed/c2b916d1a90e54938cee804d125537ae b/signed/c2b916d1a90e54938cee804d125537ae
+new file mode 100644
+index 00000000..cbb13ec8
+--- /dev/null
++++ b/signed/c2b916d1a90e54938cee804d125537ae
+@@ -0,0 +1 @@
++Юрьев Виталий | Full-stack, Москва
+diff --git a/signed/c5556665af9dcd6805f8aae9789dfc1b0907c11cd757d761ade617a4570f3ddc b/signed/c5556665af9dcd6805f8aae9789dfc1b0907c11cd757d761ade617a4570f3ddc
+new file mode 100644
+index 00000000..a5342881
+--- /dev/null
++++ b/signed/c5556665af9dcd6805f8aae9789dfc1b0907c11cd757d761ade617a4570f3ddc
+@@ -0,0 +1 @@
++Морковник Данила | Chief Project Engineer, Softline
+diff --git a/signed/c709951531bd1f0d173e5862339654d8 b/signed/c709951531bd1f0d173e5862339654d8
+new file mode 100644
+index 00000000..8e7df773
+--- /dev/null
++++ b/signed/c709951531bd1f0d173e5862339654d8
+@@ -0,0 +1 @@
++Афоничев Сергей | Фрилансер
+diff --git a/signed/c9fcfa66-cddf-489f-a1c3-86b2d9e07ab1 b/signed/c9fcfa66-cddf-489f-a1c3-86b2d9e07ab1
+new file mode 100644
+index 00000000..0da8435b
+--- /dev/null
++++ b/signed/c9fcfa66-cddf-489f-a1c3-86b2d9e07ab1
+@@ -0,0 +1 @@
++Пудов Андрей | Программист, Intel
+diff --git a/signed/cb8f5225-5cb7-4922-9076-20ae983baf98.txt b/signed/cb8f5225-5cb7-4922-9076-20ae983baf98.txt
+new file mode 100644
+index 00000000..0017c106
+--- /dev/null
++++ b/signed/cb8f5225-5cb7-4922-9076-20ae983baf98.txt
+@@ -0,0 +1 @@
++Мясков Анатолий | Full Stack Developer, г. Москва
+diff --git a/signed/cdr568568009.txt b/signed/cdr568568009.txt
+new file mode 100644
+index 00000000..71906238
+--- /dev/null
++++ b/signed/cdr568568009.txt
+@@ -0,0 +1 @@
++Савина Татьяна | Frontend developer, Kaspersky
+\ No newline at end of file
+diff --git a/signed/cdunkmffffnhwe b/signed/cdunkmffffnhwe
+new file mode 100644
+index 00000000..94b897ec
+--- /dev/null
++++ b/signed/cdunkmffffnhwe
+@@ -0,0 +1 @@
++Цай Сергей | Программист, Саратов
+diff --git a/signed/ce8ca65e-08e1-4b2e-913d-0d69cf8c939d b/signed/ce8ca65e-08e1-4b2e-913d-0d69cf8c939d
+new file mode 100644
+index 00000000..d3f20d94
+--- /dev/null
++++ b/signed/ce8ca65e-08e1-4b2e-913d-0d69cf8c939d
+@@ -0,0 +1 @@
++Ульянов Владислав | Backend Sowftware Developer, BelkaCar
+diff --git a/signed/d1a698e7a0482d01679a6b077276f3f8-19-19-09-0951.txt b/signed/d1a698e7a0482d01679a6b077276f3f8-19-19-09-0951.txt
+new file mode 100644
+index 00000000..771874d8
+--- /dev/null
++++ b/signed/d1a698e7a0482d01679a6b077276f3f8-19-19-09-0951.txt
+@@ -0,0 +1 @@
++Ковба Андрей | Fullstack Developer, г. Екатеринбург
+diff --git a/signed/d1d7ee70-25cc-4cef-acc3-a1f06cbfea4c.txt b/signed/d1d7ee70-25cc-4cef-acc3-a1f06cbfea4c.txt
+new file mode 100644
+index 00000000..1cc20d2c
+--- /dev/null
++++ b/signed/d1d7ee70-25cc-4cef-acc3-a1f06cbfea4c.txt
+@@ -0,0 +1 @@
++Смирнова Татьяна | 	Frontend developer
+diff --git a/signed/d311c548-a4d5-40aa-98eb-62fafe832fd2 b/signed/d311c548-a4d5-40aa-98eb-62fafe832fd2
+new file mode 100644
+index 00000000..9d1d29c8
+--- /dev/null
++++ b/signed/d311c548-a4d5-40aa-98eb-62fafe832fd2
+@@ -0,0 +1 @@
++Ипатьев Степан | Fullstack developer, Екатеринбург
+diff --git a/signed/d38588fe-e99b-403b-af31-35a0ae2fe1b9 b/signed/d38588fe-e99b-403b-af31-35a0ae2fe1b9
+new file mode 100644
+index 00000000..83860780
+--- /dev/null
++++ b/signed/d38588fe-e99b-403b-af31-35a0ae2fe1b9
+@@ -0,0 +1 @@
++Жаричев Александр | Lead embedded developer, Москва
+diff --git a/signed/d5aa1729c8c253e5d917a5264855eab8 b/signed/d5aa1729c8c253e5d917a5264855eab8
+new file mode 100644
+index 00000000..5836b73e
+--- /dev/null
++++ b/signed/d5aa1729c8c253e5d917a5264855eab8
+@@ -0,0 +1 @@
++Пушкарев Андрей | Fullstack Development
+diff --git a/signed/d62d7296-b4f4-4557-b9ec-11b169de7589.md b/signed/d62d7296-b4f4-4557-b9ec-11b169de7589.md
+new file mode 100644
+index 00000000..4526d2a4
+--- /dev/null
++++ b/signed/d62d7296-b4f4-4557-b9ec-11b169de7589.md
+@@ -0,0 +1 @@
++Ткаченко Иван | Ведущий программист, г.Тюмень
+diff --git a/signed/d8e14639-aad9-4c57-8c0f-56ac21559a3d b/signed/d8e14639-aad9-4c57-8c0f-56ac21559a3d
+new file mode 100644
+index 00000000..3b6ed45c
+--- /dev/null
++++ b/signed/d8e14639-aad9-4c57-8c0f-56ac21559a3d
+@@ -0,0 +1 @@
++Ибраков Азат | SDET, Align Technology
+diff --git a/signed/d9V8t4KYxz.txt b/signed/d9V8t4KYxz.txt
+new file mode 100644
+index 00000000..60a27854
+--- /dev/null
++++ b/signed/d9V8t4KYxz.txt
+@@ -0,0 +1 @@
++Михаил Навернюк                    | Ведущий программист, Everys, г. Москва
+\ No newline at end of file
+diff --git a/signed/db60a7b22765d3299b5bf58efe25c9bf b/signed/db60a7b22765d3299b5bf58efe25c9bf
+new file mode 100644
+index 00000000..50d915e4
+--- /dev/null
++++ b/signed/db60a7b22765d3299b5bf58efe25c9bf
+@@ -0,0 +1 @@
++Кряжев Сергей | Technical manager NetCracker
+diff --git a/signed/dd b/signed/dd
+new file mode 100644
+index 00000000..fa997c60
+--- /dev/null
++++ b/signed/dd
+@@ -0,0 +1 @@
++Добряк Дмитрий | CA, freelancer
+diff --git a/signed/dffaf18a-81dd-4db4-923c-ecc0e213cd76 b/signed/dffaf18a-81dd-4db4-923c-ecc0e213cd76
+new file mode 100644
+index 00000000..a37c7f85
+--- /dev/null
++++ b/signed/dffaf18a-81dd-4db4-923c-ecc0e213cd76
+@@ -0,0 +1 @@
++Новайкин Павел | Фронтенд разработчик
+diff --git a/signed/dfhgdfuy567gh b/signed/dfhgdfuy567gh
+new file mode 100644
+index 00000000..fc53c550
+--- /dev/null
++++ b/signed/dfhgdfuy567gh
+@@ -0,0 +1 @@
++Пузанов Никита | Frontend developer
+diff --git a/signed/dh420h3aac370aac09ert3 b/signed/dh420h3aac370aac09ert3
+new file mode 100644
+index 00000000..8115806a
+--- /dev/null
++++ b/signed/dh420h3aac370aac09ert3
+@@ -0,0 +1 @@
++Протопопова Анна | QA team lead
+diff --git a/signed/dk-190919 b/signed/dk-190919
+new file mode 100644
+index 00000000..5d5b8ef7
+--- /dev/null
++++ b/signed/dk-190919
+@@ -0,0 +1 @@
++Коплович Дмитрий | Founder, Latera
+diff --git a/signed/dkafbdkabflkdnafblkkkdkdksnJkll b/signed/dkafbdkabflkdnafblkkkdkdksnJkll
+new file mode 100644
+index 00000000..c08eb03f
+--- /dev/null
++++ b/signed/dkafbdkabflkdnafblkkkdkdksnJkll
+@@ -0,0 +1 @@
++Григорий Дементьев | Backend developer, Новосибирск
+diff --git a/signed/dmjtAO9KJhXJiY-5fIqDLFS.md b/signed/dmjtAO9KJhXJiY-5fIqDLFS.md
+new file mode 100644
+index 00000000..0bfb324c
+--- /dev/null
++++ b/signed/dmjtAO9KJhXJiY-5fIqDLFS.md
+@@ -0,0 +1 @@
++Оношко Даниил | Frontend Teamlead, INGIPRO
+diff --git "a/signed/dsgsg-hsdfgsfdgwrtntr-mofkjaeklfnek;fn;weknjf;wenjf\320\277\321\203\321\202\320\270\320\275-\320\273\320\276\321\200wekfnqwefnqwenfwenf" "b/signed/dsgsg-hsdfgsfdgwrtntr-mofkjaeklfnek;fn;weknjf;wenjf\320\277\321\203\321\202\320\270\320\275-\320\273\320\276\321\200wekfnqwefnqwenfwenf"
+new file mode 100644
+index 00000000..2706b5d4
+--- /dev/null
++++ "b/signed/dsgsg-hsdfgsfdgwrtntr-mofkjaeklfnek;fn;weknjf;wenjf\320\277\321\203\321\202\320\270\320\275-\320\273\320\276\321\200wekfnqwefnqwenfwenf"
+@@ -0,0 +1 @@
++Селихов Евгений | .Net Developer
+diff --git a/signed/dxExmVaZTkNgC60dZEj6 b/signed/dxExmVaZTkNgC60dZEj6
+new file mode 100644
+index 00000000..3d774457
+--- /dev/null
++++ b/signed/dxExmVaZTkNgC60dZEj6
+@@ -0,0 +1 @@
++Смаль Илья | Frontend Developer, Foam Agency
+diff --git a/signed/dxcu8jt2pn35g5xarx5c55u2dvayss b/signed/dxcu8jt2pn35g5xarx5c55u2dvayss
+new file mode 100644
+index 00000000..d49ad993
+--- /dev/null
++++ b/signed/dxcu8jt2pn35g5xarx5c55u2dvayss
+@@ -0,0 +1 @@
++Федосихина Елена | Frontend Developer, Confirmit
+diff --git a/signed/e00bb1f97b913c5643311ae6f4f529f5 b/signed/e00bb1f97b913c5643311ae6f4f529f5
+new file mode 100644
+index 00000000..83040b62
+--- /dev/null
++++ b/signed/e00bb1f97b913c5643311ae6f4f529f5
+@@ -0,0 +1 @@
++Чистяков Илья | Developer, Yandex
+diff --git a/signed/e02fccec-a3a8-4a6d-b8d8-8087c2d9116c b/signed/e02fccec-a3a8-4a6d-b8d8-8087c2d9116c
+new file mode 100644
+index 00000000..024fff2e
+--- /dev/null
++++ b/signed/e02fccec-a3a8-4a6d-b8d8-8087c2d9116c
+@@ -0,0 +1 @@
++Кирилл Заборский | Software Engineer, FP Complete
+diff --git a/signed/e22dd954f210609ec6c79838b4eb5499 b/signed/e22dd954f210609ec6c79838b4eb5499
+new file mode 100644
+index 00000000..66fb76ec
+--- /dev/null
++++ b/signed/e22dd954f210609ec6c79838b4eb5499
+@@ -0,0 +1 @@
++Азимов Эльдар | Backend developer, Москва
+diff --git a/signed/e5f5db90ba43495ca2f894adc4a96231 b/signed/e5f5db90ba43495ca2f894adc4a96231
+new file mode 100644
+index 00000000..26c43d96
+--- /dev/null
++++ b/signed/e5f5db90ba43495ca2f894adc4a96231
+@@ -0,0 +1,2 @@
++Симонов Фёдор | Backend Developer, Yandex
++
+diff --git a/signed/e7255209-9fbb-4704-b12e-5f8381262a9a b/signed/e7255209-9fbb-4704-b12e-5f8381262a9a
+new file mode 100644
+index 00000000..1d422e49
+--- /dev/null
++++ b/signed/e7255209-9fbb-4704-b12e-5f8381262a9a
+@@ -0,0 +1 @@
++Денис Рогинский | Software Engineer
+diff --git a/signed/e792b9c8-4029-4d54-9e33-4392689977d2 b/signed/e792b9c8-4029-4d54-9e33-4392689977d2
+new file mode 100644
+index 00000000..293cad5c
+--- /dev/null
++++ b/signed/e792b9c8-4029-4d54-9e33-4392689977d2
+@@ -0,0 +1 @@
++Пятышев Максим Евгеньевич | Backend разработчик, Home Credit Bank
+diff --git a/signed/e900f8b6-1036-462c-ab95-0193b201d713 b/signed/e900f8b6-1036-462c-ab95-0193b201d713
+new file mode 100644
+index 00000000..8b35000c
+--- /dev/null
++++ b/signed/e900f8b6-1036-462c-ab95-0193b201d713
+@@ -0,0 +1 @@
++Новицкий Кирилл | QA engineer, Москва
+diff --git a/signed/eYtJt8D07jfnZhYFbmBsUazSVOYs4IJl2l1vSMgEZwWGyLPlv0TvwT3QEChXUPxeODicYveloDM4lXgecohJNPPvtg5WNWaub3VglBx9qKXboVRlK5O2oHID.tmp b/signed/eYtJt8D07jfnZhYFbmBsUazSVOYs4IJl2l1vSMgEZwWGyLPlv0TvwT3QEChXUPxeODicYveloDM4lXgecohJNPPvtg5WNWaub3VglBx9qKXboVRlK5O2oHID.tmp
+new file mode 100644
+index 00000000..e8cad28e
+--- /dev/null
++++ b/signed/eYtJt8D07jfnZhYFbmBsUazSVOYs4IJl2l1vSMgEZwWGyLPlv0TvwT3QEChXUPxeODicYveloDM4lXgecohJNPPvtg5WNWaub3VglBx9qKXboVRlK5O2oHID.tmp
+@@ -0,0 +1 @@
++Михайлин Евгений | Principal Full-stack Software Engineer / Team Lead, IT Force, Moscow
+diff --git a/signed/eb50152a-59a4-42c4-bf59-4d008909f62f b/signed/eb50152a-59a4-42c4-bf59-4d008909f62f
+new file mode 100644
+index 00000000..a988b072
+--- /dev/null
++++ b/signed/eb50152a-59a4-42c4-bf59-4d008909f62f
+@@ -0,0 +1 @@
++Владимир Зуев | DevOps, Ярославль
+diff --git a/signed/ec73e9f1a794f49480a278ed0a26b06c b/signed/ec73e9f1a794f49480a278ed0a26b06c
+new file mode 100644
+index 00000000..b0bfcaa9
+--- /dev/null
++++ b/signed/ec73e9f1a794f49480a278ed0a26b06c
+@@ -0,0 +1 @@
++Shilkin Denis | Senior Software Engineer, Gett RnD
+diff --git a/signed/ecnweuscsducjnuocfbruvfoerbgvwefc^%#$R%&sh2g3.txt b/signed/ecnweuscsducjnuocfbruvfoerbgvwefc^%#$R%&sh2g3.txt
+new file mode 100644
+index 00000000..113b385c
+--- /dev/null
++++ b/signed/ecnweuscsducjnuocfbruvfoerbgvwefc^%#$R%&sh2g3.txt
+@@ -0,0 +1 @@
++Белоконь Александр | Frontend developer, 42
+\ No newline at end of file
+diff --git a/signed/edtyhwryhw544wyw4ghwweth54 b/signed/edtyhwryhw544wyw4ghwweth54
+new file mode 100644
+index 00000000..5373dfb6
+--- /dev/null
++++ b/signed/edtyhwryhw544wyw4ghwweth54
+@@ -0,0 +1 @@
++Бутаев Амиран | сисадмин, МФЦ
+diff --git a/signed/eetavgpdfidofjdskejhrewusaoiyfiew82398r7ewuyrowrluyalf7yale b/signed/eetavgpdfidofjdskejhrewusaoiyfiew82398r7ewuyrowrluyalf7yale
+new file mode 100644
+index 00000000..e9d3b540
+--- /dev/null
++++ b/signed/eetavgpdfidofjdskejhrewusaoiyfiew82398r7ewuyrowrluyalf7yale
+@@ -0,0 +1 @@
++Aleksandr Tavgen | CTO Timetrix
+\ No newline at end of file
+diff --git a/signed/efc0ffda-0244-4e51-a2bc-ae32d0f6e05e.txt b/signed/efc0ffda-0244-4e51-a2bc-ae32d0f6e05e.txt
+new file mode 100644
+index 00000000..8297f2c3
+--- /dev/null
++++ b/signed/efc0ffda-0244-4e51-a2bc-ae32d0f6e05e.txt
+@@ -0,0 +1 @@
++Пикулин Илья | C++ разработчик, RCDB
+diff --git a/signed/egor.ivanov.siberia.krasnoyarsk b/signed/egor.ivanov.siberia.krasnoyarsk
+new file mode 100644
+index 00000000..be55d7f1
+--- /dev/null
++++ b/signed/egor.ivanov.siberia.krasnoyarsk
+@@ -0,0 +1 @@
++Егор Иванов | Senior PHP Developer, LoyaltyCorp Australia
+diff --git a/signed/eigad6Avufohhi1oosh0oochidieLeej.txt b/signed/eigad6Avufohhi1oosh0oochidieLeej.txt
+new file mode 100644
+index 00000000..910276e9
+--- /dev/null
++++ b/signed/eigad6Avufohhi1oosh0oochidieLeej.txt
+@@ -0,0 +1 @@
++Константин Чупин                   | Backend Developer, Yandex
+\ No newline at end of file
+diff --git a/signed/etoprostokuramnasmeh666 b/signed/etoprostokuramnasmeh666
+new file mode 100644
+index 00000000..16b770dd
+--- /dev/null
++++ b/signed/etoprostokuramnasmeh666
+@@ -0,0 +1 @@
++Пузанков Никита | RD Manager, EPAM
+diff --git a/signed/f0692cfed15cbf28f5b4f0e8765d73a0.txt b/signed/f0692cfed15cbf28f5b4f0e8765d73a0.txt
+new file mode 100644
+index 00000000..958953bd
+--- /dev/null
++++ b/signed/f0692cfed15cbf28f5b4f0e8765d73a0.txt
+@@ -0,0 +1 @@
++Химцов Антон | Frontend Developer
+diff --git a/signed/f35212c1-a87e-4466-85e5-109f350d09aa b/signed/f35212c1-a87e-4466-85e5-109f350d09aa
+new file mode 100644
+index 00000000..1db7ff95
+--- /dev/null
++++ b/signed/f35212c1-a87e-4466-85e5-109f350d09aa
+@@ -0,0 +1 @@
++Дарья Шемякина              | Web Developer
+diff --git a/signed/f4h1a8wv4y b/signed/f4h1a8wv4y
+new file mode 100644
+index 00000000..b0391af2
+--- /dev/null
++++ b/signed/f4h1a8wv4y
+@@ -0,0 +1 @@
++Шахова Наталья | Аналитик, Glowbyte
+diff --git a/signed/f8963223-857c-47a7-bcdc-06297a44bfbe b/signed/f8963223-857c-47a7-bcdc-06297a44bfbe
+new file mode 100644
+index 00000000..d0f60ce9
+--- /dev/null
++++ b/signed/f8963223-857c-47a7-bcdc-06297a44bfbe
+@@ -0,0 +1 @@
++Борисов Илья | Senior Frontend Developer, GridGain
+diff --git a/signed/f93.txt b/signed/f93.txt
+new file mode 100644
+index 00000000..9e291dbc
+--- /dev/null
++++ b/signed/f93.txt
+@@ -0,0 +1 @@
++Коряковцев Иван | Frontend Developer, "Roborox", Москва
+diff --git a/signed/fPuETKeY8jOwfjVQxgqqKA [Program finished] b/signed/fPuETKeY8jOwfjVQxgqqKA [Program finished]
+new file mode 100644
+index 00000000..e004c45c
+--- /dev/null
++++ b/signed/fPuETKeY8jOwfjVQxgqqKA [Program finished]	
+@@ -0,0 +1 @@
++|Максим Ласка |Data Engineer |
+diff --git a/signed/fWN6rF3zm5qV b/signed/fWN6rF3zm5qV
+new file mode 100644
+index 00000000..bd261ecb
+--- /dev/null
++++ b/signed/fWN6rF3zm5qV
+@@ -0,0 +1 @@
++Лев Якушев | Digital producer, Пермь
+diff --git a/signed/fasdjfkasgjklsmdgklasdjfpoasd b/signed/fasdjfkasgjklsmdgklasdjfpoasd
+new file mode 100644
+index 00000000..e5f9fb74
+--- /dev/null
++++ b/signed/fasdjfkasgjklsmdgklasdjfpoasd
+@@ -0,0 +1 @@
++Ларионов Игорь | Инженер-программист, iSpring
+diff --git a/signed/fb66dc15-15bd-42a3-8bf0-e37304185ee3 b/signed/fb66dc15-15bd-42a3-8bf0-e37304185ee3
+new file mode 100644
+index 00000000..dcc71446
+--- /dev/null
++++ b/signed/fb66dc15-15bd-42a3-8bf0-e37304185ee3
+@@ -0,0 +1 @@
++Малков Кирилл | Frontend developer, Moscow
+diff --git a/signed/fdca6eda-6c58-4788-a5c9-81e82e503377 b/signed/fdca6eda-6c58-4788-a5c9-81e82e503377
+new file mode 100644
+index 00000000..9a6ada6e
+--- /dev/null
++++ b/signed/fdca6eda-6c58-4788-a5c9-81e82e503377
+@@ -0,0 +1 @@
++Литвиненко Александр | Ведущий разработчик
+diff --git a/signed/ff8865e23c6fee6c4922986591a3dc75 b/signed/ff8865e23c6fee6c4922986591a3dc75
+new file mode 100644
+index 00000000..9ee23348
+--- /dev/null
++++ b/signed/ff8865e23c6fee6c4922986591a3dc75
+@@ -0,0 +1 @@
++Виталий Крюков | Freelancer, Санкт-Петербург
+\ No newline at end of file
+diff --git a/signed/fhkahfieqiotknmalxndrtarasovdkfjaskhf b/signed/fhkahfieqiotknmalxndrtarasovdkfjaskhf
+new file mode 100644
+index 00000000..27824f88
+--- /dev/null
++++ b/signed/fhkahfieqiotknmalxndrtarasovdkfjaskhf
+@@ -0,0 +1 @@
++Тарасов Александр | Ведущий разработчик, Дигинавис
+\ No newline at end of file
+diff --git a/signed/free_polit_prisoners.txt b/signed/free_polit_prisoners.txt
+new file mode 100644
+index 00000000..898524ca
+--- /dev/null
++++ b/signed/free_polit_prisoners.txt
+@@ -0,0 +1 @@
++Nikolay Kapustin | Apple Evagnelist, Digital Horizon
+diff --git a/signed/freedom_for_political_prisoners b/signed/freedom_for_political_prisoners
+new file mode 100644
+index 00000000..67526c6c
+--- /dev/null
++++ b/signed/freedom_for_political_prisoners
+@@ -0,0 +1 @@
++Иван Липатов | Verification Engineer, Elvees
+diff --git a/signed/fxlr8 b/signed/fxlr8
+new file mode 100644
+index 00000000..3d6b625f
+--- /dev/null
++++ b/signed/fxlr8
+@@ -0,0 +1 @@
++Туркин Георгий | Frontend, Москва
+diff --git a/signed/gB3YtzrherXHRRhQ b/signed/gB3YtzrherXHRRhQ
+new file mode 100644
+index 00000000..9f7c21e7
+--- /dev/null
++++ b/signed/gB3YtzrherXHRRhQ
+@@ -0,0 +1 @@
++Тарасенко Ефим | Web-разработчик, Fix Price
+diff --git a/signed/ga9le09n8xf8phww3tpd.txt b/signed/ga9le09n8xf8phww3tpd.txt
+new file mode 100644
+index 00000000..8a8b9e9c
+--- /dev/null
++++ b/signed/ga9le09n8xf8phww3tpd.txt
+@@ -0,0 +1 @@
++Рябцов Игорь | Senior Data Scientist, Totango INC
+diff --git a/signed/geras240900 b/signed/geras240900
+new file mode 100644
+index 00000000..428ce40e
+--- /dev/null
++++ b/signed/geras240900
+@@ -0,0 +1 @@
++Герасименко Татьяна | Lead developer, Москва
+diff --git a/signed/gfh63463jfhj895885jhfrkeoqpw5 b/signed/gfh63463jfhj895885jhfrkeoqpw5
+new file mode 100644
+index 00000000..db9df164
+--- /dev/null
++++ b/signed/gfh63463jfhj895885jhfrkeoqpw5
+@@ -0,0 +1 @@
++Зимин Тимур | Data scientist, Clover Group
+diff --git a/signed/gh5f2h5f42jt5jyhtgfhjf4ghfgh___235j2f23j23j_ b/signed/gh5f2h5f42jt5jyhtgfhjf4ghfgh___235j2f23j23j_
+new file mode 100644
+index 00000000..318b9330
+--- /dev/null
++++ b/signed/gh5f2h5f42jt5jyhtgfhjf4ghfgh___235j2f23j23j_
+@@ -0,0 +1 @@
++Бухтияров Евгений  |  Разработчик ИС, Новосибирск
+diff --git a/signed/ghjasd72ka b/signed/ghjasd72ka
+new file mode 100644
+index 00000000..6d8e9b01
+--- /dev/null
++++ b/signed/ghjasd72ka
+@@ -0,0 +1 @@
++Степан Андреенко | CEO WIDISOFT
+diff --git a/signed/giedie4pheedooPh0uD0eofah4Pheu3i b/signed/giedie4pheedooPh0uD0eofah4Pheu3i
+new file mode 100644
+index 00000000..6de2fb61
+--- /dev/null
++++ b/signed/giedie4pheedooPh0uD0eofah4Pheu3i
+@@ -0,0 +1 @@
++Сергей Фадеев | Разработчик, Провектус
+diff --git a/signed/gluk47.txt b/signed/gluk47.txt
+new file mode 100644
+index 00000000..0548c049
+--- /dev/null
++++ b/signed/gluk47.txt
+@@ -0,0 +1 @@
++Егор Кочетов  | Старший разработчик ПО, Москва
+diff --git a/signed/grmozhaev_098d0fg7d9f7687e687dh.txt b/signed/grmozhaev_098d0fg7d9f7687e687dh.txt
+new file mode 100644
+index 00000000..23c9c4fb
+--- /dev/null
++++ b/signed/grmozhaev_098d0fg7d9f7687e687dh.txt
+@@ -0,0 +1 @@
++Григорий Можаев | QA Automation, г. Москва
+diff --git a/signed/gsdf78hgmhg9jhlk9ds8g b/signed/gsdf78hgmhg9jhlk9ds8g
+new file mode 100644
+index 00000000..f03f10ae
+--- /dev/null
++++ b/signed/gsdf78hgmhg9jhlk9ds8g
+@@ -0,0 +1 @@
++Баландин Герман | PHP Developer, Viboom
+diff --git a/signed/hedging-Nero7-9lode b/signed/hedging-Nero7-9lode
+new file mode 100644
+index 00000000..c70d3cf9
+--- /dev/null
++++ b/signed/hedging-Nero7-9lode
+@@ -0,0 +1 @@
++Дудин Василий | UX Designer, SEMrush
+diff --git a/signed/i3jri23dmi3jioejreiqhost.ruj34u23iueji2j b/signed/i3jri23dmi3jioejreiqhost.ruj34u23iueji2j
+new file mode 100644
+index 00000000..b28f1014
+--- /dev/null
++++ b/signed/i3jri23dmi3jioejreiqhost.ruj34u23iueji2j
+@@ -0,0 +1 @@
++Сухомлин Максим | Руководитель IQHost
+diff --git a/signed/iF7IbJ5UQ69L8YS5.txt b/signed/iF7IbJ5UQ69L8YS5.txt
+new file mode 100644
+index 00000000..7af5e134
+--- /dev/null
++++ b/signed/iF7IbJ5UQ69L8YS5.txt
+@@ -0,0 +1 @@
++Аитов Ратмир | Frontend developer
+\ No newline at end of file
+diff --git a/signed/iV2koIk8poV8bU b/signed/iV2koIk8poV8bU
+new file mode 100644
+index 00000000..d06a43b1
+--- /dev/null
++++ b/signed/iV2koIk8poV8bU
+@@ -0,0 +1 @@
++Кручинин Владимир | CEO, PILOWAR STUDIO
+diff --git a/signed/iengoh8Ahg1aeb2Ou8OikiF7nee2ahb8ohxieQuoR5chah5qui.txt b/signed/iengoh8Ahg1aeb2Ou8OikiF7nee2ahb8ohxieQuoR5chah5qui.txt
+new file mode 100644
+index 00000000..c624aaa4
+--- /dev/null
++++ b/signed/iengoh8Ahg1aeb2Ou8OikiF7nee2ahb8ohxieQuoR5chah5qui.txt
+@@ -0,0 +1 @@
++Александр Андрианов | Big data team lead
+diff --git a/signed/iezx-6rRuzvvgYydOyCI.signed b/signed/iezx-6rRuzvvgYydOyCI.signed
+new file mode 100644
+index 00000000..46d4fa1f
+--- /dev/null
++++ b/signed/iezx-6rRuzvvgYydOyCI.signed
+@@ -0,0 +1 @@
++Бычков Кирилл | Инженер
+diff --git a/signed/igor-tarasoft-itsoft b/signed/igor-tarasoft-itsoft
+new file mode 100644
+index 00000000..d43ea2b8
+--- /dev/null
++++ b/signed/igor-tarasoft-itsoft
+@@ -0,0 +1 @@
++Igor Tarasov | CEO, ITSOFT
+diff --git a/signed/ikletser b/signed/ikletser
+new file mode 100644
+index 00000000..f37556bf
+--- /dev/null
++++ b/signed/ikletser
+@@ -0,0 +1 @@
++Клецер Илья | Консультант по внедрению ПО, IBM Россия
+diff --git a/signed/ilf2kr1fkakk439595xzilf2kr1fkakk439595xzilf2kr1fkakk439595xzilf2kr1fkak.txt b/signed/ilf2kr1fkakk439595xzilf2kr1fkakk439595xzilf2kr1fkakk439595xzilf2kr1fkak.txt
+new file mode 100644
+index 00000000..6940a9cd
+--- /dev/null
++++ b/signed/ilf2kr1fkakk439595xzilf2kr1fkakk439595xzilf2kr1fkakk439595xzilf2kr1fkak.txt
+@@ -0,0 +1 @@
++Аслаповский Дмитрий Владимирович | Independent Consultant
+diff --git a/signed/ilya.evseev.txt b/signed/ilya.evseev.txt
+new file mode 100644
+index 00000000..018edd34
+--- /dev/null
++++ b/signed/ilya.evseev.txt
+@@ -0,0 +1 @@
++Илья Евсеев | Devops, Sertolovo.ru, Санкт-Петербург
+diff --git a/signed/init-penguin_leonid-repin b/signed/init-penguin_leonid-repin
+new file mode 100644
+index 00000000..a7b99c88
+--- /dev/null
++++ b/signed/init-penguin_leonid-repin
+@@ -0,0 +1 @@
++Леонид Репин | Garderobo, Architect/DevOps
+diff --git a/signed/isopov b/signed/isopov
+new file mode 100644
+index 00000000..85109568
+--- /dev/null
++++ b/signed/isopov
+@@ -0,0 +1 @@
++Сопов Иван | Программист, Joom
+diff --git a/signed/ivanivan467455635474 b/signed/ivanivan467455635474
+new file mode 100644
+index 00000000..dd7342b6
+--- /dev/null
++++ b/signed/ivanivan467455635474
+@@ -0,0 +1 @@
++Иван Анисимов | Админ, Уфа
+diff --git a/signed/ivi_mipt_uisfhaiduhf982398082.sign b/signed/ivi_mipt_uisfhaiduhf982398082.sign
+new file mode 100644
+index 00000000..af310fa8
+--- /dev/null
++++ b/signed/ivi_mipt_uisfhaiduhf982398082.sign
+@@ -0,0 +1 @@
++Кирюшин Александр | Software Developer, ivi
+diff --git a/signed/jetrockets_1568840842.txt b/signed/jetrockets_1568840842.txt
+new file mode 100644
+index 00000000..d6facc9d
+--- /dev/null
++++ b/signed/jetrockets_1568840842.txt
+@@ -0,0 +1 @@
++Воронов Дмитрий | Fullstack Developer, JetRockets
+diff --git a/signed/jgFHGFE6F5W9RTJ6YH64K37JS9D87FHSERHZFGSDds b/signed/jgFHGFE6F5W9RTJ6YH64K37JS9D87FHSERHZFGSDds
+new file mode 100644
+index 00000000..ab1ddbcb
+--- /dev/null
++++ b/signed/jgFHGFE6F5W9RTJ6YH64K37JS9D87FHSERHZFGSDds
+@@ -0,0 +1 @@
++Александр Колобов | Freelancer, Екатеринбург
+diff --git a/signed/jjodkkopefmdfjopewaop394853r.txt b/signed/jjodkkopefmdfjopewaop394853r.txt
+new file mode 100644
+index 00000000..1d78d7e7
+--- /dev/null
++++ b/signed/jjodkkopefmdfjopewaop394853r.txt
+@@ -0,0 +1 @@
++Бибаева Мария | Backend developer, Москва 
+diff --git a/signed/jsdf9j30mfsdf93j.txt b/signed/jsdf9j30mfsdf93j.txt
+new file mode 100644
+index 00000000..8c7de25c
+--- /dev/null
++++ b/signed/jsdf9j30mfsdf93j.txt
+@@ -0,0 +1 @@
++Кузьмин Ринат | Data scientist, Clover Group
+diff --git a/signed/jsdfkjshjhfs834kjhsgfs988942hjsf b/signed/jsdfkjshjhfs834kjhsgfs988942hjsf
+new file mode 100644
+index 00000000..b6c4da5b
+--- /dev/null
++++ b/signed/jsdfkjshjhfs834kjhsgfs988942hjsf
+@@ -0,0 +1 @@
++Востросаблин Никита | Backend разработчик
+diff --git a/signed/kalashnikovisme b/signed/kalashnikovisme
+new file mode 100644
+index 00000000..a5b6962e
+--- /dev/null
++++ b/signed/kalashnikovisme
+@@ -0,0 +1 @@
++Калашников Павел | Software Engineer, Mad Devs
+diff --git a/signed/kapustka.void b/signed/kapustka.void
+new file mode 100644
+index 00000000..9dd9885d
+--- /dev/null
++++ b/signed/kapustka.void
+@@ -0,0 +1 @@
++Станислав Янковский | Программист, 1C Game Studios
+diff --git a/signed/kfdjafduzudfi.txt b/signed/kfdjafduzudfi.txt
+new file mode 100644
+index 00000000..164b47c5
+--- /dev/null
++++ b/signed/kfdjafduzudfi.txt
+@@ -0,0 +1 @@
++Чернов Алексей | Site Reliability Engineer, Google
+diff --git a/signed/kidrbeobenanelu b/signed/kidrbeobenanelu
+new file mode 100644
+index 00000000..01c66c1e
+--- /dev/null
++++ b/signed/kidrbeobenanelu
+@@ -0,0 +1 @@
++Лифанов Дмитрий | DevOps engineer, Санкт-Петербург
+diff --git a/signed/kjshgkjsfhgkjsdfhgkljshfjghskfgh.txt b/signed/kjshgkjsfhgkjsdfhgkljshfjghskfgh.txt
+new file mode 100644
+index 00000000..2aa75320
+--- /dev/null
++++ b/signed/kjshgkjsfhgkjsdfhgkljshfjghskfgh.txt
+@@ -0,0 +1 @@
++Ковалёв Константин | Ведущий разработчик, CommuniGate Systems
+diff --git a/signed/kljadsfljkjkrkleadivanfkdlal.txt b/signed/kljadsfljkjkrkleadivanfkdlal.txt
+new file mode 100644
+index 00000000..83dcc136
+--- /dev/null
++++ b/signed/kljadsfljkjkrkleadivanfkdlal.txt
+@@ -0,0 +1 @@
++Ивашковский Иван | Tech lead
+diff --git a/signed/kripton123.txt b/signed/kripton123.txt
+new file mode 100644
+index 00000000..6b5dea5b
+--- /dev/null
++++ b/signed/kripton123.txt
+@@ -0,0 +1 @@
++Шардин Михаил | фронтенд-разработчик, Пермь
+diff --git a/signed/kv75.txt b/signed/kv75.txt
+new file mode 100644
+index 00000000..abe36669
+--- /dev/null
++++ b/signed/kv75.txt
+@@ -0,0 +1 @@
++Крахотин Вячеслав | Разработчик, Яндекс
+diff --git a/signed/lustrations_are_coming b/signed/lustrations_are_coming
+new file mode 100644
+index 00000000..5b24e69a
+--- /dev/null
++++ b/signed/lustrations_are_coming
+@@ -0,0 +1 @@
++Трофимов Даниил | Backend Developer, Москва
+diff --git a/signed/lx6g91bxt05bt1xb b/signed/lx6g91bxt05bt1xb
+new file mode 100644
+index 00000000..426258fa
+--- /dev/null
++++ b/signed/lx6g91bxt05bt1xb
+@@ -0,0 +1 @@
++Антон Сорокин | QA, Ростелеком
+\ No newline at end of file
+diff --git a/signed/mJkLKGjh5dXscFN3EQxuenWNCTU97pSqYVM4vSZ.txt b/signed/mJkLKGjh5dXscFN3EQxuenWNCTU97pSqYVM4vSZ.txt
+new file mode 100644
+index 00000000..fa3d7484
+--- /dev/null
++++ b/signed/mJkLKGjh5dXscFN3EQxuenWNCTU97pSqYVM4vSZ.txt
+@@ -0,0 +1 @@
++ Кислицын Егор | Директор, Captain Software Ltd
+diff --git a/signed/makelovenotsiloviki b/signed/makelovenotsiloviki
+new file mode 100644
+index 00000000..bdcefb6b
+--- /dev/null
++++ b/signed/makelovenotsiloviki
+@@ -0,0 +1 @@
++Гончаров Андрей | Developer, Санкт-Петербург
+diff --git a/signed/mastyugin_aleksandr_aps.txt b/signed/mastyugin_aleksandr_aps.txt
+new file mode 100644
+index 00000000..dfc2c000
+--- /dev/null
++++ b/signed/mastyugin_aleksandr_aps.txt
+@@ -0,0 +1 @@
++Мастюгин Александр | Архитектор ИС, Адаптируемые Прикладные Системы
+diff --git a/signed/maxim_titov_wrike.txt b/signed/maxim_titov_wrike.txt
+new file mode 100644
+index 00000000..1bc0dc4b
+--- /dev/null
++++ b/signed/maxim_titov_wrike.txt
+@@ -0,0 +1 @@
++Максим Титов                       | Frontend Engineer, Wrike
+diff --git a/signed/mg4o3qnwgfucno32q b/signed/mg4o3qnwgfucno32q
+new file mode 100644
+index 00000000..abc7d750
+--- /dev/null
++++ b/signed/mg4o3qnwgfucno32q
+@@ -0,0 +1 @@
++Васильев Анатолий | Bioinformatician, Aelian biotechnology
+\ No newline at end of file
+diff --git a/signed/mikhail-akopov-signature b/signed/mikhail-akopov-signature
+new file mode 100644
+index 00000000..72b17fb1
+--- /dev/null
++++ b/signed/mikhail-akopov-signature
+@@ -0,0 +1 @@
++Михаил Акопов | iOS Developer
+diff --git a/signed/ms2owiqowjqwooqiwejoqwe b/signed/ms2owiqowjqwooqiwejoqwe
+new file mode 100644
+index 00000000..79556c1d
+--- /dev/null
++++ b/signed/ms2owiqowjqwooqiwejoqwe
+@@ -0,0 +1 @@
++Слепков Марк | Программист, фрилансер
+diff --git a/signed/newfilesigned b/signed/newfilesigned
+new file mode 100644
+index 00000000..ed3db3fb
+--- /dev/null
++++ b/signed/newfilesigned
+@@ -0,0 +1 @@
++Щербаков Дмитрий | Программист г. Тула
+diff --git a/signed/ngqYUzIxBKBPBDE339hn b/signed/ngqYUzIxBKBPBDE339hn
+new file mode 100644
+index 00000000..dfe10490
+--- /dev/null
++++ b/signed/ngqYUzIxBKBPBDE339hn
+@@ -0,0 +1 @@
++Жданов Сергей | Frontend-разработчик, Machineheads
+diff --git a/signed/noGMbJmTPSIAoCLrZ3aW b/signed/noGMbJmTPSIAoCLrZ3aW
+new file mode 100644
+index 00000000..c7f9cd2d
+--- /dev/null
++++ b/signed/noGMbJmTPSIAoCLrZ3aW
+@@ -0,0 +1 @@
++Анна Переверзева | Philips Research Moscow, Scientist
+\ No newline at end of file
+diff --git a/signed/notimetocry.ex b/signed/notimetocry.ex
+new file mode 100644
+index 00000000..df36302c
+--- /dev/null
++++ b/signed/notimetocry.ex
+@@ -0,0 +1 @@
++Шумилкин Геннадий | Backend Developer, Rocketbank, Москва
+diff --git a/signed/o4ZcQGZX628CCn67LXYy4FPi74oJrQHjc.txt b/signed/o4ZcQGZX628CCn67LXYy4FPi74oJrQHjc.txt
+new file mode 100644
+index 00000000..e8d7da68
+--- /dev/null
++++ b/signed/o4ZcQGZX628CCn67LXYy4FPi74oJrQHjc.txt
+@@ -0,0 +1 @@
++Королев Руслан | Frontend Developer
+diff --git a/signed/oisghF3465-sgv36hLge456-sgewrr63wsgt-wsgt36weg b/signed/oisghF3465-sgv36hLge456-sgewrr63wsgt-wsgt36weg
+new file mode 100644
+index 00000000..e2627e4e
+--- /dev/null
++++ b/signed/oisghF3465-sgv36hLge456-sgewrr63wsgt-wsgt36weg
+@@ -0,0 +1 @@
++Хайрутдинов Азат | Software engineer, Казань
+\ No newline at end of file
+diff --git a/signed/oprokidnev.signature b/signed/oprokidnev.signature
+new file mode 100644
+index 00000000..e4e7b2cc
+--- /dev/null
++++ b/signed/oprokidnev.signature
+@@ -0,0 +1 @@
++Опрокиднев Андрей | Frontend developer, г. Екатеринбург
+diff --git a/signed/pavel-vorozheykin-486d7a9f88940ddbc2ffecf603c94bb4 b/signed/pavel-vorozheykin-486d7a9f88940ddbc2ffecf603c94bb4
+new file mode 100644
+index 00000000..3340aa00
+--- /dev/null
++++ b/signed/pavel-vorozheykin-486d7a9f88940ddbc2ffecf603c94bb4
+@@ -0,0 +1 @@
++Ворожейкин Павел | Developer, Kaspersky, Санкт-Петербург
+diff --git a/signed/quolpr.txt b/signed/quolpr.txt
+new file mode 100644
+index 00000000..20d4aa61
+--- /dev/null
++++ b/signed/quolpr.txt
+@@ -0,0 +1 @@
++Сергей Попов | Software Engineer, Санкт-Петербург
+diff --git a/signed/qvgqfe3nwvi0su7nub199 b/signed/qvgqfe3nwvi0su7nub199
+new file mode 100644
+index 00000000..9adf9fc8
+--- /dev/null
++++ b/signed/qvgqfe3nwvi0su7nub199
+@@ -0,0 +1 @@
++Карандин Глеб | Frontend developer, TUI Russia & CIS
+diff --git a/signed/qwertyuiiopasdfgh.zxc b/signed/qwertyuiiopasdfgh.zxc
+new file mode 100644
+index 00000000..ed198d8d
+--- /dev/null
++++ b/signed/qwertyuiiopasdfgh.zxc
+@@ -0,0 +1 @@
++Бобровский Антон | программист, Диасофт
+diff --git a/signed/rC7umRqNlVtuNZ19zZyeCHflX9MxwXDBBaRcNRbCdBWX9lUDnRxbZaS3f5bPTS2o4XNyu9i93tvbkj1dMnVxFJxRH2m9jzvdAHsIyylK9J7MaP2E6JAcNGU5aMObPbeo7YynNQKjbHmyvVtJRwMFtzXAkomuM9ww3YHLhSKhfaIXzsyoqHMm82sug2JA92cziry7hmrb.txt b/signed/rC7umRqNlVtuNZ19zZyeCHflX9MxwXDBBaRcNRbCdBWX9lUDnRxbZaS3f5bPTS2o4XNyu9i93tvbkj1dMnVxFJxRH2m9jzvdAHsIyylK9J7MaP2E6JAcNGU5aMObPbeo7YynNQKjbHmyvVtJRwMFtzXAkomuM9ww3YHLhSKhfaIXzsyoqHMm82sug2JA92cziry7hmrb.txt
+new file mode 100644
+index 00000000..089172ef
+--- /dev/null
++++ b/signed/rC7umRqNlVtuNZ19zZyeCHflX9MxwXDBBaRcNRbCdBWX9lUDnRxbZaS3f5bPTS2o4XNyu9i93tvbkj1dMnVxFJxRH2m9jzvdAHsIyylK9J7MaP2E6JAcNGU5aMObPbeo7YynNQKjbHmyvVtJRwMFtzXAkomuM9ww3YHLhSKhfaIXzsyoqHMm82sug2JA92cziry7hmrb.txt
+@@ -0,0 +1 @@
++Илья Барышников | Data Scientist, Москва
+diff --git a/signed/rRwVYCEZ28Uv3yTe47A5pEW88XMBcsAxceUkqvtpm9.txt b/signed/rRwVYCEZ28Uv3yTe47A5pEW88XMBcsAxceUkqvtpm9.txt
+new file mode 100644
+index 00000000..bb8d7426
+--- /dev/null
++++ b/signed/rRwVYCEZ28Uv3yTe47A5pEW88XMBcsAxceUkqvtpm9.txt
+@@ -0,0 +1 @@
++Жиляев Дмитрий | Инженер, Selectel
+diff --git a/signed/rTroshKonYaWAiSMohIeveLiNTeScHatEmoNGurISMORnuGhTi b/signed/rTroshKonYaWAiSMohIeveLiNTeScHatEmoNGurISMORnuGhTi
+new file mode 100644
+index 00000000..397b0352
+--- /dev/null
++++ b/signed/rTroshKonYaWAiSMohIeveLiNTeScHatEmoNGurISMORnuGhTi
+@@ -0,0 +1 @@
++Терентьев Никита | web-developer, NovaStar
+diff --git a/signed/repressions_cause_depression_531953187 b/signed/repressions_cause_depression_531953187
+new file mode 100644
+index 00000000..5ef19117
+--- /dev/null
++++ b/signed/repressions_cause_depression_531953187
+@@ -0,0 +1 @@
++Котлуков Дмитрий | Software Developer
+diff --git a/signed/romanrk.txt b/signed/romanrk.txt
+new file mode 100644
+index 00000000..ee32ef0a
+--- /dev/null
++++ b/signed/romanrk.txt
+@@ -0,0 +1 @@
++Рыбкин Роман | Software Developer, Университет Иннополис
+\ No newline at end of file
+diff --git a/signed/rumkin.txt b/signed/rumkin.txt
+new file mode 100644
+index 00000000..66ce98c3
+--- /dev/null
++++ b/signed/rumkin.txt
+@@ -0,0 +1 @@
++Павел Рюмкин | CEO, Almighty Web
+diff --git a/signed/russia-will-be-free.FG5G43HG54H6JKG.txt b/signed/russia-will-be-free.FG5G43HG54H6JKG.txt
+new file mode 100644
+index 00000000..faa0fa8f
+--- /dev/null
++++ b/signed/russia-will-be-free.FG5G43HG54H6JKG.txt
+@@ -0,0 +1 @@
++Мирасов Сергей | Frontend Developer, Нижний Новгород
+diff --git a/signed/s4lkm4l25 b/signed/s4lkm4l25
+new file mode 100644
+index 00000000..b7d6f503
+--- /dev/null
++++ b/signed/s4lkm4l25
+@@ -0,0 +1 @@
++Верещагин Михаил | Backend developer, Москва
+diff --git a/signed/saj6cheodii8pei6siun.txt b/signed/saj6cheodii8pei6siun.txt
+new file mode 100644
+index 00000000..c88c68e5
+--- /dev/null
++++ b/signed/saj6cheodii8pei6siun.txt
+@@ -0,0 +1 @@
++Козлов Павел | Software Engineer, Twilio
+diff --git a/signed/sdf24cr2c4cq23rcq23c2cq243c23c423c2c4q902c0we0.txt b/signed/sdf24cr2c4cq23rcq23c2cq243c23c423c2c4q902c0we0.txt
+new file mode 100644
+index 00000000..2702b618
+--- /dev/null
++++ b/signed/sdf24cr2c4cq23rcq23c2cq243c23c423c2c4q902c0we0.txt
+@@ -0,0 +1 @@
++Пичугин Артем | Head of data programs, Newprolab
+diff --git a/signed/sdf9-9v4921-09219fs-09-fsk b/signed/sdf9-9v4921-09219fs-09-fsk
+new file mode 100644
+index 00000000..bf98cc64
+--- /dev/null
++++ b/signed/sdf9-9v4921-09219fs-09-fsk
+@@ -0,0 +1 @@
++Булгаков Андрей | Fullstack Developer, Красноярск
+diff --git a/signed/sdghlksdnvlsdghlksnl.me b/signed/sdghlksdnvlsdghlksnl.me
+new file mode 100644
+index 00000000..b3bf02f9
+--- /dev/null
++++ b/signed/sdghlksdnvlsdghlksnl.me
+@@ -0,0 +1 @@
++Vladislav Shikhov | Ingineer, Samsung
+diff --git a/signed/signature-v.txt b/signed/signature-v.txt
+new file mode 100644
+index 00000000..ad43ae65
+--- /dev/null
++++ b/signed/signature-v.txt
+@@ -0,0 +1 @@
++Иван Винокуров | Frontend Developer, CORSO
+diff --git a/signed/signed-by-danil-kazakov-ed393e0f-16ee-42ba-af65-7a55f980573e b/signed/signed-by-danil-kazakov-ed393e0f-16ee-42ba-af65-7a55f980573e
+new file mode 100644
+index 00000000..d4d27c2b
+--- /dev/null
++++ b/signed/signed-by-danil-kazakov-ed393e0f-16ee-42ba-af65-7a55f980573e
+@@ -0,0 +1 @@
++Казаков Данил | Frontend Developer, UX/UI-designer, Агентплюс, Москва
+diff --git a/signed/signed-roman-yankovsky.txt b/signed/signed-roman-yankovsky.txt
+new file mode 100644
+index 00000000..7c0985bb
+--- /dev/null
++++ b/signed/signed-roman-yankovsky.txt
+@@ -0,0 +1 @@
++Янковский Роман | Программист
+diff --git a/signed/signedByMe b/signed/signedByMe
+new file mode 100644
+index 00000000..5cf5fec9
+--- /dev/null
++++ b/signed/signedByMe
+@@ -0,0 +1 @@
++Абанин Антон | ведущий программист
+diff --git a/signed/signedREA2217 b/signed/signedREA2217
+new file mode 100644
+index 00000000..30e0a794
+--- /dev/null
++++ b/signed/signedREA2217
+@@ -0,0 +1 @@
++Рубан Евгений | Software Engineer
+diff --git a/signed/signedh183no65cxg b/signed/signedh183no65cxg
+new file mode 100644
+index 00000000..f4c0e7cf
+--- /dev/null
++++ b/signed/signedh183no65cxg
+@@ -0,0 +1 @@
++Синюков Рустам | Программист, СПб
+diff --git a/signed/signsladkf32539485 b/signed/signsladkf32539485
+new file mode 100644
+index 00000000..20a90dd8
+--- /dev/null
++++ b/signed/signsladkf32539485
+@@ -0,0 +1 @@
++Резванов Адель              | Frontend web developer Санкт-Петербург
+diff --git a/signed/sjkeunileovetoqavdvsd b/signed/sjkeunileovetoqavdvsd
+new file mode 100644
+index 00000000..7de490b8
+--- /dev/null
++++ b/signed/sjkeunileovetoqavdvsd
+@@ -0,0 +1 @@
++Антипова Полина | Руководитель проектов
+diff --git a/signed/slkd5094jvl059urgl87 b/signed/slkd5094jvl059urgl87
+new file mode 100644
+index 00000000..817b601d
+--- /dev/null
++++ b/signed/slkd5094jvl059urgl87
+@@ -0,0 +1 @@
++Трифонов Евгений | IT-журналист, г. Москва
+diff --git a/signed/sn54PqbhFs4uDs4aU4JcYB4b b/signed/sn54PqbhFs4uDs4aU4JcYB4b
+new file mode 100644
+index 00000000..8d21729c
+--- /dev/null
++++ b/signed/sn54PqbhFs4uDs4aU4JcYB4b
+@@ -0,0 +1 @@
++Ватин Владимир | DevOps Engineer
+diff --git a/signed/soal.red-signed b/signed/soal.red-signed
+new file mode 100644
+index 00000000..c39beb20
+--- /dev/null
++++ b/signed/soal.red-signed
+@@ -0,0 +1 @@
++Пожаров Алексей | Lead Frontend Developer, «Интерфакс»
+diff --git a/signed/somePerfectlyRandomStringThatDefinitelyWillNotCauseAnyConflicts.txt b/signed/somePerfectlyRandomStringThatDefinitelyWillNotCauseAnyConflicts.txt
+new file mode 100644
+index 00000000..f7942593
+--- /dev/null
++++ b/signed/somePerfectlyRandomStringThatDefinitelyWillNotCauseAnyConflicts.txt
+@@ -0,0 +1 @@
++| Гришутин Александр                 | Студент МФТИ, Преподаватель алгоритмов и concurrency в МФТИ и Tinkoff Generations |
+diff --git a/signed/sporyshUdiAOd899dAS()DAIOclkJHASD8dAd908.txt b/signed/sporyshUdiAOd899dAS()DAIOclkJHASD8dAd908.txt
+new file mode 100644
+index 00000000..41dd5d67
+--- /dev/null
++++ b/signed/sporyshUdiAOd899dAS()DAIOclkJHASD8dAd908.txt
+@@ -0,0 +1 @@
++Спорыш Семён | Backend Developer, г. Санкт-Петербург
+\ No newline at end of file
+diff --git a/signed/stan.txt b/signed/stan.txt
+new file mode 100644
+index 00000000..542c330b
+--- /dev/null
++++ b/signed/stan.txt
+@@ -0,0 +1 @@
++Dzindzikau Stanislau | Web-Developer
+diff --git a/signed/svtblzqaengineeryandex.txt b/signed/svtblzqaengineeryandex.txt
+new file mode 100644
+index 00000000..0b7326f1
+--- /dev/null
++++ b/signed/svtblzqaengineeryandex.txt
+@@ -0,0 +1 @@
++Светлана Бальзитова              | QA инженер, Яндекс
+diff --git a/signed/t7jdnveFucVnbM27Od7Z b/signed/t7jdnveFucVnbM27Od7Z
+new file mode 100644
+index 00000000..29db2aa6
+--- /dev/null
++++ b/signed/t7jdnveFucVnbM27Od7Z
+@@ -0,0 +1 @@
++Онин Алексей | Программист, Пермь
+diff --git a/signed/tCTO4NHeLn2fsmQhF7eH.txt b/signed/tCTO4NHeLn2fsmQhF7eH.txt
+new file mode 100644
+index 00000000..74ab9158
+--- /dev/null
++++ b/signed/tCTO4NHeLn2fsmQhF7eH.txt
+@@ -0,0 +1 @@
++Коваленко Михаил | Программист, R.D Science, Красноярск
+diff --git a/signed/tDDwFBZ85oC7Y8Kmq b/signed/tDDwFBZ85oC7Y8Kmq
+new file mode 100644
+index 00000000..02e380fd
+--- /dev/null
++++ b/signed/tDDwFBZ85oC7Y8Kmq
+@@ -0,0 +1 @@
++Черненко Эдуард | Full-stack Web Developer, фрилансер
+diff --git a/signed/tXdNFtfKGYlGYf48xmZj3.txt b/signed/tXdNFtfKGYlGYf48xmZj3.txt
+new file mode 100644
+index 00000000..00500161
+--- /dev/null
++++ b/signed/tXdNFtfKGYlGYf48xmZj3.txt
+@@ -0,0 +1 @@
++Бартов Константин              | Фрилансер
+diff --git a/signed/tjJmEsu1ZoiIfcqPdg3H b/signed/tjJmEsu1ZoiIfcqPdg3H
+new file mode 100644
+index 00000000..98d5f83d
+--- /dev/null
++++ b/signed/tjJmEsu1ZoiIfcqPdg3H
+@@ -0,0 +1 @@
++Корвиго Илья | Старший Биоинформатик
+diff --git a/signed/tomskCityBuldakov2019 b/signed/tomskCityBuldakov2019
+new file mode 100644
+index 00000000..64f51392
+--- /dev/null
++++ b/signed/tomskCityBuldakov2019
+@@ -0,0 +1 @@
++Булдаков Дмитрий | Системный администратор, ООО Штурвал
+diff --git a/signed/treblereel.txt b/signed/treblereel.txt
+new file mode 100644
+index 00000000..0fa2805e
+--- /dev/null
++++ b/signed/treblereel.txt
+@@ -0,0 +1 @@
++Тихомиров Дмитрий| Senior Software Engineer, Redhat
+diff --git a/signed/tsc-dev_inc201909 b/signed/tsc-dev_inc201909
+new file mode 100644
+index 00000000..e01f6839
+--- /dev/null
++++ b/signed/tsc-dev_inc201909
+@@ -0,0 +1 @@
++Цаплин Леонид | Программист, Москва
+diff --git a/signed/um5QfWjh34P6L4AogiCbUFIZ1K8oLG191f19092019.txt b/signed/um5QfWjh34P6L4AogiCbUFIZ1K8oLG191f19092019.txt
+new file mode 100644
+index 00000000..dcf28c07
+--- /dev/null
++++ b/signed/um5QfWjh34P6L4AogiCbUFIZ1K8oLG191f19092019.txt
+@@ -0,0 +1 @@
++Драндин Игорь | Руководитель отдела разработки, компания AIDE
+diff --git a/signed/upqNnGATAkt8jrSN b/signed/upqNnGATAkt8jrSN
+new file mode 100644
+index 00000000..b8e12d3a
+--- /dev/null
++++ b/signed/upqNnGATAkt8jrSN
+@@ -0,0 +1 @@
++Лаврентьев Альберт | Support Engineer, Microsoft 
+diff --git a/signed/usnuuhs874857484lkf b/signed/usnuuhs874857484lkf
+new file mode 100644
+index 00000000..d2949203
+--- /dev/null
++++ b/signed/usnuuhs874857484lkf
+@@ -0,0 +1 @@
++Ефремов Денис | Fullstack Web Developer, AtomicWallet
+diff --git a/signed/utgov;isnas;cmkro;ahet98ignjklvsbnp954wo8fgaoiefnjuw xo7iq7p9f3vwobygf b/signed/utgov;isnas;cmkro;ahet98ignjklvsbnp954wo8fgaoiefnjuw xo7iq7p9f3vwobygf
+new file mode 100644
+index 00000000..a8d1a099
+--- /dev/null
++++ b/signed/utgov;isnas;cmkro;ahet98ignjklvsbnp954wo8fgaoiefnjuw xo7iq7p9f3vwobygf	
+@@ -0,0 +1 @@
++Олег Никитин | SE, Tech Lead, Tallinn
+diff --git a/signed/vHtjEzyBc7DEDHDQEiKiw02aCRdd4NSw b/signed/vHtjEzyBc7DEDHDQEiKiw02aCRdd4NSw
+new file mode 100644
+index 00000000..8f323b24
+--- /dev/null
++++ b/signed/vHtjEzyBc7DEDHDQEiKiw02aCRdd4NSw
+@@ -0,0 +1 @@
++Иван Очагов | DevOps-инженер, Красноярск
+diff --git a/signed/vadimakhtyamov0298005 b/signed/vadimakhtyamov0298005
+new file mode 100644
+index 00000000..b268abe4
+--- /dev/null
++++ b/signed/vadimakhtyamov0298005
+@@ -0,0 +1 @@
++Ахтямов Вадим | Android developer, Ситимобил
+diff --git a/signed/vasin-andrei-190919 b/signed/vasin-andrei-190919
+new file mode 100644
+index 00000000..e1763ee3
+--- /dev/null
++++ b/signed/vasin-andrei-190919
+@@ -0,0 +1 @@
++Васин Андрей | Программист
+diff --git a/signed/victor_novosib.txt b/signed/victor_novosib.txt
+new file mode 100644
+index 00000000..12a20036
+--- /dev/null
++++ b/signed/victor_novosib.txt
+@@ -0,0 +1 @@
++Ивановский Виктор | Frontend Developer, Новосибирск
+diff --git a/signed/vladimir_kuramshin b/signed/vladimir_kuramshin
+new file mode 100644
+index 00000000..5e56a1bf
+--- /dev/null
++++ b/signed/vladimir_kuramshin
+@@ -0,0 +1 @@
++Курамшин Владимир | Project Lead, Samsung
+diff --git a/signed/vsvll5k96t8sdsffo34i5fsff0sdf983tr b/signed/vsvll5k96t8sdsffo34i5fsff0sdf983tr
+new file mode 100644
+index 00000000..0372d598
+--- /dev/null
++++ b/signed/vsvll5k96t8sdsffo34i5fsff0sdf983tr
+@@ -0,0 +1 @@
++Стрельцов Алексей | Backend Developer
+diff --git a/signed/we_want_to_free_these_people232r2425fsd b/signed/we_want_to_free_these_people232r2425fsd
+new file mode 100644
+index 00000000..fd3140a4
+--- /dev/null
++++ b/signed/we_want_to_free_these_people232r2425fsd
+@@ -0,0 +1 @@
++Хрульков Артём | Frontend-developer, г.Екатеринбург
+\ No newline at end of file
+diff --git a/signed/wpe9jchnlkdslkjsdc.txt b/signed/wpe9jchnlkdslkjsdc.txt
+new file mode 100644
+index 00000000..4bcc139a
+--- /dev/null
++++ b/signed/wpe9jchnlkdslkjsdc.txt
+@@ -0,0 +1 @@
++Крылов Филипп | Независимый разработчик
+diff --git a/signed/wsz6Fx3xrcTowvapJhKP.txt b/signed/wsz6Fx3xrcTowvapJhKP.txt
+new file mode 100644
+index 00000000..0e6252ed
+--- /dev/null
++++ b/signed/wsz6Fx3xrcTowvapJhKP.txt
+@@ -0,0 +1 @@
++﻿Петров Алексей | Автотестирование, Сбербанк
+\ No newline at end of file
+diff --git a/signed/xSt3naChc1AoP93hn b/signed/xSt3naChc1AoP93hn
+new file mode 100644
+index 00000000..67d9edc3
+--- /dev/null
++++ b/signed/xSt3naChc1AoP93hn
+@@ -0,0 +1 @@
++Морозова Ольга | верстальщик, Москва
+diff --git a/signed/xdskfgjhkjh23342sdgkfjh b/signed/xdskfgjhkjh23342sdgkfjh
+new file mode 100644
+index 00000000..858afe1b
+--- /dev/null
++++ b/signed/xdskfgjhkjh23342sdgkfjh
+@@ -0,0 +1 @@
++Рыбалка Александр | UE4 Developer
+\ No newline at end of file
+diff --git a/signed/yLognS9Dcu.txt b/signed/yLognS9Dcu.txt
+new file mode 100644
+index 00000000..e8712119
+--- /dev/null
++++ b/signed/yLognS9Dcu.txt
+@@ -0,0 +1 @@
++Толстой Василий | Senior Principal Software Engineer, Dell EMC Russia COE
+diff --git a/signed/yahgheeF0paev5Iil8tuwakeiX3mosiphachieQu1uchoyahghaiziedi0aiR4th b/signed/yahgheeF0paev5Iil8tuwakeiX3mosiphachieQu1uchoyahghaiziedi0aiR4th
+new file mode 100644
+index 00000000..b3a68799
+--- /dev/null
++++ b/signed/yahgheeF0paev5Iil8tuwakeiX3mosiphachieQu1uchoyahghaiziedi0aiR4th
+@@ -0,0 +1 @@
++Шаров Илья | SRE, Yandex
+diff --git a/signed/yp19zbnhxat19w2zrttv1sgc32mouktv b/signed/yp19zbnhxat19w2zrttv1sgc32mouktv
+new file mode 100644
+index 00000000..f12c0a68
+--- /dev/null
++++ b/signed/yp19zbnhxat19w2zrttv1sgc32mouktv
+@@ -0,0 +1 @@
++Малютин Алексей | Data Scientist, Amsterdam
+diff --git a/signed/zcmqIUfMLYpbDAlG.md b/signed/zcmqIUfMLYpbDAlG.md
+new file mode 100644
+index 00000000..0e679e93
+--- /dev/null
++++ b/signed/zcmqIUfMLYpbDAlG.md
+@@ -0,0 +1 @@
++Кутузов Михаил | Frontend-developer Salt & Pepper
+diff --git a/signed/zgzgzgzgzgzgzg b/signed/zgzgzgzgzgzgzg
+new file mode 100644
+index 00000000..99008863
+--- /dev/null
++++ b/signed/zgzgzgzgzgzgzg
+@@ -0,0 +1 @@
++Мизин Артём | Инженер эксплутации СПД
+diff --git a/signed/zhrlatelno_slozhnoe_imya.txt b/signed/zhrlatelno_slozhnoe_imya.txt
+new file mode 100644
+index 00000000..85c3025f
+--- /dev/null
++++ b/signed/zhrlatelno_slozhnoe_imya.txt
+@@ -0,0 +1 @@
++Сычев Антон | Разработчик, TradingView
+diff --git "a/signed/\320\240\320\276\321\201\321\201\320\270\321\217_\320\221\321\203\320\264\320\265\321\202_\320\241\320\262\320\276\320\261\320\276\320\264\320\275\320\276\320\271!" "b/signed/\320\240\320\276\321\201\321\201\320\270\321\217_\320\221\321\203\320\264\320\265\321\202_\320\241\320\262\320\276\320\261\320\276\320\264\320\275\320\276\320\271!"
+new file mode 100644
+index 00000000..3dc4a32a
+--- /dev/null
++++ "b/signed/\320\240\320\276\321\201\321\201\320\270\321\217_\320\221\321\203\320\264\320\265\321\202_\320\241\320\262\320\276\320\261\320\276\320\264\320\275\320\276\320\271!"
+@@ -0,0 +1 @@
++Вознюк Иван | Junior Developer
+diff --git "a/signed/\320\241\320\262\320\276\320\261\320\276\320\264\321\203_\320\277\320\276\320\273\320\270\321\202\320\270\321\207\320\265\321\201\320\272\320\270\320\274_\320\267\320\260\320\272\320\273\321\216\321\207\320\265\320\275\320\275\321\213\320\274" "b/signed/\320\241\320\262\320\276\320\261\320\276\320\264\321\203_\320\277\320\276\320\273\320\270\321\202\320\270\321\207\320\265\321\201\320\272\320\270\320\274_\320\267\320\260\320\272\320\273\321\216\321\207\320\265\320\275\320\275\321\213\320\274"
+new file mode 100644
+index 00000000..be267492
+--- /dev/null
++++ "b/signed/\320\241\320\262\320\276\320\261\320\276\320\264\321\203_\320\277\320\276\320\273\320\270\321\202\320\270\321\207\320\265\321\201\320\272\320\270\320\274_\320\267\320\260\320\272\320\273\321\216\321\207\320\265\320\275\320\275\321\213\320\274"
+@@ -0,0 +1,2 @@
++Дмитрий Соболев | Senior DevOps Engineer, Москва
++Мария Соболева | iOS Software Engineer, Москва
+diff --git "a/signed/\320\266\320\265\320\273\321\202\320\260\321\217_\321\203\321\202\320\276\321\207\320\272\320\260_NddGzk7tfHtSD3VwsYWH.txt" "b/signed/\320\266\320\265\320\273\321\202\320\260\321\217_\321\203\321\202\320\276\321\207\320\272\320\260_NddGzk7tfHtSD3VwsYWH.txt"
+new file mode 100644
+index 00000000..5cc1bcc0
+--- /dev/null
++++ "b/signed/\320\266\320\265\320\273\321\202\320\260\321\217_\321\203\321\202\320\276\321\207\320\272\320\260_NddGzk7tfHtSD3VwsYWH.txt"
+@@ -0,0 +1 @@
++Шакиров Станислав | mobile developer, ип
+diff --git a/update_readme.py b/update_readme.py
+new file mode 100755
+index 00000000..be0ca4bb
+--- /dev/null
++++ b/update_readme.py
+@@ -0,0 +1,58 @@
++#!/usr/bin/env python3
++
++import os
++import re
++
++
++class InvalidFileFormatException(Exception):
++    pass
++
++def load_signed():
++    signed = set()
++    pattern1 = re.compile(r'([^|]+)\|([^|]+)$')
++    pattern2 = re.compile(r'\s*\|([^|]+)\|([^|]+)\|\s*$')
++
++    dir = 'signed'
++    for basename in os.listdir(dir):
++        filename = os.path.join(dir, basename)
++        if not os.path.isfile(filename):
++            print('Skipping non-file "%s"' % filename)
++            continue
++
++        with open(filename) as inp:
++            for i, line in enumerate(inp):
++                line = line.strip()
++                if not line:
++                    continue
++                m = re.match(pattern1, line) or re.match(pattern2, line)
++                if not m and line:
++                    raise InvalidFileFormatException(
++                        'File "%s", line %d: line does not follow the format:\n\t"%s"'
++                        % (filename, i + 1, line)
++                    )
++
++                signed.add((m.group(1).strip(), m.group(2).strip()))
++    return signed
++
++
++def write_signed(signed, outp):
++    for signature in signed:
++        outp.write('| %-30s | %-50s |\n' % signature)
++
++
++def update_readme(signed):
++    with open('pre-readme.md') as inp, open('README.md', 'w') as outp:
++        for line in inp:
++            if line.strip() == '<!-- Signed -->':
++                write_signed(signed, outp)
++            else:
++                outp.write(line)
++
++
++def main():
++    signed = load_signed()
++    update_readme(signed)
++
++
++if __name__ == '__main__':
++    main()

@@ -1,0 +1,9 @@
+diff --git a/README.md b/README.md
+index 400b091e..90715edf 100644
+--- a/README.md
++++ b/README.md
+@@ -685,3 +685,4 @@
+ | Pletnev Nikolay                | DevOps Itransition                                 |
+ | Пушкарев Андрей                | Fullstack Development                              |
+ | Исмаил Алекперов               | фрилансер, Екатеринбург                            |
++| Plotnikov Anton                | Backend developer, DSX                             |

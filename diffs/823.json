@@ -1,0 +1,18 @@
+diff --git a/README.md b/README.md
+index 101e2d2c..dc98c112 100644
+--- a/README.md
++++ b/README.md
+@@ -259,4 +259,5 @@
+ | Романов Михаил                     | Frontend Developer, Comtravo            |
+ | Васенков Максим                    | Ведущий программист, Этерон, Смоленск   |
+ | Дмитрий Семьюшкин                  | Frontend Developer, Pleeco              |
+-| Борис Стельмах                     | Web Developer                             |
++| Борис Стельмах                     | Web Developer                           |
++| Кузьмин Андрей                     | SRE manager, Санкт-Петербург            |
+diff --git a/signed/1e0aee6ae6868462b39b89feb0525c0c b/signed/1e0aee6ae6868462b39b89feb0525c0c
+new file mode 100644
+index 00000000..d25acb14
+--- /dev/null
++++ b/signed/1e0aee6ae6868462b39b89feb0525c0c
+@@ -0,0 +1 @@
++1e0aee6ae6868462b39b89feb0525c0c

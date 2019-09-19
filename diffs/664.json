@@ -1,0 +1,21 @@
+diff --git a/README.md b/README.md
+index 101e2d2c..2ee6f444 100644
+--- a/README.md
++++ b/README.md
+@@ -259,4 +259,5 @@
+ | Романов Михаил                     | Frontend Developer, Comtravo            |
+ | Васенков Максим                    | Ведущий программист, Этерон, Смоленск   |
+ | Дмитрий Семьюшкин                  | Frontend Developer, Pleeco              |
+-| Борис Стельмах                     | Web Developer                             |
++| Борис Стельмах                     | Web Developer                           |
++| Михайлин Евгений                   | Principal Full-stack Software Engineer, IT Force, Moscow |
+diff --git a/signed/eYtJt8D07jfnZhYFbmBsUazSVOYs4IJl2l1vSMgEZwWGyLPlv0TvwT3QEChXUPxeODicYveloDM4lXgecohJNPPvtg5WNWaub3VglBx9qKXboVRlK5O2oHID.tmp b/signed/eYtJt8D07jfnZhYFbmBsUazSVOYs4IJl2l1vSMgEZwWGyLPlv0TvwT3QEChXUPxeODicYvel
+similarity index 62%
+rename from signed/eYtJt8D07jfnZhYFbmBsUazSVOYs4IJl2l1vSMgEZwWGyLPlv0TvwT3QEChXUPxeODicYveloDM4lXgecohJNPPvtg5WNWaub3VglBx9qKXboVRlK5O2oHID.tmp
+rename to signed/eYtJt8D07jfnZhYFbmBsUazSVOYs4IJl2l1vSMgEZwWGyLPlv0TvwT3QEChXUPxeODicYvel
+index e8cad28e..bd3cc1ae 100644
+--- a/signed/eYtJt8D07jfnZhYFbmBsUazSVOYs4IJl2l1vSMgEZwWGyLPlv0TvwT3QEChXUPxeODicYveloDM4lXgecohJNPPvtg5WNWaub3VglBx9qKXboVRlK5O2oHID.tmp
++++ b/signed/eYtJt8D07jfnZhYFbmBsUazSVOYs4IJl2l1vSMgEZwWGyLPlv0TvwT3QEChXUPxeODicYvel
+@@ -1 +1 @@
+-Михайлин Евгений | Principal Full-stack Software Engineer / Team Lead, IT Force, Moscow
++Михайлин Евгений | Principal Full-stack Software Engineer, IT Force, Moscow
