@@ -99,7 +99,9 @@ const pad = (count, symbol) => count > 0 ? new Array(count+1).join(symbol||' '):
         let info = hash[name];
         resultArr.push({name, job: info.job, added: info.date })
     }
+
     resultArr.sort((a,b)=>a.added-b.added)
+    fs.writeFileSync('everybody.json', JSON.stringify(resultArr.map(human=>({name: human.name, job:human.job}))))
     resultArr.unshift({name: 'Фамилия и имя', job: 'Должность, компания'});
     const max = {name:0, job: 0};
 
